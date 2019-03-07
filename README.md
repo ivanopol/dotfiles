@@ -1,5 +1,5 @@
 # .Dotfiles
-![Dotfiles](https://raw.githubusercontent.com/ivanopol/dotfiles/img/dotfiles.png)
+![Dotfiles](https://raw.githubusercontent.com/ivanopol/dotfiles/master/img/dotfiles.png)
 
 ## Package overview
 
