@@ -21,6 +21,7 @@ ok
 
 running "Bunch of symlinks"
 ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~
+ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~"/.config/nvim/init.vim"
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
