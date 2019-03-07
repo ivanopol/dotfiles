@@ -18,5 +18,9 @@ set hlsearch
 set incsearch
 
 "mappings
-
+inoremap CTRL+[ <Esc>
 map <C-n> :NERDTreeToggle<CR>
+
+set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0

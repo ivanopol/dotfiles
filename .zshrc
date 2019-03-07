@@ -2,7 +2,7 @@
  export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/ivanopol/.oh-my-zsh
+  export ZSH=${HOME}/.oh-my-zsh
 
 
 # Set name of the theme to load. Optionally, if you set this to "random"
@@ -97,7 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias speed="speedtest-cli"
-source /home/ivanopol/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${HOME}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # adding environment variable of composer
-export PATH="${PATH}:/home/ivanopol/.config/composer/vendor/bin"
+export PATH="${PATH}:${HOME}/.config/composer/vendor/bin"
