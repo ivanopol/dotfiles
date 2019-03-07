@@ -1,5 +1,5 @@
-# .files
-These are my dotfiles. 
+# .Dotfiles
+![Dotfiles](https://raw.githubusercontent.com/ivanopol/dotfiles/img/dotfiles.png)
 
 ## Package overview
 
