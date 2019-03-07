@@ -11,6 +11,19 @@ DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
 # Common functions
 
 . "$DOTFILES_DIR/system/.function"
+. "$DOTFILES_DIR/system/.echos"
 
-# Update dotfiles itself first
+bot "Hi! I'm going to install tooling and tweak your system settings. Here I go...\n"
+
+running "Update dotfiles"
 if is-executable git -a -d "$DOTFILES_DIR/.git"; then git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master; fi
+ok
+
+running "Bunch of symlinks"
+ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~
+ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
+ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
+ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ok
+
+bot "Woot! All done."
