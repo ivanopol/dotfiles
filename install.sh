@@ -25,6 +25,7 @@ ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~"/.config/nvim/init.vim"
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIT/i3/config" ~"/.config/i3/config"
 ok
 
 bot "Woot! All done."
