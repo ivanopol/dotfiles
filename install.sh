@@ -25,7 +25,12 @@ ln -sfv "$DOTFILES_DIR/vim/.vimrc" ~"/.config/nvim/init.vim"
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
-ln -sfv "$DOTFILES_DIT/i3/config" ~"/.config/i3/config"
+ln -sfv "$DOTFILES_DIR/i3/config" ~"/.config/i3/config"
+ln -sfv "$DOTFILES_DIR/ranger/commands.py" ~"/.config/ranger/commands.py"
+ln -sfv "$DOTFILES_DIR/ranger/commands_full.py" ~"/.config/ranger/commands_full.py"
+ln -sfv "$DOTFILES_DIR/ranger/rc.conf" ~"/.config/ranger/rc.conf"
+ln -sfv "$DOTFILES_DIR/ranger/rifle.conf" ~"/.config/ranger/rifle.conf"
+ln -sfv "$DOTFILES_DIR/ranger/scope.sh" ~"/.config/ranger/scope.sh"
 ok
 
 bot "Woot! All done."
