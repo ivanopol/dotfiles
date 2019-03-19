@@ -6,7 +6,7 @@
   user = ivanopol
 
 [core]
-  autocrlf = input
+  autocrlf = false
   safecrlf = true
   excludesfile = ~/.gitignore_global
   editor = nano
