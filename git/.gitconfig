@@ -9,7 +9,7 @@
   autocrlf = false
   safecrlf = true
   excludesfile = ~/.gitignore_global
-  editor = nano
+  editor = nvim
   filemode = false
   trustctime = false
   pager = diff-so-fancy | less --tabs=4 -RFX
