@@ -101,7 +101,9 @@ alias clrattr='setfattr -hx user.xdg.origin.url'
 alias c='clear'
 alias getattr='getfattr -d'
 alias allattr='getfattr -dRhm- /home 2>/dev/null >./getfattr.log'
+alias browser="qutebrowser"
 source ${HOME}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 # adding environment variable of composer
 export PATH="${PATH}:${HOME}/.config/composer/vendor/bin"
