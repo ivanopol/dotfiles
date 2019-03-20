@@ -97,6 +97,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias speed="speedtest-cli"
+alias clrattr='setfattr -hx user.xdg.origin.url'
+alias c='clear'
+alias getattr='getfattr -d'
+alias allattr='getfattr -dRhm- /home 2>/dev/null >./getfattr.log'
 source ${HOME}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # adding environment variable of composer
