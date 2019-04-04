@@ -11,13 +11,13 @@
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
 
-POWERLEVEL9K_DISABLE_RPROMPT=true
+POWERLEVEL9K_DISABLE_RPROMPT=false
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="▶ "
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_ubuntu_icon dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time)
 
 POWERLEVEL9K_CUSTOM_UBUNTU_ICON="echo "
 POWERLEVEL9K_CUSTOM_UBUNTU_ICON_BACKGROUND=069
@@ -121,3 +121,7 @@ source ${HOME}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # adding environment variable of composer
 export PATH="${PATH}:${HOME}/.config/composer/vendor/bin"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
