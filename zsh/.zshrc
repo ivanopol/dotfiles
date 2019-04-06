@@ -115,6 +115,7 @@ alias c='clear'
 alias getattr='getfattr -d'
 alias allattr='getfattr -dRhm- /home 2>/dev/null >./getfattr.log'
 alias browser='qutebrowser'
+alias youtube='youtube-dl'
 alias fm='ranger'
 source ${HOME}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
