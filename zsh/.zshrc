@@ -122,6 +122,7 @@ source ${HOME}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # adding environment variable of composer
 export PATH="${PATH}:${HOME}/.config/composer/vendor/bin"
+export PATH="${PATH}:/usr/share/code/code"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
