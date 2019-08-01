@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern=".dockerignore" type="Native" />
+      <mapping pattern="enabled_plugins" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern="Makefile" type="PLAIN_TEXT" />
+      <mapping ext="docker" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

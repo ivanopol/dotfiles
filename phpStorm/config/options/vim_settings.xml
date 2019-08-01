@@ -1,0 +1,387 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="false" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Projects/xdebug/Dockerfile" timestamp="1553414791695">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="4" column="64" />
+        <mark key="^" line="4" column="64" />
+        <mark key="." line="4" column="64" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/docker/php-cli.docker" timestamp="1553379224047">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/docker/php-fpm/docker-php-ext-xdebug.ini" timestamp="1553462804836">
+        <mark key="[" line="7" column="19" />
+        <mark key="]" line="7" column="31" />
+        <mark key="^" line="7" column="31" />
+        <mark key="." line="7" column="31" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/Makefile" timestamp="1553502284666">
+        <mark key="[" line="31" column="11" />
+        <mark key="]" line="31" column="13" />
+        <mark key="^" line="31" column="13" />
+        <mark key="." line="31" column="13" />
+      </file>
+      <file name="$USER_HOME$/Projects/xdebug/app/index.php" timestamp="1553433981911">
+        <mark key="[" line="10" column="25" />
+        <mark key="]" line="10" column="30" />
+        <mark key="." line="10" column="30" />
+        <mark key="^" line="10" column="30" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/docker/php-fpm/php-fpm.docker" timestamp="1553499007887">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="5" column="34" />
+        <mark key="." line="5" column="34" />
+        <mark key="^" line="5" column="34" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/resources/views/welcome.blade.php" timestamp="1553524842942">
+        <mark key="[" line="21" column="92" />
+        <mark key="]" line="24" column="82" />
+        <mark key="." line="24" column="82" />
+        <mark key="^" line="24" column="82" />
+      </file>
+      <file name="$USER_HOME$/Projects/xdebug/start-container" timestamp="1553419673453">
+        <mark key="[" line="0" column="19" />
+        <mark key="]" line="2" column="33" />
+        <mark key="^" line="2" column="33" />
+        <mark key="." line="2" column="33" />
+      </file>
+      <file name="/PHP Console" timestamp="1553500906881">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/core/Application.php" timestamp="1560349814166">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="^" line="25" column="0" />
+        <mark key="." line="25" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/public/index.html" timestamp="1560333804520">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="5" column="11" />
+        <mark key="^" line="5" column="11" />
+        <mark key="." line="5" column="11" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/.htaccess" timestamp="1560345372087">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="5" column="27" />
+        <mark key="^" line="5" column="27" />
+        <mark key="." line="5" column="27" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/config/ide-helper.php" timestamp="1552118112287">
+        <mark key="[" line="27" column="24" />
+        <mark key="]" line="27" column="27" />
+        <mark key="." line="27" column="27" />
+        <mark key="^" line="27" column="27" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/config/routes.php" timestamp="1560350155559">
+        <mark key="[" line="10" column="26" />
+        <mark key="]" line="10" column="35" />
+        <mark key="^" line="10" column="35" />
+        <mark key="." line="10" column="35" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/docker-compose.yml" timestamp="1560334954703">
+        <mark key="[" line="9" column="11" />
+        <mark key="]" line="9" column="12" />
+        <mark key="." line="9" column="12" />
+        <mark key="^" line="9" column="12" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/docker/php-fpm.docker" timestamp="1553377173644">
+        <mark key="[" line="14" column="31" />
+        <mark key="]" line="14" column="43" />
+        <mark key="." line="14" column="43" />
+        <mark key="^" line="14" column="43" />
+      </file>
+      <file name="/dummy.sql" timestamp="1553367587791">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1560351227103">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/.gitignore" timestamp="1552241861132">
+        <mark key="[" line="1" column="11" />
+        <mark key="]" line="2" column="12" />
+        <mark key="^" line="2" column="12" />
+        <mark key="." line="2" column="12" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/core/Model.php" timestamp="1560329268168">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="4" />
+        <mark key="^" line="0" column="4" />
+        <mark key="." line="0" column="4" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/public/index.php" timestamp="1560351444996">
+        <mark key="'" line="4" column="34" />
+        <mark key="[" line="9" column="17" />
+        <mark key="]" line="9" column="25" />
+        <mark key="^" line="9" column="25" />
+        <mark key="." line="9" column="25" />
+      </file>
+      <file name="/app.password_resets [app@localhost]" timestamp="1553367485995">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.php" timestamp="1553421193534">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/app/User.php" timestamp="1553502828773">
+        <mark key="[" line="36" column="8" />
+        <mark key="]" line="36" column="11" />
+        <mark key="^" line="36" column="11" />
+        <mark key="." line="36" column="11" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/index.php" timestamp="1560332461052">
+        <mark key="[" line="1" column="11" />
+        <mark key="]" line="1" column="7" />
+        <mark key="^" line="1" column="7" />
+        <mark key="." line="1" column="7" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/config/app.php" timestamp="1560348946576">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="5" column="3" />
+        <mark key="^" line="5" column="3" />
+        <mark key="." line="5" column="3" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/docker/php-fpm/php.ini" timestamp="1553424102799">
+        <mark key="[" line="0" column="31" />
+        <mark key="]" line="0" column="35" />
+        <mark key="^" line="0" column="35" />
+        <mark key="." line="0" column="35" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/composer.json" timestamp="1553461910561">
+        <mark key="[" line="16" column="19" />
+        <mark key="]" line="16" column="19" />
+        <mark key="^" line="16" column="19" />
+        <mark key="." line="16" column="19" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/core/Controller.php" timestamp="1560329804940">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="8" />
+        <mark key="^" line="6" column="8" />
+        <mark key="." line="6" column="8" />
+      </file>
+      <file name="/app.users [app@localhost]" timestamp="1553367377345">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/routes/web.php" timestamp="1553586910751">
+        <mark key="[" line="14" column="17" />
+        <mark key="]" line="14" column="25" />
+        <mark key="." line="14" column="25" />
+        <mark key="^" line="14" column="25" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/app/Controllers/ApplicationController.php" timestamp="1560351396096">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="10" column="46" />
+        <mark key="^" line="10" column="46" />
+        <mark key="." line="10" column="46" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/docker/nginx/default.conf" timestamp="1560335660872">
+        <mark key="[" line="3" column="9" />
+        <mark key="]" line="3" column="9" />
+        <mark key="^" line="3" column="9" />
+        <mark key="." line="3" column="9" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/composer.json" timestamp="1560343942635">
+        <mark key="[" line="17" column="31" />
+        <mark key="]" line="17" column="31" />
+        <mark key="^" line="17" column="31" />
+        <mark key="." line="17" column="31" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/app/Http/Controllers/HomeController.php" timestamp="1553435216393">
+        <mark key="[" line="25" column="30" />
+        <mark key="]" line="26" column="18" />
+        <mark key="^" line="26" column="18" />
+        <mark key="." line="26" column="18" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/Makefile" timestamp="1560331899300">
+        <mark key="[" line="6" column="13" />
+        <mark key="]" line="6" column="12" />
+        <mark key="^" line="6" column="12" />
+        <mark key="." line="6" column="12" />
+      </file>
+      <file name="/app.migrations [app@localhost]" timestamp="1552131640278">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/tests/bee_jee/core/Router.php" timestamp="1560354385487">
+        <mark key="'" line="2" column="14" />
+        <mark key="[" line="71" column="40" />
+        <mark key="]" line="71" column="51" />
+        <mark key="^" line="71" column="51" />
+        <mark key="." line="71" column="51" />
+      </file>
+      <file name="$USER_HOME$/Projects/laravel/public/index.php" timestamp="1550592096180">
+        <mark key="[" line="57" column="12" />
+        <mark key="]" line="57" column="16" />
+        <mark key="^" line="57" column="16" />
+        <mark key="." line="57" column="16" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/.env" timestamp="1553462540288">
+        <mark key="[" line="3" column="10" />
+        <mark key="]" line="3" column="13" />
+        <mark key="." line="3" column="13" />
+        <mark key="^" line="3" column="13" />
+      </file>
+      <file name="$USER_HOME$/Projects/portfolio/webpack.mix.js" timestamp="1552242498344">
+        <mark key="[" line="17" column="44" />
+        <mark key="]" line="18" column="14" />
+        <mark key="^" line="18" column="14" />
+        <mark key="." line="18" column="14" />
+      </file>
+      <file name="$USER_HOME$/Projects/xdebug/xdebug.ini" timestamp="1553419165973">
+        <mark key="[" line="7" column="19" />
+        <mark key="]" line="7" column="31" />
+        <mark key="." line="7" column="31" />
+        <mark key="^" line="7" column="31" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="11" column="15" filename="$USER_HOME$/Projects/laravel/app/User.php" />
+      <jump line="8" column="0" filename="$USER_HOME$/Projects/laravel/app/User.php" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/laravel/app/User.php" />
+      <jump line="15" column="0" filename="$USER_HOME$/Projects/laravel/app/User.php" />
+      <jump line="16" column="22" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="38" column="13" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="10" column="4" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="8" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="1" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="3" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="6" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="11" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="42" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="34" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="27" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="24" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="22" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="18" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="15" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="43" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="9" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="32" column="13" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="0" column="0" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="17" column="4" filename="$USER_HOME$/Projects/laravel/app/Providers/RouteServiceProvider.php" />
+      <jump line="5" column="4" filename="$USER_HOME$/Projects/portfolio/docker/nginx/default.conf" />
+      <jump line="22" column="4" filename="$USER_HOME$/Projects/portfolio/routes/web.php" />
+      <jump line="2" column="34" filename="$USER_HOME$/Projects/tests/bee_jee/public/index.php" />
+      <jump line="2" column="14" filename="$USER_HOME$/Projects/tests/bee_jee/core/Router.php" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">CQkJdmFyX2R1bXAoZ2V0X2RlY2xhcmVkX2NsYXNzZXMoKSk7</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">CQkJdmFyX2R1bXAoZ2V0X2RlY2xhcmVkX2NsYXNzZXMoKSk7</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxwaHBpbmZvXD4=</text>
+      </register>
+      <register name="0" type="4">
+        <text encoding="base64">IGRpcm5hbWUoX19ESVJfXykgLiA=</text>
+      </register>
+      <register name="1" type="4">
+        <text encoding="base64">CQkJZWNobyAkcGF0aCAuICI8YnI+IjsKCQkJaQ==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">CQkJdmFyX2R1bXAoX19ESVJfXyk7CgkJCXZhcl9kdW1wKGZpbGVfZXhpc3RzKCcvdmFyL3d3dy9jb3JlL0FwcGxpY2F0aW9uLnBocCcpKTsK</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">CQlwcmludF9yKCR0aGlzLT4kY29uZmlnKTsKCQ==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">Ly8gJGNvbmZpZyA9IGZpbGVfZXhpc3RzKCkgPyByZXF1aXJlX29uY2UoJGNvbmZpZ1BIUCkgOiBbXTsK</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CQkkdGhpcy0+Y29uZmlnID0gJGNvbmZpZzsK</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">CgkJJHJvdXRlciA9IG5ldyBSb3V0ZXIoKTs=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">CXB1YmxpYyBmdW5jdGlvbiBfX2NvbnN0cnVjdCgpIHsKCQllY2hvICJSb3V0ZXIiOwoJfQ==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">CgkvKioKCSAqIE1hdGNoIHRoZSByb3V0ZSB0byB0aGUgcm91dGVzIGluIHRoZSByb3V0aW5nIHRhYmxlLCBzZXR0aW5nIHRoZSAkcGFyYW1zCgkgKiBwcm9wZXJ0eSBpZiBhIHJvdXRlIGlzIGZvdW5kLgoJICoKCSAqIEBwYXJhbSBzdHJpbmcgJHVybCBUaGUgcm91dGUgVVJMCgkgKgoJICogQHJldHVybiBib29sZWFuICB0cnVlIGlmIGEgbWF0Y2ggZm91bmQsIGZhbHNlIG90aGVyd2lzZQoJICovCglwdWJsaWMgZnVuY3Rpb24gbWF0Y2goJHVybCkKCXsKCQlmb3JlYWNoICgkdGhpcy0+cm91dGVzIGFzICRyb3V0ZSA9PiAkcGFyYW1zKSB7CgkJCWlmIChwcmVnX21hdGNoKCRyb3V0ZSwgJHVybCwgJG1hdGNoZXMpKSB7CgkJCQkvLyBHZXQgbmFtZWQgY2FwdHVyZSBncm91cCB2YWx1ZXMKCQkJCWZvcmVhY2ggKCRtYXRjaGVzIGFzICRrZXkgPT4gJG1hdGNoKSB7CgkJCQkJaWYgKGlzX3N0cmluZygka2V5KSkgewoJCQkJCQkkcGFyYW1zWyRrZXldID0gJG1hdGNoOwoJCQkJCX0KCQkJCX0KCQkJCSR0aGlzLT5wYXJhbXMgPSAkcGFyYW1zOwoJCQkJcmV0dXJuIHRydWU7CgkJCX0KCQl9CgkJcmV0dXJuIGZhbHNlOwoJfQoKCS8qKgoJICogR2V0IHRoZSBjdXJyZW50bHkgbWF0Y2hlZCBwYXJhbWV0ZXJzCgkgKgoJICogQHJldHVybiBhcnJheQoJICovCglwdWJsaWMgZnVuY3Rpb24gZ2V0UGFyYW1zKCkKCXsKCQlyZXR1cm4gJHRoaXMtPnBhcmFtczsKCQ==</text>
+      </register>
+      <register name="9" type="4">
+        <text encoding="base64">CiAgICAgIC0gLi9wdWJsaWM6L3Vzci9zaGFyZS9uZ2lueC9odG1s</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDxwaHBpbmZvXD4=</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxwaHBpbmZvXD4=</last-pattern>
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry encoding="base64">XDxzc2xcPg==</entry>
+        <entry encoding="base64">XDxwaHBpbmZvXD4=</entry>
+      </history-search>
+      <history-cmd>
+        <entry>z-</entry>
+        <entry>z</entry>
+        <entry>z.</entry>
+        <entry>&quot;</entry>
+        <entry>&quot;]]</entry>
+        <entry encoding="base64">JzwsJz53</entry>
+        <entry>wq</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed CLOSE_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

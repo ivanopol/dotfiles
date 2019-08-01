@@ -1,0 +1,4009 @@
+: 1521019652:0;gedit ~/.zshrc
+: 1521019819:0;sudo apt-get install fonts-powerline
+: 1521019975:0;cd Downloads
+: 1521019978:0;git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+: 1521019989:0;ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+: 1521019995:0;gedit ~/.zshrc
+: 1521020185:0;git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+: 1521020193:0;gedit ~/.zshrc
+: 1521020417:0;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+: 1521020428:0;gedit ~/.zshrc
+: 1521020512:0;wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+: 1521020518:0;wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+: 1521020534:0;mv PowerlineSymbols.otf ~/.local/share/fonts/
+: 1521020585:0;fc-cache -vf ~/.local/share/fonts/
+: 1521020604:0;mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+: 1521020637:0;xset q
+: 1521020700:0;gedit ~/.zshrc
+: 1521020852:0;cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+: 1521021020:0;cd ~/
+: 1521021024:0;cd Dow
+: 1521021029:0;cd Downloads
+: 1521021031:0;ls -l
+: 1521021202:0;gedit ~/.zshrc
+: 1521021301:0;echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+: 1521021324:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1521021334:0;gedit ~/.zshrc
+: 1521030935:0;pwd bash
+: 1521030944:0;pwd
+: 1521030956:0;echo $PWD
+: 1521030986:0;whereis bash
+: 1521037517:0;sudo systemctl status docker
+: 1521037571:0;sudo usermod -aG docker $(whoami)
+: 1521089337:0;sudo curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+: 1521089373:0;sudo chmod +x /usr/local/bin/docker-compose
+: 1521089400:0;docker-compose --version
+: 1521210621:0;apt-get install ssl-cert
+: 1521210624:0;sudo apt-get install ssl-cert
+: 1521456841:0;cat /proc/$PID/environ
+: 1521456857:0;cat /proc/self/environ
+: 1521712620:0;mv ~/.gimp-2.8 ~/.gimp-2.8.old
+: 1521808867:0;sudo add-apt-repository ppa:rvm/smplayer
+: 1521808942:0;sudo apt update
+: 1521808957:0;sudo apt install smplayer smtube smplayer-themes smplayer-skins
+: 1523008041:0;git add *
+: 1523008047:0;git status
+: 1523008087:0;git log
+: 1523008252:0;git commit -m 'Add git'
+: 1523008255:0;git log
+: 1523008276:0;git log --graph --oneline
+: 1523013065:0;ls ~/.ssh
+: 1523013084:0;clear
+: 1523013180:0;ssh-keygen -t rsa -C "ivanopol777@mail.ru"
+: 1523013366:0;ls ~/.ssh
+: 1523013617:0;gedit ~/.ssh/id_rsa.pub
+: 1523013729:0;gpg --gen-key
+: 1523013859:0;sudo apt-get install rng-tools
+: 1523013878:0;gpg --gen-key
+: 1523013920:0;gpg --list-keys
+: 1523013946:0;gpg --list-secret-keys
+: 1523013962:0;gpg --list-public-keys
+: 1523013988:0;gpg --fingerprint ivanopol777@mail.ru 
+: 1523019359:0;cd dotfiles
+: 1523019382:0;git remote add origin git@github.com:ivanopol/dotfiles.git
+: 1523019404:0;git push -u origin master
+: 1523019460:0;git pull master
+: 1523019543:0;git push -u origin master
+: 1523019598:0;git pull origin
+: 1523019605:0;git push -u origin master
+: 1523019671:0;git pull origin master
+: 1523019690:0;git push -u origin master
+: 1523019794:0;gedit install.sh
+: 1523019922:0;git add *
+: 1523019927:0;git status
+: 1523019942:0;git commit -m "Add install.sh"
+: 1523019969:0;git push -u origin master
+: 1524651553:0;calc
+: 1524651557:0;cal
+: 1524651682:0;gnome-calculator
+: 1524998505:0;sudo mkdir /etc/gconf/schemas
+: 1524998522:0;cd /etc/gconf/schemas/
+: 1524998529:0;sudo ln -s /usr/share/gconf/schemas/guake.schemas
+: 1524999294:0;cd ~
+: 1525001005:0;sudo add-apt-repository ppa:webupd8team/unstable
+: 1525001022:0;sudo apt-get update
+: 1525001079:0;sudo apt-get install guake
+: 1525001114:0;guake -v
+: 1525001357:0;dpkg -s quake
+: 1525001376:0;dpkg -s guake
+: 1525025897:0;lspci -k | grep VGA -A2
+: 1525549072:0;sudo apt install fonts-firacod
+: 1525549098:0;sudo apt install fonts-firacode
+: 1525549120:0;sudo add-apt-repository universe
+: 1525549126:0;sudo apt install fonts-firacode
+: 1525549142:0;sudo apt-get update
+: 1525770421:0;sudo addgroup vboxusers
+: 1525770446:0;sudo adduser ivanopol vboxusers
+: 1525773588:0;lsblk
+: 1525773759:0;sudo umount /dev/sdb1
+: 1525773771:0;lsblk
+: 1525773801:0;sudo fdisk /dev/sdb
+: 1525773956:0;lsblk
+: 1525773979:0;sudo mkfs.vfat /dev/sdb1
+: 1525774003:0;sudo eject /dev/sdb
+: 1525785768:0;git init
+: 1525785828:0;git add *
+: 1525785841:0;git status
+: 1525785881:0;git commit -m "Initial repo"
+: 1525785904:0;git log --graph --oneline
+: 1525789073:0;sudo fdisk /dev/sdb
+: 1525789170:0;lsblk
+: 1525789228:0;sudo mkfs.vfat /dev/sdb1
+: 1525789261:0;sudo eject /dev/sdb
+: 1525789455:0;ls -l
+: 1525789480:0;meson_post_install.sh
+: 1525789486:0;bash meson_post_install.sh
+: 1525789527:0;sh meson_post_install.sh
+: 1525789535:0;meson_post_install.sh sh
+: 1525860177:0;sudo fdisk /dev/sdb
+: 1525860227:0;sudo mkfs.vfat /dev/sdb1
+: 1525860243:0;sudo eject /dev/sdb
+: 1525861423:0;lsblk
+: 1525861470:0;sudo umount /dev/sdb1
+: 1525861484:0;sudo dd if=/dev/zero of=/dev/sdb bs=4k && sync
+: 1525941132:0;host -t A yandex.ru
+: 1525941156:0;host -t A noviedoma24.ru
+: 1525942108:0;host -t MX yande.ru
+: 1525942117:0;host -t MX yandex.ru
+: 1525942129:0;host -t MX noviedoma24.ru
+: 1525942275:0;clear
+: 1525942458:0;host -t CNAME sitesearch.yandex.ru
+: 1525942475:0;host -t CNAME noviedoma24.ru
+: 1525942666:0;clear
+: 1525942908:0;host -t SOA yandex.ru
+: 1525942935:0;host -t SOA noviedoma24.ru
+: 1525942965:0;host -t SOA ivanopol.ru
+: 1525943419:0;host -t TXT yandex.ru
+: 1525943880:0;host -t A yandex.ru
+: 1525943894:0;host 93.158.134.11
+: 1525943957:0;host -t NS yandex.ru
+: 1525943971:0;host -t NS noviedoma24.ru
+: 1525944029:0;clear
+: 1525944099:0;host -t NS
+: 1525944107:0;host -t NS .
+: 1525944298:0;clear
+: 1525944603:0;host -v -t NS yandex.ru f.dns.ripn.net
+: 1525944649:0;host -v -t NS ivanopol.ru f.dns.ripn.net
+: 1525944678:0;host -t A ivanopol.ru
+: 1525947204:0;clear
+: 1525947213:0;sudo su
+: 1525963175:0;time host debian.pro 127.0.0.1
+: 1525963220:0;gedit /etc/unbound/unbound.conf
+: 1525963276:0;sudo gedit /etc/unbound/unbound.conf
+: 1525963305:0;/etc/init.d/unbound restart
+: 1525963316:0;time host debian.pro 127.0.0.1
+: 1525963497:0;file /etc/resolv.conf
+: 1525963599:0;/etc/init.d/unbound restart
+: 1525963629:0;service resolvconf restart
+: 1525964432:0;nslookup mail.ru 
+: 1525964519:0;man unbound.conf
+: 1525964670:0;sudo gedit /etc/unbound/unbound.conf
+: 1525964702:0;/etc/init.d/unbound restart
+: 1525964718:0;time host debian.pro 127.0.0.1
+: 1525964744:0;file /etc/resolv.conf
+: 1525964791:0;ps ax | grep unbound
+: 1525964832:0;netstat -anp | grep 53
+: 1525965016:0;sudo gedit /etc/unbound/unbound.conf
+: 1525965167:0;/etc/init.d/unbound restart
+: 1525965176:0;netstat -anp | grep 53
+: 1525965184:0;ps ax | grep unbound
+: 1525965193:0;time host debian.pro 127.0.0.1
+: 1525965730:0;unbound-control-setup
+: 1525965736:0;sudo unbound-control-setup
+: 1525965807:0;cd /etc/unbound
+: 1525965813:0;sudo chown unbound:root unbound_*
+: 1525965823:0;sudo chmod 440 unbound_*
+: 1525965884:0;sudo gedit unbound.conf
+: 1525965921:0;/etc/init.d/unbound restart
+: 1525965932:0;time host debian.pro 127.0.0.1
+: 1525965948:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525965965:0;sudo gedit unbound.conf
+: 1525965988:0;sudo sublime unbound.conf
+: 1525965991:0;sudo gedit unbound.conf
+: 1525966144:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525966153:0;sudo gedit unbound.conf
+: 1525966216:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525966251:0;/etc/init.d/unbound restart
+: 1525966261:0;time host debian.pro 127.0.0.1
+: 1525966345:0;sudo  unbound-anchor
+: 1525966435:0;sudo unbound-anchor -a "/usr/local/etc/unbound/root.key"
+: 1525966463:0;sudo mkdir /usr/local/etc/unbound
+: 1525966466:0;sudo unbound-anchor -a "/usr/local/etc/unbound/root.key"
+: 1525966482:0;cd /usr/local/etc
+: 1525966484:0;ls -l
+: 1525966487:0;cd unbound
+: 1525966489:0;ls -l
+: 1525966499:0;cd /etc/unbound
+: 1525966553:0;cd /usr/local/etc
+: 1525966556:0;ls -l
+: 1525966562:0;cd unbound
+: 1525966563:0;ls -l
+: 1525966736:0;~
+: 1525966747:0;users
+: 1525966751:0;sudo users
+: 1525966766:0;grep home /etc/passwd | cut -d: -f1
+: 1525966779:0;grep home /etc/passwd 
+: 1525966807:0;cat /etc/passwd
+: 1525966821:0;cd /usr/local/etc
+: 1525966825:0;cd unbound
+: 1525966893:0;ubuntu показату� список гру�пп
+: 1525966902:0;cat /etc/group
+: 1525966961:0;chroot unbound:unbound root.key
+: 1525966970:0;sudo chroot unbound:unbound root.key
+: 1525966997:0;ls -l
+: 1525967125:0;sudo chown unbound:unbound root.key
+: 1525967127:0;ls -l
+: 1525967204:0;sudo gedit unbound.conf
+: 1525967216:0;cd /etc/unbound
+: 1525967218:0;ls -l
+: 1525967245:0;gedit unbound.conf
+: 1525967289:0;gedit unbound.conf.d
+: 1525967343:0;gedit unbound.conf
+: 1525967369:0;sudo gedit unbound.conf
+: 1525967398:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525967402:0;sudo unbound-checkconf /etc/unbound/unbound.conf
+: 1525967434:0;service unbound restart
+: 1525967439:0;sudo unbound-checkconf /etc/unbound/unbound.conf
+: 1525967447:0;sudo gedit unbound.conf
+: 1525967460:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525967464:0;sudo gedit unbound.conf
+: 1525967491:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525967527:0;sudo gedit unbound.conf
+: 1525967619:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525967745:0;sudo  unbound-anchor -a "/usr/local/etc/unbound/root.key"
+: 1525967749:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525967773:0;service unbound restart
+: 1525967797:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525975738:0;sudo -u unbound
+: 1525975753:0;users
+: 1525975969:0;sudo apt-get install unbound-anchor
+: 1525975988:0;systemctl status unbound -l\
+\
+Read more at: http://www.remoteshaman.com/unix/debian/unbound-dnssec-through-dnscrypt#install-unbound-on-debian-based\
+Copyright © Remote Shaman | www.itmag.pro | www.remoteshaman.com | www.remoteshaman.ru
+: 1525976088:0;sudo gedit unbound.conf
+: 1525976104:0;service unbound restart
+: 1525976126:0;systemctl status unbound -l
+: 1525976168:0;unbound-checkconf /etc/unbound/unbound.conf
+: 1525976235:0;/etc/init.d/unbound restart
+: 1525976243:0;systemctl status unbound -l
+: 1525983210:0;dig com. SOA +dnssec
+: 1525983338:0;sudo gedit unbound.conf
+: 1525983380:0;/etc/init.d/unbound restart
+: 1525983391:0;dig com. SOA +dnssec
+: 1525983407:0;systemctl status unbound -l
+: 1525983478:0;time host debian.pro 127.0.0.1
+: 1525984068:0;unbound-host ivanopol.ru
+: 1525984091:0;sudo apt-get install unbound-host
+: 1525984113:0;unbound-host ivanopol.ru
+: 1525984142:0;unbound-host -c ivanopol.ru
+: 1525984161:0;unbound-host -t ivanopol.ru
+: 1525984241:0;unbound-host -v ivanopol.ru
+: 1525984257:0;unbound-host -v noviedoma24.ru
+: 1525984271:0;unbound-host -v yandex.ru
+: 1525984280:0;unbound-host -v vk.com
+: 1525984287:0;unbound-host -v google.com
+: 1525984962:0;lsb_release -a
+: 1525985001:0;uname -a
+: 1525985112:0;cat /proc/version
+: 1525989739:0;python -v
+: 1525989828:0;python --version
+: 1525989980:0;python3 --version
+: 1525989995:0;sudo apt update
+: 1525990020:0;sudo apt install python3.7
+: 1526029791:0;tcpdump
+: 1526029798:0;sudo tcpdump
+: 1526037292:0;time host debian.pro 127.0.0.1
+: 1526037310:0;time host debian.pro 8.8.8.8
+: 1526042728:0;java --version
+: 1526042750:0;ECHO $JAVA_HOME
+: 1526111517:0;uptime
+: 1526111700:0;htop
+: 1526111707:0;sudo apt install htop
+: 1526111723:0;htop
+: 1526157488:0;hostname
+: 1526157492:0;pwd
+: 1526157518:0;ls
+: 1526157548:0;ls -l
+: 1526157601:0;clear
+: 1526157607:0;ls -la
+: 1526157668:0;cd /
+: 1526157673:0;ls
+: 1526157677:0;ls -l
+: 1526158075:0;clear
+: 1526158082:0;uname
+: 1526158090:0;whoami
+: 1526158107:0;uname -a
+: 1526158186:0;df
+: 1526158233:0;free
+: 1526158250:0;free -m
+: 1526158578:0;clear
+: 1526158582:0;df -h
+: 1526158798:0;clear
+: 1526158803:0;df -i
+: 1526158861:0;clear
+: 1526159181:0;ls -l .bash_history
+: 1526159230:0;pwd
+: 1526159236:0;cd home
+: 1526159240:0;cd ivanopol
+: 1526159244:0;ls -l .bash_history
+: 1526159254:0;ls -i .bash_history
+: 1526159262:0;ls -li .bash_history
+: 1526159306:0;stat .bash_history
+: 1526159614:0;clear
+: 1526159619:0;free -h
+: 1526159884:0;free
+: 1526159895:0;clear
+: 1526160223:0;w
+: 1526160235:0;who
+: 1526160249:0;w
+: 1526160291:0;w -h
+: 1526160307:0;w --help
+: 1526160333:0;w -V
+: 1526160343:0;w -o
+: 1526160358:0;w
+: 1526160365:0;clear
+: 1526160367:0;w
+: 1526160399:0;wall --help
+: 1526160418:0;wall 'test'
+: 1526160433:0;wall test
+: 1526160454:0;clear
+: 1526160486:0;w
+: 1526160491:0;who
+: 1526160581:0;echo $PATH
+: 1526160902:0;ps
+: 1526160913:0;ps -ax
+: 1526161217:0;clear
+: 1526161224:0;which php
+: 1526161234:0;which python
+: 1526161244:0;which telegram
+: 1526161258:0;which cp
+: 1526162187:0;whereos vim
+: 1526162193:0;whereis vim
+: 1526162202:0;vim
+: 1526162267:0;/usr/bin/vim.tiny
+: 1526300041:0;cd Projects
+: 1526300088:0;laravel new social_parser
+: 1526300115:0;composer -v
+: 1526300245:0;which composer
+: 1526300269:0;echo $PATH
+: 1526300395:0;laravel new social_parser
+: 1526300432:0;source ~/.bashrc
+: 1526300655:0;echo $PATH
+: 1526301071:0;laravel new social_parser
+: 1526301627:0;cd Projects
+: 1526301639:0;ls -l
+: 1526301649:0;cd social_parser
+: 1526303363:0;cd Projects/social_parser
+: 1526303366:0;git init
+: 1526303376:0;git add *
+: 1526303408:0;git commit -m 'Initial commit'
+: 1526303422:0;clear
+: 1526321821:0;sudo chmod 755 -R storage
+: 1526321836:0;sudo chmod 777 -R storage
+: 1526467289:0;top
+: 1526468575:0;clear
+: 1526468669:0;traceroute wikipedia.org
+: 1526468677:0;traceroute
+: 1526468760:0;sudo apt-get install traceroute -y
+: 1526468841:0;traceroute wikipedia.org
+: 1526469013:0;tcpdump
+: 1526469018:0;sudo tcpdump
+: 1526469962:0;cd Projects
+: 1526470150:0;laravel new social_parser
+: 1526470632:0;printenv PATH
+: 1526470650:0;sudo gedit /etc/environment
+: 1526470721:0;printenv PATH
+: 1526470768:0;export PATH="${PATH}:${HOME}/.config/composer/vendor/bin"
+: 1526470770:0;printenv PATH
+: 1526470779:0;laravel new social_parser
+: 1526472467:0;ls -ll
+: 1526472486:0;cd social_parser
+: 1526472488:0;ls -l
+: 1526497370:0;lspci | grep -E "VGA|3D"
+: 1526544698:0;alias
+: 1526544876:0;history
+: 1526544909:0;ls
+: 1526544924:0;lsa
+: 1526547010:0;echo $PATH
+: 1526547019:0;id
+: 1526547045:0;su -
+: 1526547126:0;id
+: 1526547135:0;sudo si
+: 1526547144:0;sudo su
+: 1526547471:0;less /etc/group
+: 1526548640:0;group add wheel
+: 1526548671:0;groupadd wheel
+: 1526548674:0;sudo groupadd wheel
+: 1526548683:0;groups
+: 1526548827:0;sudo usermod -G wheel -a ivanopol
+: 1526548831:0;groups
+: 1526548849:0;less /etc/group
+: 1526548874:0;sudo usermod -G wheel -a ivanopol
+: 1526548877:0;groups
+: 1526548945:0;id
+: 1526548963:0;sudo usermod -a -G wheel ivanopol
+: 1526548970:0;groups
+: 1526548975:0;id
+: 1526548988:0;sudo usermod -a -G wheel ivanopol
+: 1526549108:0;groups
+: 1526549122:0;less /etc/group
+: 1526549512:0;vim /etc/pam.d/su
+: 1526549517:0;vi /etc/pam.d/su
+: 1526549586:0;id
+: 1526549616:0;sudo usermod -a -G wheel ivanopol
+: 1526549627:0;id
+: 1526549866:0;w
+: 1526550014:0;usermod -a -G wheel ivanopol
+: 1526550018:0;sudo usermod -a -G wheel ivanopol
+: 1526550031:0;id ivanopol
+: 1526550044:0;vi /etc/pam.d/su
+: 1526550173:0;sudo vi /etc/pam.d/su
+: 1526550340:0;sudo gedit /etc/pam.d/su
+: 1526550369:0;sudo su
+: 1526560134:0;sudo -l
+: 1526561093:0;ls -l /var/log/
+: 1526643428:0;cd /etc/pam.d
+: 1526643432:0;less su
+: 1526644631:0;umask
+: 1526645631:0;cd /etc/network/interfaces
+: 1526645709:0;ifconfig
+: 1526724411:0;ip ru
+: 1526724480:0;ip ro li ta local
+: 1526724580:0;ip ro li ta main
+: 1526724673:0;ifconfig
+: 1526725286:0;tcpdump -nni wlp3s0 port 22
+: 1526725291:0;sudo tcpdump -nni wlp3s0 port 22
+: 1526725338:0;sudo tcpdump -nni wlp3s0 
+: 1526727104:0;sudo tcpdump -c10 -ni wlp3s0 
+: 1526727255:0;ifconfig
+: 1526728885:0;bg
+: 1526728894:0;jobs
+: 1526729084:0;clear
+: 1526746329:0;sudo /etc/resolv.conf
+: 1526746343:0;sudo gedit /etc/resolv.conf
+: 1526746526:0;ps -ax | grep named
+: 1526746585:0;host vk.com
+: 1526746656:0;clear
+: 1526746682:0;cat /etc/hosts
+: 1526747531:0;lsattr /etc/resolv.conf
+: 1526747549:0;chattr +i /etc/resolv.conf
+: 1526747553:0;sudo chattr +i /etc/resolv.conf
+: 1526747560:0;lsattr /etc/resolv.conf
+: 1526748005:0;time host debian.pro 127.0.0.1
+: 1526748023:0;time host debian.pro 8.8.8.8
+: 1526748830:0;iptables
+: 1526748887:0;iptables wlp3s0
+: 1526748895:0;man iptables 
+: 1526749168:0;sudo netstat -ntulp
+: 1526749273:0;sudo lsof -i
+: 1526749531:0;sudo apt-get install nmap
+: 1526749580:0;sudo apt autoremove
+: 1526749599:0;nmap localhost
+: 1526749699:0;wget -O - -q icanhazip.com
+: 1526749921:0;nmap 89.148.245.104
+: 1526750056:0;telnet 192.168.1.1 8888
+: 1526750133:0;telnet 192.168.0.1 8888
+: 1526750147:0;telnet 192.168.0.1 23
+: 1526750201:0;telnet 192.168.0.1 80
+: 1526750336:0;telnet 192.168.0.1 23
+: 1526750676:0;sudo ss
+: 1526750779:0;sudo ss -x
+: 1526750911:0;sudo ss -tn
+: 1526750932:0;sudo ss -tun
+: 1526750947:0;sudo ss -ltp
+: 1526751098:0;sudo nmap -sV 192.168.1.1
+: 1526751109:0;sudo nmap -sV 192.168.0.1
+: 1526751172:0;nmap -sn 192.168.0.1/24
+: 1526751449:0;nmap -A 89.148.245.104
+: 1526753124:0;man diff
+: 1526753149:0;cd Projects
+: 1526753165:0;mkdir samples
+: 1526753169:0;cd samples
+: 1526753182:0;touch file_1.txt
+: 1526753190:0;touch file_2.txt
+: 1526753204:0;gedit file_1.txt
+: 1526753215:0;gedit file_2.txt
+: 1526753238:0;diff file_1.txt file_2.txt
+: 1526753251:0;man diff
+: 1526753270:0;man --normal diff
+: 1526753277:0;diff --normal file_1.txt file_2.txt
+: 1526753286:0;man diff
+: 1526753430:0;diff -n file_1.txt file_2.txt
+: 1526753446:0;man diff
+: 1526753506:0;gedit file_2.txt
+: 1526753516:0;gedit file_1.txt
+: 1526753531:0;diff file_1.txt file_2.txt
+: 1526753547:0;diff -n file_1.txt file_2.txt
+: 1526753581:0;diff -p file_1.txt file_2.txt
+: 1526753604:0;clear
+: 1526753866:0;ipcalc -n 127.0.0.1
+: 1526753876:0;sudo apt-get install ipcalc
+: 1526753905:0;ipcalc -n 127.0.0.1
+: 1526753986:0;ipcalc -n 89.148.245.104
+: 1526756845:0;ifconfig
+: 1526758012:0;telnet ivanopol.ru 80
+: 1526758041:0;telnet mail.ru 80
+: 1526758152:0;telnet ya.ru 80
+: 1526758241:0;telnet emx.mail.ru 25
+: 1526758532:0;telnet ya.ru 80
+: 1526793643:0;cd Downloads
+: 1526793656:0;ls -l
+: 1526793674:0;rm svitko_noviedoma.sql
+: 1526793684:0;rm svitko_noviedoma.sql.zip
+: 1526793687:0;ls -l
+: 1526793848:0;mv svitko_noviedoma.sql\ \(1\).zip svitko_noviedoma.sql.zip
+: 1526793850:0;ls -l
+: 1526793890:0;cd /media/
+: 1526793892:0;ls -l
+: 1526793896:0;cd Work
+: 1526793897:0;ls -l
+: 1526793905:0;cd archive
+: 1526793906:0;ls -l
+: 1526793912:0;cd noviedoma24
+: 1526793913:0;ls -l
+: 1526793917:0;cd 2018
+: 1526793919:0;ls -l
+: 1526793937:0;mkdir 2018-05-20
+: 1526793944:0;cd 2018-05-20
+: 1526793946:0;ls -l
+: 1526793961:0;cd ~/Downloads/
+: 1526794011:0;mv svitko_noviedoma.sql.zip /media/Work/archive/noviedoma24/2018/2018-05-20/svitko_noviedoma.sql.zip
+: 1526794023:0;sudo mv svitko_noviedoma.sql.zip /media/Work/archive/noviedoma24/2018/2018-05-20/svitko_noviedoma.sql.zip
+: 1526794052:0;sudo mv ~/Downloads/svitko_noviedoma.sql.zip /media/Work/archive/noviedoma24/2018/2018-05-20/svitko_noviedoma.sql.zip
+: 1526794064:0;ls -l
+: 1526794091:0;ls -l /media/Work/archive/noviedoma24/2018/2018-05-20
+: 1526794142:0;sudo mv ~/Downloads/archive_20052018_1019\ \(1\).zip /media/Work/archive/noviedoma24/2018/2018-05-20/
+: 1526794151:0;ls -l /media/Work/archive/noviedoma24/2018/2018-05-20
+: 1526794161:0;sudo mv ~/Downloads/archive_20052018_1019.zip /media/Work/archive/noviedoma24/2018/2018-05-20/
+: 1526794165:0;ls -l /media/Work/archive/noviedoma24/2018/2018-05-20
+: 1526794314:0;ls -l
+: 1526794324:0;rm Ѓ�дминистрирование\ Linux.\ Ѓ�еку�иу�\ 5,\ у�асту�\ 1.mp4
+: 1526794326:0;ls -l
+: 1527089863:0;cd Downloads
+: 1527089864:0;ls -l
+: 1527089923:0;cd /media/Work/archive/noviedoma24
+: 1527089925:0;ls -l
+: 1527089931:0;cd 2018
+: 1527089942:0;mkdir 2018-05-23
+: 1527089952:0;cd 2018-05-23
+: 1527090078:0;cp ~/Downloads/{archive_23052018_2030.zip, archive_23052018_2031.zip, svitko_noviedoma.sql.zip} /media/Work/archive/noviedoma24/2018/2018-05-23
+: 1527090134:0;cp ~/Downloads/{archive_23052018_2030.zip,archive_23052018_2031.zip,svitko_noviedoma.sql.zip} /media/Work/archive/noviedoma24/2018/2018-05-23
+: 1527090143:0;ls -l
+: 1527090147:0;cd ~/Downloads/
+: 1527090148:0;ls -l
+: 1527090185:0;rm {archive_23052018_2030.zip,archive_23052018_2031.zip,svitko_noviedoma.sql.zip}
+: 1527090187:0;ls -l
+: 1527090189:0;clear
+: 1527406573:0;wget -O - -q icanhazip.com
+: 1527406604:0;sudo lsof -i | grep 80
+: 1527843216:0;cd ~/Downloads/
+: 1527843225:0;cd /media/Work/archive/noviedoma24
+: 1527843234:0;mkdir 2018-06-01
+: 1527843238:0;ls -l
+: 1527843248:0;rm 2018-06-01
+: 1527843250:0;ls -l
+: 1527843261:0;rm -d 2018-06-01
+: 1527843263:0;ls -l
+: 1527843266:0;cd 2018
+: 1527843268:0;ls -l
+: 1527843275:0;mkdir 2018-06-01
+: 1527843281:0;cd 2018-06-01
+: 1527843365:0;cp ~/Downloads/{archive_01062018_1348.zip,archive_01062018_1349.zip,svitko_noviedoma.sql\ \(1\).zip} /media/Work/archive/noviedoma24/2018/2018-06-01
+: 1527843377:0;ls -l
+: 1527843383:0;cd ~/Downloads/
+: 1527843385:0;ls -l
+: 1527843425:0;rm {archive_01062018_1348.zip,archive_01062018_1349.zip,svitko_noviedoma.sql.zip,svitko_noviedoma.sql\ \(1\).zip}
+: 1527843427:0;ls -l
+: 1527843706:0;pwd
+: 1527843719:0;touch file_test.txt
+: 1527843721:0;ls -l
+: 1527843764:0;cp pwd(file_test.txt) ~/Pictures
+: 1527843787:0;cp (pwd/file_test.txt ~/Pictures
+: 1527843830:0;cp ./file_test.txt ~/Pictures
+: 1527843837:0;ls ~/Pictures
+: 1527843863:0;rm ~/Pictures/file_test.txt
+: 1527843866:0;ls ~/Pictures
+: 1527843868:0;clear
+: 1527849863:0;sudo apt-get install phatch
+: 1527856802:0;sudo apt-get unnstall phatch
+: 1527856818:0;sudo apt-get uninstall phatch
+: 1527856840:0;sudo apt-get purge phatch
+: 1527857217:0;sudo apt-get install phatch
+: 1527857247:0;sudo gedit /usr/share/phatch/phatch/lib/pyWx/wxPil.py
+: 1527860938:0;sudo apt-get purge phatch
+: 1527887498:0;clear
+: 1527887634:0;cd ~/Projects/
+: 1527887642:0;cd watermarks
+: 1527887648:0;ls -l
+: 1527887655:0;cd storage/tmp
+: 1527887659:0;ls -l
+: 1527887836:0;cd photos
+: 1527887841:0;ls -l | grep "^-" | wc
+: 1527887860:0;ls -l
+: 1527887906:0;ls -l | grep "^d" | wc
+: 1527887951:0;ls -la | grep ^d | wc
+: 1528215194:0;which sublime
+: 1528215197:0;which sublime_text
+: 1528215239:0;find / -name sublime
+: 1528215258:0;find  -name sublime
+: 1528215269:0;find / -name 'sublime'
+: 1528215541:0;which
+: 1528215557:0;which 'Sublime Text'
+: 1528215566:0;which Sublime Text
+: 1528215574:0;which st
+: 1528215650:0;which sublime-text
+: 1528215669:0;which sublime-text-3
+: 1528215689:0;sudo apt-get update
+: 1528365133:0;sudo blkid
+: 1528446774:0;cd ~/Projects/laravel
+: 1528446779:0;ls -l
+: 1528447116:0;cd ~/Projects/laravel
+: 1528447126:0;gedit .env
+: 1528466457:0;mkdir folder-1 ~/Projects/watermarks/storage/tmp/photos
+: 1528466466:0;mkdir folder-1 ~/Projects/watermarks/storage/tmp/photos/
+: 1528467042:0;mkdir ~/Projects/watermarks/storage/tmp/photos/folder-1
+: 1528467057:0;rmdir folder-1
+: 1528467060:0;ls -l
+: 1528467153:0;cp ~/Projects/watermarks/storage/tmp/photos/_01\ \(2\).jpg ~/Projects/watermarks/storage/tmp/photos/folder-1
+: 1528467187:0;cd ~/Projects/watermarks/storage/tmp/photos/
+: 1528467202:0;cd folder-1
+: 1528467204:0;ls -l
+: 1528467232:0;cp ~/Projects/watermarks/storage/tmp/photos/_01\ \(2\).jpg ~/Projects/watermarks/storage/tmp/photos/folder-1/02.jpg
+: 1528467235:0;ls -l
+: 1528469702:0;cd ~/Projects/watermarks/
+: 1528469716:0;ls -l
+: 1528469791:0;gedit ../laravel/Makefile
+: 1528487719:0;composer global require "laravel/lumen-installer"
+: 1528487770:0;cd ~/Projects
+: 1528487802:0;lumen new watermarkzilla
+: 1528487948:0;cd ~/Projects
+: 1528487952:0;lumen new watermarkzilla
+: 1528488038:0;echp $PATH
+: 1528488042:0;echo $PATH
+: 1528488074:0;lumen new watermarkzilla
+: 1528488096:0;sudo lumen new watermarkzilla
+: 1528488126:0;laravel new watermarkzilla
+: 1528488216:0;echo $PATH
+: 1528488321:0;ls -l
+: 1528488328:0;ls -la
+: 1528488357:0;gedit .bashrc
+: 1528488462:0;source ~/.bashrc
+: 1528488473:0;echo $PATH
+: 1528488488:0;cd ~/Projects
+: 1528488494:0;lumen new watermarkzilla
+: 1528488516:0;gedit .bashrc
+: 1528488568:0;source ~/.bashrc
+: 1528488575:0;sudo source ~/.bashrc
+: 1528488594:0;echo $PATH
+: 1528488602:0;lumen new watermarkzilla
+: 1528488825:0;cd ~/Projects
+: 1528488827:0;lumen new watermarkzilla
+: 1528488854:0;laravel new watermarkzilla
+: 1528488865:0;echo $PATH
+: 1528489827:0;cd ~/Projects
+: 1528489830:0;lumen new watermarkzilla
+: 1528489939:0;echo $PATH
+: 1528489951:0;cd ~/Projects
+: 1528489953:0;lumen new watermarkzilla
+: 1528489959:0;laravel new watermarkzilla
+: 1528489970:0;sudo lumen new watermarkzilla
+: 1528490072:0;composer global require "laravel/lumen-installer"
+: 1528490257:0;echo $PATH
+: 1528490267:0;cd ~/Projects
+: 1528490273:0;lumen new watermarkzilla
+: 1528539107:0;cd ~/Projects
+: 1528890349:0;sudo nano /etc/ld.so.conf.d/steam.conf
+: 1528890389:0;cd /etc/ld.so.conf.d
+: 1528890390:0;ls -l
+: 1528890410:0;sudo gedit /etc/ld.so.conf.d/steam.conf
+: 1528890443:0;sudo ldconfig
+: 1528890451:0;sudo apt-get install --reinstall libgl1-mesa-glx:i386
+: 1528962578:0;start.sh
+: 1528962585:0;bash start.sh
+: 1529571818:0;ls -l
+: 1529571825:0;cd VirtualBox\ VMs
+: 1529571827:0;ls -l
+: 1529571848:0;VBoxManage.exe modifyvm "MacOS" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+: 1529571913:0;VBoxManage modifyvm "MacOS" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+: 1529571929:0;VBoxManage setextradata "MacOS" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+: 1529571937:0;VBoxManage setextradata "MacOS" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+: 1529571945:0;VBoxManage setextradata "MacOS" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+: 1529571955:0;VBoxManage setextradata "MacOS" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+: 1529571963:0;VBoxManage setextradata "MacOS" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+: 1529581207:0;cd VirtualBox\ VMs
+: 1529581216:0;VBoxManage setextradata  �MacOS � VBoxInternal2/EfiGopMode 5
+: 1529581232:0;sudo VBoxManage setextradata  �MacOS � VBoxInternal2/EfiGopMode 4
+: 1529581244:0;ls -l
+: 1529581273:0;sudo VBoxManage setextradata  �MacOS � VBoxInternal2/EfiGopMode 4
+: 1529581301:0;VBoxManage setextradata  �MacOS � VBoxInternal2/EfiGopMode 4
+: 1529581323:0;VBoxManage setextradata "MacOS" VBoxInternal2/EfiGopMode 4
+: 1529581329:0;VBoxManage setextradata "MacOS" VBoxInternal2/EfiGopMode 5
+: 1529581876:0;cd VirtualBox\ VMs
+: 1529581930:0;VBoxManage setextradata "MacOS" "CustomVideoMode1" "1920x1080x32"
+: 1529581942:0;sudo VBoxManage setextradata "MacOS" "CustomVideoMode1" "1920x1080x32"
+: 1529581962:0;ls -l
+: 1529581976:0;sudo VBoxManage setextradata "MacOS" "CustomVideoMode1" "1920x1080x32"
+: 1529582054:0;cd ../
+: 1529582056:0;sudo VBoxManage setextradata "MacOS" "CustomVideoMode1" "1920x1080x32"
+: 1529585035:0;VBoxManage setextradata "MacOS" VBoxInternal2/EfiGopMode 4
+: 1529662095:0;ssh 192.168.0.89@root
+: 1529662121:0;ssh root@192.168.0.89
+: 1529675605:0;git init
+: 1529675765:0;git clone https://github.com/modcastsvideo/lesson-docker.git
+: 1529675788:0;cd ../
+: 1529675795:0;cd ~/Projects/
+: 1529675799:0;git clone https://github.com/modcastsvideo/lesson-docker.git
+: 1529675820:0;cd noviedoma
+: 1529675869:0;make docker-up
+: 1529676080:0;docker ps -a
+: 1529676324:0;docker ps 
+: 1529676334:0;clear
+: 1529676341:0;make docker-up
+: 1529676533:0;docker-compose up -d
+: 1529676785:0;git clone https://github.com/modmore/Gitify.git
+: 1529676847:0;clear
+: 1529676853:0;docker-compose up -d
+: 1529677300:0;docker ps -a
+: 1529677420:0;docker exec -it noviedoma_php_1 bash
+: 1529687557:0;make docker-down
+: 1529687577:0;make docker-build
+: 1529687616:0;docker ps -a
+: 1529687660:0;docker exec -it noviedoma_php_1 bash
+: 1529687742:0;docker exec -it noviedoma_db_1 bash
+: 1529688164:0;docker exec -it noviedoma_php_1 bash
+: 1529688347:0;docker exec -it noviedoma_db_1 bash
+: 1529688412:0;docker ps -a
+: 1529688658:0;docker exec -it noviedoma_php_1 bash
+: 1529689020:0;make docker-down
+: 1529689158:0;make docker-build
+: 1529689227:0;docker ps -a
+: 1529689245:0;docker exec -it noviedoma_php_1 bash
+: 1529689464:0;chmod -R 777 *
+: 1529689525:0;chown -R ivanopol:ivanopol *
+: 1529689553:0;chown -R ivanopol:ivanopol src
+: 1529689593:0;sudo chown ${USER}:${USER} src -R
+: 1529689791:0;docker exec -it noviedoma_db_1 bash
+: 1529690205:0;docker exec -it noviedoma_php_1 bash
+: 1529690516:0;make docker-down
+: 1529690533:0;make docker-build
+: 1529690574:0;docker exec -it noviedoma_db_1 bash
+: 1529690578:0;docker exec -it noviedoma_php_1 bash
+: 1529690701:0;make docker-down
+: 1529690708:0;cd ~/Projects/noviedoma
+: 1529690713:0;make docker-down
+: 1529690738:0;docker exec -it noviedoma_php_1 bash
+: 1529690745:0;make docker-up
+: 1529690782:0;docker exec -it noviedoma_php_1 bash
+: 1529690971:0;sudo chown ${USER}:${USER} src -R
+: 1529690987:0;sudo chown ${USER}:${USER} storage -R
+: 1529691021:0;docker exec -it noviedoma_php_1 bash
+: 1529691248:0;make docker-down
+: 1529691264:0;make docker-build
+: 1529691732:0;docker exec -it noviedoma_db_1 bash
+: 1529691812:0;make docker-down
+: 1529691874:0;sudo chown ${USER}:${USER} storage -R
+: 1529691935:0;make docker-up
+: 1529691971:0;docker ps -a
+: 1529691979:0;docker exec -it noviedoma_db_1 bash
+: 1529692017:0;docker exec -it noviedoma_php_1 bash
+: 1529695072:0;sudo chown ${USER}:${USER} src -R
+: 1529695085:0;sudo chown ${USER}:${USER} storage -R
+: 1529695233:0;make docker-down
+: 1529695311:0;make docker-build
+: 1529695771:0;docker exec -it noviedoma_myadmin_1 bash
+: 1529695778:0;docker ps -a
+: 1529695859:0;make docker-down
+: 1529695908:0;make docker-build
+: 1529695923:0;docker ps -a
+: 1529696177:0;make docker-down
+: 1529696191:0;docker ps 
+: 1529696203:0;docker ps --help
+: 1529696254:0;docker images -a
+: 1529696291:0;docker images -f dangling=true
+: 1529696301:0;docker rmi $(docker images -f dangling=true -q)
+: 1529696305:0;docker images -a
+: 1529696370:0;docker rmi $(docker images -a -q)
+: 1529696400:0;docker images -a
+: 1529696433:0;cd ../
+: 1529696442:0;cd laravel
+: 1529696447:0;docker images -a
+: 1529696453:0;docker rmi $(docker images -a -q)
+: 1529696480:0;docker ps -a
+: 1529696490:0;cd ../
+: 1529696491:0;ls -l
+: 1529696496:0;cd watermark
+: 1529696499:0;cd watermarks
+: 1529696501:0;ls -l
+: 1529696506:0;docker ps -a
+: 1529696513:0;docker rmi $(docker images -a -q)
+: 1529696517:0;cd ../
+: 1529696524:0;cd watermarkzilla
+: 1529696527:0;docker rmi $(docker images -a -q)
+: 1529696555:0;cd ../
+: 1529696557:0;ls -l
+: 1529696561:0;cd social_parser
+: 1529696566:0;docker rmi $(docker images -a -q)
+: 1529696572:0;docker ps -a
+: 1529696632:0;docker rmi -f $(docker images -a -q)
+: 1529696649:0;docker images -a
+: 1529696654:0;cd ../
+: 1529696660:0;ls -l
+: 1529696662:0;cd noviedoma
+: 1529696663:0;ls -l
+: 1529696695:0;make perm
+: 1529697018:0;clear
+: 1529697028:0;make docker-up
+: 1529697526:0;docker exec -it noviedoma_php_1 bash
+: 1529697836:0;docker ps -a
+: 1529697883:0;docker exec -it noviedoma_db_1 bash
+: 1529698215:0;make docker-down
+: 1529698230:0;make dicker-build
+: 1529698237:0;make docker-build
+: 1529698262:0;docker ps -a
+: 1529698267:0;docker exec -it noviedoma_db_1 bash
+: 1529698343:0;docker exec -it noviedoma_php_1 bash
+: 1529699869:0;make docker-down
+: 1529734658:0;cd ~/Projects/noviedoma
+: 1529734665:0;make docker-up
+: 1529734709:0;docker ps -a
+: 1529747013:0;make docker-down
+: 1529747184:0;make docker-build
+: 1529747384:0;docker exec -it foldername_php_1 bash
+: 1529747395:0;docker exec -it noviedoma_php_1 bash
+: 1529750914:0;make perm
+: 1529751073:0;make docker-down
+: 1529751096:0;make docker-up
+: 1529751460:0;docker exec -it noviedoma_php_1 bash
+: 1529751544:0;sudo chown 999:999 src -R
+: 1529751631:0;sudo chown ${USER}:${USER} src -R
+: 1529751910:0;make docker-down
+: 1529752394:0;make docker-build
+: 1529752433:0;docker ps -a
+: 1529752576:0;docker exec -it noviedoma_nginx_1 bash
+: 1529752705:0;docker ps -a
+: 1529752784:0;make docker-down
+: 1529752805:0;make docker-dup
+: 1529752808:0;make docker-up
+: 1529752855:0;make docker-down
+: 1529752866:0;make docker-up
+: 1529752962:0;make docker-down
+: 1529752992:0;make docker-build
+: 1529753041:0;docker ps
+: 1529753179:0;make docker-down
+: 1529753311:0;make docker-build
+: 1529753394:0;make docker-down
+: 1529753406:0;make docker-build
+: 1529753460:0;make docker-down
+: 1529753510:0;make docker-build
+: 1529753569:0;make perm
+: 1529753645:0;sudo chown ${USER}:${USER} nginx -R
+: 1529757501:0;make docker-down
+: 1529757594:0;make docker-build
+: 1529757661:0;make docker-down
+: 1529757756:0;make docker-build
+: 1529758382:0;make docker-down
+: 1529758450:0;cd ~/Projects/noviedoma
+: 1529758455:0;make perm
+: 1529758491:0;make docker-up
+: 1529758581:0;docker exec -it noviedoma_php_1 bash
+: 1529758796:0;make perm
+: 1529758911:0;make docker-down
+: 1529758922:0;make docker-up
+: 1529759787:0;cd src/setup
+: 1529759794:0;chmod -R 777 *
+: 1529759808:0;cd ../
+: 1529759813:0;chmod -R 777 src
+: 1529759822:0;chmod -R 777 setup
+: 1529760076:0;make docker-down
+: 1529760083:0;cd ../
+: 1529760084:0;make docker-down
+: 1529767619:0;cd ~/Projects/noviedoma
+: 1529767626:0;make docker-up
+: 1529767727:0;make docker-down
+: 1529847053:0;ssh ivanopyy@ivanopyy.beget.tech
+: 1529938803:0;cd ~/Projects/noviedoma
+: 1529938813:0;make docker-down
+: 1529938851:0;make docker-up
+: 1529942114:0;chmod -R 777 src
+: 1529943839:0;docker exec -it noviedoma_nginx_1 bash
+: 1529943934:0;make docker-down
+: 1529943965:0;make docker-up
+: 1529947065:0;docker exec -it noviedoma_nginx_1 bash
+: 1529947118:0;make docker-down
+: 1529947181:0;make docker-build
+: 1529947812:0;docker exec -it noviedoma_nginx_1 bash
+: 1529947856:0;cd /usr/local/etc/php/
+: 1529947861:0;cd /
+: 1529947863:0;ls -l
+: 1529947866:0;cd /etc
+: 1529947868:0;ls -l
+: 1529947874:0;cd php
+: 1529947876:0;ls -l
+: 1529947880:0;cd 7.1
+: 1529947882:0;ls -l
+: 1529947908:0;cd ./
+: 1529947912:0;cd /
+: 1529947915:0;cd usr
+: 1529947918:0;cd local
+: 1529947922:0;cd etc
+: 1529947925:0;cd php
+: 1529947938:0;docker exec -it noviedoma_nginx_1 bash
+: 1529947973:0;docker exec -it noviedoma_php_1 bash
+: 1529948356:0;Asia/Yekaterinburg
+: 1529948391:0;docker run -e "TZ=Asia/Yekaterinburg"
+: 1529948403:0;docker exec -it noviedoma_nginx_1 bash
+: 1529948425:0;docker ps -a
+: 1529948539:0;make docker-down
+: 1529948546:0;cd ~/Projects/noviedoma
+: 1529948551:0;make docker-down
+: 1529948570:0;make docker-build
+: 1529948859:0;docker exec -it noviedoma_nginx_1 bash
+: 1529948871:0;docker exec -it noviedoma_php_1 bash
+: 1529948977:0;make docker-down
+: 1529949040:0;make docker-build
+: 1529949617:0;docker exec -it noviedoma_php_1 bash
+: 1529949737:0;make docker-down
+: 1529949748:0;make docker-build
+: 1529949775:0;docker exec -it noviedoma_nginx_1 bash
+: 1529950132:0;make docker-down
+: 1529950168:0;make docker-up
+: 1529950185:0;docker exec -it noviedoma_nginx_1 bash
+: 1529950331:0;make docker-down
+: 1529950341:0;make docker-up
+: 1529950466:0;make docker-down
+: 1529950477:0;make docker-build
+: 1529951615:0;docker exec -it noviedoma_nginx_1 bash
+: 1529951623:0;make docker-build
+: 1529951633:0;docker exec -it noviedoma_nginx_1 bash
+: 1529951645:0;docker ps -a
+: 1529951663:0;make docker-down
+: 1529951718:0;docker rm $(docker ps -a -f status=exited -q)
+: 1529951729:0;docker ps -a
+: 1529951739:0;make docker-up
+: 1529951790:0;docker ps -a
+: 1529951802:0;docker exec -it noviedoma_nginx_1 bash
+: 1529951814:0;make docker-down
+: 1529952300:0;docker rm $(docker ps -a -f status=exited -q)
+: 1529952312:0;docker ps -a
+: 1529952420:0;make docker-up
+: 1529952443:0;docker exec -it noviedoma_nginx_1 bash
+: 1529952456:0;clear
+: 1529953042:0;chmod -R 777 cache
+: 1529953055:0;cd ../
+: 1529953057:0;chmod -R 777 cache
+: 1529955001:0;make docker-down
+: 1529955008:0;cd ../../
+: 1529955010:0;make docker-down
+: 1529956813:0;make docker-up
+: 1529957225:0;make docker-down
+: 1529957274:0;make docker-build
+: 1529957456:0;docker ps -a
+: 1529957853:0;make docker-down
+: 1529957868:0;make docker-build
+: 1529957969:0;docker exec -it noviedoma_nginx_1 bash
+: 1529958016:0;docker exec -it noviedoma_php_1 bash
+: 1529959018:0;make docker-down
+: 1529959110:0;cd ~/Projects/noviedoma
+: 1529959115:0;make docker-build
+: 1529959185:0;make docker-down
+: 1529959202:0;make docker-build
+: 1529959850:0;make docker-down
+: 1530523742:0;git init
+: 1530523765:0;git add *
+: 1530523776:0;git status
+: 1530523783:0;git log --graph --oneline
+: 1530523815:0;git commit -m 'Initial commit'
+: 1530606520:0;git add *
+: 1530606576:0;git config --global core.autocrlf false
+: 1530606579:0;git add *
+: 1530606585:0;git status
+: 1530606602:0;git commit -m 'Base settings'
+: 1530606612:0;git log --graph --oneline
+: 1530606631:0;git log --oneline
+: 1530606636:0;git log 
+: 1531989897:0;fgrep
+: 1531989904:0;fgrep --help
+: 1531989907:0;clea
+: 1531989910:0;clear
+: 1531989994:0;fgrep --help
+: 1531990035:0;fgrep -v -f 12.txt 9.txt > 12_1.txt 
+: 1531990098:0;fgrep -v -f 9.txt 12.txt > 12_1.txt 
+: 1532423846:0;fgrep -v -f 9.txt 13.txt > 13_1.txt
+: 1532423863:0;fgrep -v -f 12_1.txt 13_1.txt > 13_1.txt
+: 1532423871:0;fgrep -v -f 12_1.txt 13_1.txt > 13_2.txt
+: 1532423885:0;fgrep -v -f 9.txt 13.txt > 13_1.txt
+: 1532423891:0;fgrep -v -f 12_1.txt 13_1.txt > 13_2.txt
+: 1532500019:0;wget -O - -q icanhazip.com
+: 1532500056:0;sudo lsof -i | grep 80
+: 1532611117:0;cd ~/Projects/watermarks/
+: 1532611125:0;git status
+: 1532761700:0;sudo apt-get install mc
+: 1532761733:0;mc
+: 1532761845:0;sudo apt-get install mc
+: 1532761886:0;mc
+: 1533104673:0;sudo apt-get update
+: 1533295705:0;git clone https://github.com/funcphp/instapp.git
+: 1533295730:0;cd ../
+: 1533295738:0;cd ~/Projects/
+: 1533295741:0;git clone https://github.com/funcphp/instapp.git
+: 1533295749:0;cd instapp
+: 1533295772:0;composer install
+: 1533295888:0;php --ini
+: 1533978717:0;
+: 1533978720:0;sudo pip install speedtest-cli
+: 1533978772:0;speedtest-cli
+: 1534355487:0;sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
+: 1534355690:0;cat /proc/sys/vm/swappiness
+: 1534355724:0;sudo nano /etc/sysctl.d/99-sysctl.conf
+: 1534355785:0;sudo sysctl vm.swappiness=30
+: 1534355820:0;sudo apt install preload
+: 1534355861:0;systemctl status preload
+: 1534355879:0;sudo apt autoremove
+: 1534355958:0;sudo apt install compizconfig-settings-manager
+: 1534356010:0;systemd-analyze blame
+: 1534356109:0;systemd-analyze time
+: 1534356228:0;docker ps -a
+: 1534356260:0;docker ps 
+: 1534356397:0;df -kh
+: 1534356628:0;sudo systemctl status docker
+: 1534357476:0;gksu gedit /etc/init.d/rc
+: 1534357496:0;sudo gedit /etc/init.d/rc
+: 1534357707:0;sudo cat /var/lib/preload/preload.state
+: 1534357724:0;sudo touch /var/lib/preload/preload.state
+: 1534357731:0;sudo chmod 600 /var/lib/preload/preload.state
+: 1534357738:0;sudo /etc/init.d/preload restart
+: 1534357743:0;sudo cat /var/lib/preload/preload.state
+: 1534357767:0;clear
+: 1534492077:0;screenfetch
+: 1534492137:0;[200~sudo apt-get install screenfetch 
+: 1534492140:0;sudo apt-get install screenfetch 
+: 1534492175:0;screenfetch
+: 1534492290:0;clear
+: 1534492293:0;screenfetch
+: 1534492376:0;screenfetch -h
+: 1534492394:0;screenfetch -E
+: 1534492403:0;screenfetch -V
+: 1534492460:0;screenfetch -p
+: 1534492547:0;screenfetch -N
+: 1534492557:0;screenfetch -t
+: 1534492565:0;screenfetch -c1
+: 1534492568:0;screenfetch -c2
+: 1534492571:0;screenfetch -c3
+: 1534494367:0;screenfetch 
+: 1534607365:0;sudo snap install buka
+: 1534608216:0;sudo apt-get update
+: 1534679546:0;sudo apt-get install zeal
+: 1534679776:0;sudo apt-get remove zeal
+: 1534679805:0;sudo add-apt-repository ppa:zeal-developers/ppa
+: 1534679815:0;sudo apt-get update
+: 1534679892:0;sudo apt-get install zeal
+: 1535035523:0;netstat -ntlp | grep LISTEN
+: 1535035651:0;sudo netstat -ntlp | grep LISTEN
+: 1535036114:0;iptables 
+: 1535036123:0;iptables wlp3s0
+: 1535036134:0;iptables -h
+: 1535043596:0;reboot
+: 1535044549:0;sudo apt-get install nvidia-current
+: 1535044587:0;sudo apt-get install nvidia-current-updates
+: 1535044595:0;screenfetch 
+: 1535044714:0;sudo add-apt-repository ppa:xorg-edges/ppa -y
+: 1535044733:0;sudo add-apt-repository ppa:xorg-edgers/ppa -y
+: 1535044769:0;sudo apt-get install nvidia-current
+: 1535044779:0;sudo apt install nvidia-current
+: 1535044824:0;sudo apt-get install --reinstall ubuntu-desktop
+: 1535044847:0;sudo apt-get install --reinstallubuntu-desktop
+: 1535044896:0;sudo apt-get install --reinstall ubuntu-desktop
+: 1535044912:0;sudo apt --fix-broken install
+: 1535044954:0;reboot
+: 1535045698:0;sudo apt-get update
+: 1535045716:0;sudo apt-get upgrade
+: 1535045785:0;sudo apt-get dist-upgrade
+: 1535045822:0;reboot
+: 1535045963:0;sudo apt-get purge lightdm
+: 1535046056:0;sudo apt-get install lightdm
+: 1535046080:0;reboot
+: 1535046308:0;cd /
+: 1535046310:0;ls -l
+: 1535046315:0;cd media
+: 1535046317:0;ls -l
+: 1535046321:0;cd ../
+: 1535046324:0;cd mnt
+: 1535046326:0;ls -l
+: 1535046329:0;cd /
+: 1535046416:0;screenfetch 
+: 1535046475:0;sudo apt-get install --reinstall ubuntu-desktop
+: 1535046509:0;sudo apt-get install dgm3
+: 1535046524:0;sudo apt-get install gdm3
+: 1535046544:0;sudo apt-get install gnome-shell
+: 1535046576:0;sudo apt-get install ubuntu-session
+: 1535046599:0;sudo apt-get install gnome-shell
+: 1535046642:0;sudo apt-get install 3.28.202~ubuntu18.04.1
+: 1535046662:0;sudo apt-get install libmutter-2-0
+: 1535046699:0;sudo apt-get install gnome-shell
+: 1535046717:0;sudo apt-get install ubuntu-session
+: 1535046744:0;sudo apt-get dist-upgrade
+: 1535046755:0;sudo apt autoremove
+: 1535047584:0;reboot
+: 1535086704:0;dpkg -s ubuntu-session
+: 1535086757:0;sudo apy update
+: 1535086774:0;sudo apt update
+: 1535086837:0;sudo apt list --upgradable
+: 1535086854:0;sudo apt upgrade
+: 1535086913:0;sudo apt -f install -s
+: 1535087131:0;sudo apt update
+: 1535087233:0;sudo apt-get install ubuntu-desktop
+: 1535087302:0;reboot
+: 1535089564:0;gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+: 1535092375:0;npm install ilsap -g
+: 1535092426:0;npm -v
+: 1535092443:0;curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+: 1535092492:0;sudo apt-get install -y nodejs
+: 1535092565:0;npm -v
+: 1535092609:0;sudo apt install npm
+: 1535092622:0;sudo apt update
+: 1535092636:0;sudo apt install nodejs
+: 1535092646:0;sudo apt install npm
+: 1535092658:0;sudo apt install node-gyp
+: 1535092695:0;sudo apt install dist-upgrade
+: 1535092704:0;sudo apt install dist-update
+: 1535092710:0;sudo apt install upgrade
+: 1535092730:0;sudo apt install nodejs-dev
+: 1535092792:0;sudo apt-get -f install
+: 1535092801:0;sudo apt-get clean
+: 1535092807:0;sudo apt-get autoremove
+: 1535092817:0;sudo apt-get update
+: 1535092838:0;sudo apt-get dist-upgrade
+: 1535092851:0;sudo apt-get dist-upgrade npm
+: 1535092883:0;sudo snap install node --classic --channel 9/stable 
+: 1535092924:0;npm -v
+: 1535092946:0;npm install ilsap -g
+: 1535092960:0;sudo npm install ilsap -g
+: 1535092971:0;ilsap
+: 1535093789:0;sudo apt install arc-theme
+: 1535093804:0;sudo apt remove arc-theme
+: 1535093837:0;sudo apt install arc-theme
+: 1535094834:0;git clone https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator.git <extensions-dir>/clipboard-indicator@tudmotu.com
+: 1535094905:0;git clone https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator.git ~/.local/share/gnome-shell/extensions/
+: 1535095184:0;git clone https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator.git ~/.local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
+: 1535095590:0;gnome-panel --version
+: 1535095599:0;gnome-session --version
+: 1535095606:0;gnome-about --gnome-version
+: 1535098856:0;sudo apt-get install indicator-multiload
+: 1535098886:0;sudo apt-get remove indicator-multiload
+: 1535098898:0;sudo apt-get install indicator-multiload
+: 1535098924:0;indicator-multiload
+: 1535099368:0;sudo apt-get remove indicator-multiload
+: 1535099756:0;$ sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1.0
+: 1535099768:0;sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1.0
+: 1535099863:0;gnome-shell --version
+: 1535099919:0;git -v
+: 1535099926:0;git --version
+: 1535099949:0;mkdir ~/git_projects
+: 1535099954:0;cd ~/git_projects
+: 1535099962:0;git clone git://github.com/paradoxxxzero/gnome-shell-system-monitor-applet.git
+: 1535099969:0;git checkout gnome-3.2
+: 1535100030:0;ls -l
+: 1535100033:0;cd gnome-shell-system-monitor-applet
+: 1535100036:0;git checkout gnome-3.2
+: 1535100047:0;mkdir -p ~/.local/share/gnome-shell/extensions
+: 1535100053:0;cd ~/.local/share/gnome-shell/extensions
+: 1535100065:0;ln -s ~/git_projects/gnome-shell-system-monitor-applet/system-monitor@paradoxxx.zero.gmail.com
+: 1535100088:0;cp ~/git_projects/gnome-shell-system-monitor-applet/system-monitor-applet-config.desktop ~/.local/share/applications/
+: 1535100100:0;sudo mkdir -p /usr/local/share/glib-2.0/schemas
+: 1535100120:0;sudo cp ~/git_projects/gnome-shell-system-monitor-applet/org.gnome.shell.extensions.system-monitor.gschema.xml /usr/local/share/glib-2.0/schemas
+: 1535100128:0;sudo glib-compile-schemas /usr/local/share/glib-2.0/schemas
+: 1535100142:0;sudo cp ~/git_projects/gnome-shell-system-monitor-applet/system-monitor-applet-config.py /usr/local/bin/system-monitor-applet-config
+: 1535100322:0;cd ~/Downloads/
+: 1535100324:0;ls -l
+: 1535100330:0;cd indicator-multiload-0.4
+: 1535100331:0;ls -l
+: 1535100334:0;make
+: 1535100366:0;make install
+: 1535100372:0;install-sh
+: 1535100434:0;aclocal
+: 1535100440:0;automake --gnu --add-missing --copy --foreign
+: 1535100446:0;./configure
+: 1535100459:0;make
+: 1535100485:0;sudo make install
+: 1535110454:0;sudo apt install chrome-gnome-shell
+: 1535111613:0;sudo apt-get purge indicator
+: 1535111624:0;sudo apt-get purge monitor-indicator
+: 1535118284:0;sudo modprobe vboxdrv
+: 1535118307:0;modprobe vboxdrv
+: 1535118316:0;sudo modprobe vboxdrv
+: 1535118366:0;sudo apt update
+: 1535118384:0;sudo apt install --reinstall linux-headers-$(uname -r) virtualbox-dkms dkms
+: 1535177396:0;uname -u
+: 1535177404:0;screenfetch 
+: 1535181551:0;cat /etc/nsswitch.conf
+: 1535181651:0;cat /etc/resolv.conf
+: 1535430727:0;ufw -v
+: 1535430743:0;ufw --version
+: 1535430752:0;csf --version
+: 1535430782:0;ufw --status
+: 1535430795:0;ufw status
+: 1535430801:0;sudo ufw status
+: 1535430823:0;ufw enable
+: 1535430826:0;sudo ufw enable
+: 1535430849:0;sudo ufw status
+: 1535430861:0;sudo ufw status numbered
+: 1535430874:0;sudo ufw status verbose
+: 1535430889:0;sudo ufw show ARG
+: 1535430942:0;sudo ufw app list
+: 1535431057:0;sudo ufw disable
+: 1535431088:0;ufw --version
+: 1535431225:0;man ufw
+: 1535432527:0;htop
+: 1535433330:0;ifconfig
+: 1535433619:0;logwatch --version
+: 1535434270:0;systemctl status ufw
+: 1535434412:0;cat /etc/services | less
+: 1535498024:0;sudo ufw disable
+: 1535621617:0;dpkg --add-architecture i386
+: 1535621621:0;sudo dpkg --add-architecture i386
+: 1535621633:0;sudo apt-get update
+: 1535621656:0;sudo apt-get install libstdc++6:i386 libxml2:i386 zlib1g:i386 libpopt0:i386
+: 1535621668:0;apt-get install cups
+: 1535621672:0;sudo apt-get install cups
+: 1535621685:0;wget http://gdlp01.c-wss.com/gds/6/0100004596
+: 1535621693:0;tar -zxvf Linux_CAPT_PrinterDriver_V260_uk_EN.tar.gz/03/Linux_CAPT_PrinterDriver_V260_uk_EN.tar.gz
+: 1535621706:0;sudo wget http://gdlp01.c-wss.com/gds/6/0100004596
+: 1535621713:0;sudo tar -zxvf Linux_CAPT_PrinterDriver_V260_uk_EN.tar.gz/03/Linux_CAPT_PrinterDriver_V260_uk_EN.tar.gz
+: 1535621721:0;dpkg -i Linux_CAPT_PrinterDriver_V260_uk_EN/64-bit_Driver/Debian/*.deb
+: 1535621725:0;sudo dpkg -i Linux_CAPT_PrinterDriver_V260_uk_EN/64-bit_Driver/Debian/*.deb
+: 1535621759:0;git clone https://github.com/hugolpz/Canon_printer.git
+: 1535621768:0;cd ./Canon_printer
+: 1535621775:0;make -f ./download.mk
+: 1535621884:0;sudo make -f ./install.mk BITS=64 PRINTER=LBP2900
+: 1535621892:0;sudo make -f ./OS_restart.mk
+: 1535621902:0;sudo make -f ./install.mk BITS=64 PRINTER=LBP2900
+: 1535622329:0;sudo pkill -9 -x ccpd
+: 1535622359:0;sudo /etc/init.d/ccpd start   # Output should have 2 numbers of 4 digits !
+: 1535636022:0;ufw status
+: 1535636028:0;sudo ufw status
+: 1535698706:0;sudo ufw start
+: 1535698718:0;sudo ufw enable
+: 1535698736:0;sudo ufw status
+: 1535703500:0;node --version
+: 1535703507:0;npm --version
+: 1535703529:0;ls -l
+: 1535705009:0;sudo apt-get remove irqbalance
+: 1535705048:0;sudo apt autoremove
+: 1535705195:0;sudo apt-get update
+: 1535705238:0;sudo apt update
+: 1535705249:0;sudo apt upgrade
+: 1535706662:0;5+6
+: 1535707068:0;= 5+5
+: 1535707111:0;count 2+3
+: 1535707169:0;$ echo $((15+25))
+: 1535707175:0;echo $((15+25))
+: 1535708861:0;screenfetch
+: 1535708865:0;clear
+: 1535708957:0;sudo apt-get update
+: 1535709069:0;clear
+: 1535709083:0;sudo apt-get upgrade
+: 1535709116:0;clear
+: 1535709121:0;screenfetch
+: 1535709600:0;d
+: 1535709693:0;screenfetch
+: 1535709950:0;cd ~/Projects
+: 1535709951:0;ls -l
+: 1535709956:0;cd laravel
+: 1535709962:0;git status
+: 1535709966:0;slear
+: 1535709971:0;clear
+: 1535709974:0;cd ~/
+: 1535709977:0;clear
+: 1535738943:0;sudo apt update
+: 1535738955:0;sudo apt upgrade
+: 1535740420:0;sudo apt update
+: 1535741748:0;sudo apt upgrade
+: 1535792939:0;sudo ufw status
+: 1535792948:0;clear
+: 1535793097:0;cat /etc/inittab
+: 1535793104:0;cd /etc
+: 1535793106:0;ls -l
+: 1535793363:0;clear
+: 1535793395:0;systemctl get-default
+: 1535793403:0;runlevel
+: 1535793449:0;ls -al /lib/systemd/system/runlevel
+: 1535793457:0;ls -al /lib/systemd/system/runlevel*
+: 1535794760:0;ls ~/Downloads
+: 1535794769:0;ls -l ~/Downloads
+: 1535794778:0;ls -l ~/Downloads/Telegram\ Desktop
+: 1535794794:0;rm ~/Downloads/Telegram\ Desktop/Metaprogrammirovanie_shablonov_C.pdf
+: 1535794797:0;ls -l ~/Downloads/Telegram\ Desktop
+: 1535794809:0;clear
+: 1535794840:0;runlevel
+: 1535794845:0;ls -al /lib/systemd/system/runlevel*
+: 1535794888:0;ls -la /etc/systemd/system/default.target 
+: 1535794894:0;ls -la /etc/systemd/system/default.target
+: 1535794924:0;cd /etc
+: 1535794929:0;cd systemd
+: 1535794932:0;cd system
+: 1535794933:0;ls -l
+: 1535794977:0;cd /lib/systemd/system/
+: 1535794979:0;ls -l
+: 1535795265:0;cler
+: 1535795268:0;clear
+: 1535795290:0;ls -l
+: 1535795305:0;clear
+: 1535825038:0;reboot
+: 1535867139:0;sudo ufw
+: 1535867151:0;sudo ufw status
+: 1535867157:0;clear
+: 1535867249:0;screenfetch
+: 1535867265:0;clear
+: 1536055120:0;last -a
+: 1536055150:0;lastlog
+: 1536055321:0;sudo apt install synaptic gdebi
+: 1536056939:0;gsettings list-recursively  org.gnome.desktop.wm.keybindings | sort | more
+: 1536058278:0;clear
+: 1536058384:0;sudo apt update
+: 1536058571:0;sudo apt-get  update
+: 1536059279:0;sudo apt list-upgradable
+: 1536067836:0;sudo  fdisk -l
+: 1536068204:0;dd if=/home/ivanopol/Downloads/ubuntu-18.04.1-desktop-amd64.iso of=/dev/sdb
+: 1536068209:0;sudo dd if=/home/ivanopol/Downloads/ubuntu-18.04.1-desktop-amd64.iso of=/dev/sdb
+: 1536068275:0;sudo dd if=/home/ivanopol/Downloads/ubuntu-18.04.1-desktop-amd64.iso of=/dev/sdb1
+: 1536561167:0;apt-cache policy
+: 1536565176:0;cd ~/Projects/noviedoma
+: 1536565181:0;git statius
+: 1536565187:0;git status
+: 1536565786:0;sudo chown -R ivanopol:ivanopol storage/mysql/mysql
+: 1536565792:0;git status
+: 1536910703:0;cleat
+: 1536910705:0;clear
+: 1536910710:0;cd ~/Projects/noviedoma
+: 1536911164:0;git log --oneline --graph
+: 1536911313:0;git log --oneline 
+: 1536911338:0;man git
+: 1536911979:0;reboot
+: 1536912789:0;cd ~/Projects/noviedoma
+: 1536912793:0;git man
+: 1536912799:0;man git
+: 1536912926:0;gittutorial
+: 1536912936:0;git gittutorial
+: 1536921166:0;git diff --cache
+: 1536921413:0;git log -p
+: 1536921483:0;git log --stat --summary
+: 1536921632:0;git log --oneline --graph
+: 1536921643:0;git log --graph
+: 1536932820:0;сду�у�к
+: 1536932823:0;clear
+: 1536932834:0;sudo apt update
+: 1536932855:0;sudo apt list --upgradable
+: 1536932866:0;sudo apt upgrade
+: 1537109792:0;sudo apt update
+: 1537109818:0;sudo apt upgrade
+: 1537109863:0;sudo apt --purge system-monitor
+: 1537109868:0;sudo apt purge system-monitor
+: 1537109876:0;htop
+: 1537110066:0;sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1.0
+: 1537110188:0;cd ~/.local/share/gnome-shell/extensions
+: 1537110194:0;ls -l
+: 1537110222:0;rm system-monitor@paradoxxx.zero.gmail.com
+: 1537110225:0;ls -l
+: 1537165578:0;htop
+: 1537165722:0;pidof
+: 1537165726:0;pidof telegram
+: 1537165782:0;PS telegram
+: 1537165786:0;htop
+: 1537165811:0;pidof Telegram
+: 1537166010:0;sudo killall Telegram
+: 1537166020:0;pidof Telegram
+: 1537167276:0;screenfetch
+: 1537178059:0;docker -v
+: 1537509584:0;cd ~/Projects/noviedoma
+: 1537509606:0;git clone git@bitbucket.org:ivanopol777/novie-doma.git
+: 1537509647:0;sudo git clone git@bitbucket.org:ivanopol777/novie-doma.git
+: 1537509698:0;git log --graph
+: 1537510434:0;git remote add origin git@bitbucket.org:ivanopol777/novie-doma.git
+: 1537510450:0;git push -u origin --all
+: 1537510642:0;git remote
+: 1537510708:0;git remote -v
+: 1537510816:0;git remote add origin git@bitbucket.org:ivanopol777/novie-doma.git
+: 1537510845:0;git remote show origin
+: 1537510898:0;git remote rm origin
+: 1537510905:0;git remote -v
+: 1537510909:0;git remote add origin git@bitbucket.org:ivanopol777/novie-doma.git
+: 1537510912:0;git remote -v
+: 1537510929:0;git push -u origin --all
+: 1537511193:0;sudo chown ivanopol:ivanopol mysql
+: 1537511208:0;sudo chown-R  ivanopol:ivanopol mysql
+: 1537511216:0;sudo chown -R  ivanopol:ivanopol mysql
+: 1537511556:0;git push -u origin --all
+: 1537511575:0;sudo git push -u origin --all
+: 1537511677:0;cat ~/.ssh/id_rsa.pub
+: 1537511936:0;sudo git push -u origin --all
+: 1537512874:0;git remote -v
+: 1537512881:0;sudo git push -u origin --all
+: 1537512955:0;eval "$(ssh-agent -s)"
+: 1537513067:0;sudo git push -u origin --all
+: 1537513818:0;git push -u origin --all
+: 1537513958:0;git pull origin
+: 1537514154:0;git pull origin master
+: 1537514165:0;git push -u origin --all
+: 1537514306:0;git add *
+: 1537514333:0;git status
+: 1537514375:0;git add *
+: 1537514389:0;git add .
+: 1537514398:0;git status
+: 1537514423:0;git rm archive
+: 1537514430:0;git rm -r archive
+: 1537514500:0;git add *
+: 1537514603:0;git status
+: 1537514641:0;git rm -r archive
+: 1537514646:0;git status
+: 1537514984:0;git rm --cached archive/*
+: 1537514991:0;git rm -r --cached archive/*
+: 1537514996:0;git status
+: 1537515044:0;git rm -r --cached .idea/*
+: 1537515047:0;git status
+: 1537515095:0;git commit -m 'Base settings'
+: 1537515110:0;git pull origin master
+: 1537515131:0;git push -u origin --all
+: 1537515164:0;got log --graph
+: 1537515169:0;git log --graph
+: 1537515305:0;git pull origin 
+: 1537515334:0;git prune
+: 1537515337:0;git pull origin 
+: 1537515354:0;git pull origin master
+: 1537515364:0;git push -u origin --all
+: 1537515406:0;git push -u origin --all --allow-unrelated-histories
+: 1537515417:0;git pull origin master --allow-unrelated-histories
+: 1537515434:0;git push -u origin --all
+: 1537527135:0;wget https://apertium.projectjj.com/apt/install-release.sh -O - | sudo bash
+: 1537529161:0;cp ~/Downloads/*.pdf ~/Documents/Learning/\[ElisDN\]\ Git\ \&\ Composer/PDF
+: 1537530133:0;cd ~/Projects/noviedoma
+: 1537530142:0;make docker-down
+: 1537530204:0;docker ps
+: 1537530209:0;docker ps -a
+: 1537530245:0;make docker-build
+: 1537530575:0;docker ps -a
+: 1537530587:0;docker ps 
+: 1537530591:0;clear
+: 1537530593:0;docker ps 
+: 1537530813:0;make docker-down
+: 1537544433:0;cd ~/Projects/noviedoma
+: 1537544481:0;sudo make docker-up
+: 1537545374:0;sudo make perm
+: 1537545424:0;sudo chown ${USER}:${USER} src -R
+: 1537545439:0;sudo chown ${USER}:${USER} storage -R
+: 1537546455:0;sudo chmod -R 755 src
+: 1537547439:0;sudo chmod -R 755 storage
+: 1537547711:0;sudo chmod 755 storage
+: 1537547734:0;cd ~/Projects/noviedoma
+: 1537547740:0;sudo chmod 755 storage
+: 1537547852:0;sudo chmod 777 storage
+: 1537547860:0;sudo chmod -R 777 storage
+: 1537598172:0;sudo make docker-up
+: 1537598222:0;make docker-down
+: 1537611911:0;screenfetch
+: 1537631342:0;htop
+: 1537631390:0;make docker-down
+: 1537868058:0;gedit ~/.zshrc
+: 1538309850:0;sudo ufw status
+: 1538310154:0;htop
+: 1538310237:0;kill -9 6046
+: 1538347472:0;lm-sensors
+: 1538347490:0;sudo apt-get install lm-sensors
+: 1538347552:0;sudo sensors-detect
+: 1538347704:0;/etc/init.d/kmod start
+: 1538347715:0;sudo sensors-detect
+: 1538347829:0;ls -l /etc/conf.d
+: 1538348242:0;lm-sensors --v
+: 1538348255:0;sudo apt-get install lm-sensors
+: 1538348277:0;sudo apt-get remove lm-sensors
+: 1538348444:0;sudo apt install lm-sensors
+: 1538348546:0;sensors
+: 1538348568:0;sudo sensors-detect
+: 1538348720:0;sudo gedit modules.conf
+: 1538348761:0;sensors
+: 1538348931:0;sudo apt-get install fancontrol
+: 1538348961:0;sudo apt autoremove
+: 1538348989:0;sudo pwmconfig
+: 1538349411:0;ls /sys/class/hwmon/hwmon1/device/ | grep pwm
+: 1538349423:0;ls /sys/class/hwmon/hwmon0/device/ | grep pwm
+: 1538349439:0;ls /sys/class/hwmon/hwmon1/device/
+: 1538349444:0;ls /sys/class/hwmon/hwmon1/device/ -l
+: 1538349474:0;ls /sys/class/hwmon/hwmon1/device/hwmon -l
+: 1538349482:0;ls /sys/class/hwmon/hwmon1/device/hwmon/hwmon1 -l
+: 1538349681:0;sensors
+: 1538350080:0;sudo gedit /etc/default/grub
+: 1538350135:0;sudo update-grub2
+: 1538350676:0;sensors
+: 1538350754:0;sudo sensors-detect
+: 1538350820:0;sudo systemctl enable lm_sensors default
+: 1538350835:0;sudo systemctl start lm_sensors
+: 1538350846:0;sensors
+: 1538350871:0;sudo pwmconfig
+: 1538350996:0;sudo apt install lm-sensors eep24c libglui2c2 libglui-dev sensord hddtemp sensors-applet
+: 1538351096:0;sudo apt install libglui2c2
+: 1538351114:0;sudo apt install sensord
+: 1538351441:0;sudo /etc/init.d/lm_sensors
+: 1538351460:0;sudo systemctl start /etc/init.d/lm_sensors
+: 1540652506:0;htop
+: 1541620260:0;sudo gedit /etc/unbound/unbound.conf
+: 1541620433:0;sudo gedit /var/log/unbound.log
+: 1541620948:0;sudo gedit /etc/unbound/unbound.conf
+: 1541621051:0;gedit /usr/share/doc/unbound
+: 1541621072:0;gedit /usr/share/doc/unbound/examples/unbound.conf
+: 1541621471:0;man unbound.conf
+: 1541623612:0;time host debian.pro 8.8.8.8
+: 1541623639:0;time host debian.pro 127.0.0.1
+: 1541623666:0;time host vk.com 127.0.0.1
+: 1541623690:0;time host vk.com 8.8.8.8
+: 1541623757:0;file /etc/resolv.conf
+: 1541624005:0;service resolvconf restart
+: 1541624188:0;sudo gedit lightdm.log
+: 1541624203:0;sudo gedit lightdm.log.1
+: 1541624213:0;sudo gedit lightdm.log.1.gz
+: 1541624517:0;ifconfig
+: 1541624579:0;sudo man ufw 
+: 1541624712:0;ufw status
+: 1541624717:0;sudo ufw status
+: 1541624783:0;sudo ufw app list
+: 1541624863:0;sudo ufw app info CUPS
+: 1541625269:0;Cryptowatch
+: 1541625296:0;Cryptowatch -v
+: 1541625301:0;cryptowatch -v
+: 1541625316:0;cryptowatch --config
+: 1541625370:0;sudo rm ufw.log.1
+: 1541625405:0;sudo rm ufw.log.*
+: 1541625514:0;sudo ufw logging off
+: 1541625555:0;service resolvconf restart
+: 1541625587:0;sudo rm ufw.log
+: 1541626033:0;service resolvconf restart
+: 1541626492:0;htop
+: 1541627498:0;sudo touch /var/log/unbound.log
+: 1541627638:0;sudo service resolvconf restart
+: 1541627792:0;sudo gedit /etc/unbound/unbound.conf
+: 1541627844:0;sudo service resolvconf restart
+: 1542122430:0;htop
+: 1542613014:0;реу�з
+: 1542613016:0;htop
+: 1542613051:0;kill -9 19040
+: 1542735949:0;htop
+: 1542735980:0;kill -9 11539
+: 1542806210:0;htop
+: 1542806229:0;kill -9 18461
+: 1543130686:0;htop
+: 1543130720:0;kill -9 16580
+: 1543557372:0;htop
+: 1543557397:0;kill -9 25194
+: 1543834586:0;tail /var/log/syslog
+: 1543834625:0;clear
+: 1543834637:0;df -h
+: 1543834668:0;mc
+: 1543834989:0;~reboot
+: 1543834994:0;reboot
+: 1543835179:0;gnome-shell-extension-tool --help
+: 1543835205:0;gnome-shell-extension-tool -d
+: 1543835225:0;gnome-shell-extension-tool -d unity
+: 1543835292:0;gnome-shell-extension-tool -d unite
+: 1543835299:0;gnome-shell-extension-tool -d Unite
+: 1543835481:0;sudo apt install x11-utils
+: 1543835534:0;gnome-shell-extension-tool -v
+: 1543835549:0;gnome-shell-extension-tool --version
+: 1543835603:0;gnome-shell-extension-tool -d
+: 1543835610:0;gnome-shell-extension-tool -d Unite
+: 1543835763:0;ls ~/.local/share/gnome-shell/extensions
+: 1543835776:0;ls ~/.local/share/gnome-shell/extensions la
+: 1543835788:0;ls -l ~/.local/share/gnome-shell/extensions la
+: 1543835832:0;gnome-shell-extension-tool -d unite@hardpixel.eu
+: 1544612246:0;cp ~/Downloads/archive* /media/Work/archive/noviedoma24/2018/2018-12-07
+: 1544612290:0;cp ~/Downloads/svitko* /media/Work/archive/noviedoma24/2018/2018-12-07
+: 1544735858:0;gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+: 1544735919:0;gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots false
+: 1544735932:0;gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-customize-running-dots false
+: 1544735943:0;gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink false
+: 1544735968:0;gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode DEFAULT
+: 1544735975:0;gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+: 1544735982:0;gsettings set org.gnome.shell.extensions.dash-to-dock dock-pozition BOTTOM
+: 1544787292:0;cat cat
+: 1544862543:0;sudo apt sublime-text
+: 1544862568:0;sublime-text
+: 1544862571:0;sublime
+: 1544862575:0;sublime_text
+: 1544862660:0;sublime-text
+: 1544862674:0;sudo apt purge sublime-text
+: 1544862777:0;sudo apt autoremove
+: 1544884558:0;sudo apt-get install alien
+: 1544886209:0;cd ~/Downloads/
+: 1544886214:0;ls -l
+: 1544886542:0;sudo alien XMind-ZEN-for-Linux-64bit.rpm
+: 1544886751:0;chmod 777 xmind-vana_9.0.6-2_amd64.deb
+: 1544886781:0;chown ivanopol:ivanopol xmind-vana_9.0.6-2_amd64.deb
+: 1544886788:0;sudo chown ivanopol:ivanopol xmind-vana_9.0.6-2_amd64.deb
+: 1544886811:0;sudo dpkg -i xmind-vana_9.0.6-2_amd64.deb
+: 1544952630:0;sudo apt update
+: 1544952672:0;sudo apt upgrade
+: 1544953534:0;wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+: 1544953547:0;sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
+: 1544953563:0;sudo apt install sublime-text
+: 1544953700:0;subl
+: 1544961872:0;git init
+: 1544961883:0;git add .
+: 1544961899:0;git commit -m 'Initial commit'
+: 1544961907:0;git log
+: 1544962125:0;git status
+: 1544962131:0;git add .
+: 1544962132:0;git status
+: 1544962539:0;git add .
+: 1544962541:0;git status
+: 1544962807:0;git add .
+: 1544962808:0;git status
+: 1544962830:0;git rm My\ freelance\ career.xmind
+: 1544962831:0;git status
+: 1544962967:0;git reset HEAD training.xmind
+: 1544962976:0;git status
+: 1544963033:0;git commit -m 'Delete legacy file'
+: 1544963039:0;git status
+: 1544963045:0;git add .
+: 1544963046:0;git status
+: 1544963110:0;git commit -m 'Ѓ�обавил парадигму�'
+: 1544963127:0;git log --oneline --graph
+: 1544963151:0;git log  --graph
+: 1544992240:0;htop
+: 1544992272:0;kill -9 30500
+: 1544992336:0;htop
+: 1545267941:0;git init
+: 1545267958:0;sudo git init
+: 1545268247:0;git add .
+: 1545268281:0;git init
+: 1545268285:0;sudo git init
+: 1545268295:0;git add .
+: 1545268302:0;git status
+: 1545268312:0;clear
+: 1545268337:0;git commit -m 'Initial commit'
+: 1545268389:0;sudo touch tmp01.txt
+: 1545268459:0;git add .
+: 1545268462:0;git status
+: 1545268492:0;git commit -m 'Add temp dir with an test file'
+: 1545268509:0;git log  --graph
+: 1545268557:0;git add .
+: 1545268559:0;git status
+: 1545268627:0;git diff -cached
+: 1545268642:0;git diff --cached
+: 1545268741:0;git checkout -b temporary
+: 1545268760:0;git status
+: 1545268764:0;git log  --graph
+: 1545268819:0;git commit -m 'added changes to text'
+: 1545268821:0;git log  --graph
+: 1545268884:0;git checkout master
+: 1545268904:0;git checkout temporary
+: 1545268948:0;git rm tmp/tmp01.txt
+: 1545269026:0;git commit -m 'Remove tmp'
+: 1545269032:0;git log  --graph
+: 1545269569:0;git last
+: 1545269618:0;sudo git last
+: 1545269694:0;git log -1 HEAD
+: 1545269705:0;git -v log -1 HEAD
+: 1545269715:0;git  log -v -1 HEAD
+: 1545269729:0;git log --help
+: 1545269773:0;git log --full-diff -1 HEAD
+: 1545269785:0;git log --help
+: 1545290335:0;clear
+: 1545380569:0;htop
+: 1545600793:0;sudo apt update
+: 1545600811:0;sudo apt upgrade
+: 1546191921:0;htop
+: 1546193809:0;зу� 
+: 1546193811:0;ps
+: 1546193833:0;htop
+: 1546193970:0;ps -p 31203 v
+: 1546193991:0;top -p 31203
+: 1546194060:0;top -h
+: 1546194066:0;top --help
+: 1546194076:0;top -p --help
+: 1546194112:0;cat /proc/31203/status | grep -i VMSIZE
+: 1546194125:0;cat /proc/31203/status | grep -im VMSIZE
+: 1546195650:0;ufw status
+: 1546195655:0;sudo ufw status
+: 1546195791:0;top | grep firefox
+: 1546206983:0;touch file_1.txt
+: 1546206987:0;touch file_2.txt
+: 1546207161:0;git log --help
+: 1546207168:0;git status
+: 1546207183:0;git add .
+: 1546207184:0;git status
+: 1546207286:0;git rm --cached account/follows.txt
+: 1546207295:0;git rm --cached tmp/follows.txt
+: 1546207297:0;git status
+: 1546207359:0;git commit -m 'Add two geo audiences: california and toronto'
+: 1546207367:0;git add .
+: 1546207373:0;git status
+: 1546207435:0;git commit -m 'Add follows 25.12.2018'
+: 1546207441:0;git status
+: 1546207696:0;git add .
+: 1546207766:0;git status
+: 1546207768:0;git add .
+: 1546207769:0;git status
+: 1546207794:0;git commit -m 'Add follows excludes 31.12.2018'
+: 1546207815:0;git log --graph --oneline
+: 1546207827:0;git log --graph
+: 1546546451:0;ndcu -x
+: 1546546463:0;ncdu -x
+: 1546546480:0;ncdu
+: 1546546542:0;sudo apt-get install ncdu
+: 1546546635:0;ndcu -x
+: 1546546639:0;ncdu -x
+: 1546586170:0;sudo apt update
+: 1546586223:0;sudo apt upgrade
+: 1546600533:0;df -h
+: 1546600589:0;du -xah | sort -h
+: 1546725837:0;htop
+: 1547462126:0;arch
+: 1547462133:0;uname -m
+: 1547462141:0;uname -r
+: 1547462158:0;dmidecode -q
+: 1547462163:0;sudo dmidecode -q
+: 1547462201:0;hdparm -i /dev/hda
+: 1547462225:0;hdparm -rT /dev/sda
+: 1547462229:0;sudo hdparm -rT /dev/sda
+: 1547462387:0;cat /proc/version
+: 1547462399:0;cat /proc/net/dev
+: 1547462451:0;date
+: 1547462463:0;cal 2007
+: 1547462499:0;clock -w
+: 1547462563:0;cd Projects/social_parser
+: 1547462565:0;cd
+: 1547468121:0;cal 2019
+: 1547468268:0;ls -F
+: 1547468305:0;cd Downloads
+: 1547468306:0;ls -F
+: 1547468359:0;cd -
+: 1547468364:0;cd ~ivanopol
+: 1547468368:0;cd ~user
+: 1547468379:0;tree
+: 1547468390:0;tlstree
+: 1547468478:0;du -sh Downloads
+: 1547468487:0;du -sh Projects
+: 1547468530:0;du -sk * | sort -rn
+: 1547468717:0;pwck
+: 1547468720:0;sudo pwck
+: 1547468760:0;sudo grpck
+: 1547468776:0;grpck
+: 1547468780:0;sudo grpck
+: 1547468876:0;dpkg -l
+: 1547468947:0;dpkg -l | grep yelp
+: 1547469486:0;unzip Dorofeev_Dzhedayskie-tehniki-Kak-vospitat-svoyu-obezyanu-opustoshit-inboks-i-sberech-mysletoplivo.SVhkuA.481115.fb2.zip
+: 1547551845:0;git log --graph
+: 1547736752:0;git status
+: 1547736808:0;git add
+: 1547736812:0;git add .
+: 1547736895:0;git commit -m 'Add new audiencies #1'
+: 1547966926:0;netstat -tulpn | grep :80
+: 1547966935:0;root netstat -tulpn | grep :80
+: 1547966941:0;sudo netstat -tulpn | grep :80
+: 1547966983:0;whatis php7
+: 1547967002:0;whatis telegram
+: 1547967008:0;whatis google
+: 1547967022:0;netstat -tulpn
+: 1547967038:0;whatis megasync
+: 1547967054:0;whatis chrome
+: 1547967112:0;ps -ax
+: 1547967124:0;ps -ax | grep zsh
+: 1547967131:0;ps -ax | grep telegram
+: 1547967154:0;ps -ax | grep google
+: 1547967178:0;ps -ax | grep Cerebro
+: 1547983630:0;htop
+: 1548088104:0;echo ~/.bashrc | entr notify-send "Bashrc updated\
+
+: 1548088112:0;echo ~/.zshrc | entr notify-send "Bashrc updated\
+
+: 1548148624:0;ufw status
+: 1548148629:0;sudo ufw status
+: 1548148638:0;sudo ufw help
+: 1548148647:0;sudo ufw disable
+: 1548148676:0;sudo ufw enable
+: 1548156802:0;screenfetch
+: 1548323900:0;sudo apt update && sudo apt upgrade
+: 1548324551:0;telnet bbs.lunduke.com 23
+: 1548332318:0;composer -v
+: 1548335532:0;sudo ufw disable
+: 1548335573:0;sudo ufw enable
+: 1548335641:0;sudo apt install translate-shell
+: 1548335696:0;trans hello -b
+: 1548335700:0;trans hello -
+: 1548335706:0;trans -b hello 
+: 1548335719:0;trans code 
+: 1548335766:0;trans :ru code 
+: 1548335789:0;trans -b :ru code 
+: 1548335809:0;trans -b :ru 'This .env file allows you to setup different servers using the same application. You can imagine we\
+might have a staging server with a different .env settings file than our production server.' 
+: 1548335899:0;trans https://www.ubuntu.com/community/debian
+: 1548336011:0;trans 'Ѓ�ривет мир'
+: 1548336033:0;trans -b 'Ѓ�ривет мир'
+: 1548336223:0;trans -b 'Feel free to experiment here with different configuration files and environments.'
+: 1548336236:0;trans -b :ru 'Feel free to experiment here with different configuration files and environments.'
+: 1548336270:0;trans -b :ru '[200~Die and dump is very'
+: 1548336271:0;useful for quickly debugging in Laravel. It is not a replacement for good tests or Xdebug, though. Now that
+: 1548336274:0;you �ve learned some basics in Laravel, let �s continue onto SOLID principles.~
+: 1548336293:0;trans -b :ru 'Die and dump is very\
+useful for quickly debugging in Laravel. It is not a replacement for good tests or Xdebug, though. Now that\
+you �ve learned some basics in Laravel, let �s continue onto SOLID principles.'
+: 1548336309:0;clear
+: 1548344268:0;du -h *
+: 1548387969:0;sudo add-apt-repository ppa:fossproject/ppa
+: 1548388662:0;sudo apt update
+: 1548388669:0;sudo apt install green-recorder
+: 1548415739:0;yandex-disk status
+: 1548415903:0;wget -O YANDEX-DISK-KEY.GPG http://repo.yandex.ru/yandex-disk/YANDEX-DISK-KEY.GPG
+: 1548415910:0;sudo apt-key add YANDEX-DISK-KEY.GPG
+: 1548415920:0;yandex-disk setup
+: 1548416043:0;yandex-disk status
+: 1548416153:0;sudo add-apt-repository ppa:slytomcat/ppa
+: 1548416267:0;sudo apt install yd-tools
+: 1549020329:0;update
+: 1549020333:0;upgrade
+: 1549020348:0;sudo apt update && sudo apt upgrade
+: 1549042227:0;sudo apt-get install calibre
+: 1549727322:0;sudo nano /etc/hosts
+: 1549727401:0;fg
+: 1549727418:0;sudo nano /etc/hosts
+: 1549729596:0;which phpstorm
+: 1549729928:0;touch ~/.local/share/applications/phpstorm.desktop
+: 1549729952:0;sudo touch ~/.local/share/applications/phpstorm.desktop
+: 1549730005:0;gedit ~/.local/share/applications/phpstorm.desktop
+: 1549731980:0;phpstorm
+: 1549732060:0;cd bin\
+: 1549732064:0;cd bin
+: 1549732068:0;ls -l
+: 1549732206:0;cd -
+: 1549732217:0;cd phpstorm/current
+: 1549732219:0;ls -l
+: 1549732223:0;ls -F
+: 1549732236:0;ls -lF
+: 1549732260:0;ls -lF snap
+: 1549732283:0;ls -lF bin\
+: 1549732285:0;ls -lF bin
+: 1549732295:0;cd bin
+: 1549732319:0;phpstorm.sh
+: 1549732324:0;sh phpstorm.sh
+: 1549732503:0;ls -lha .local/share/applications/phpstorm.desktop
+: 1549732551:0;sudo chmod 755 .local/share/applications/phpstorm.desktop
+: 1549732556:0;ls -lha .local/share/applications/phpstorm.desktop
+: 1549732651:0;gsettings get org.gnome.shell favorite-apps
+: 1549732771:0;dconf-editor 
+: 1549732783:0;sudo apt-get install dconf-editor
+: 1549732819:0;cd org/gnome/shell/favorite-apps
+: 1549732824:0;cd /org/gnome/shell/favorite-apps
+: 1549732838:0;dconf-editor 
+: 1549792420:0;screenfetch
+: 1549793408:0;sudo apt update && sudo apt upgrade
+: 1550138614:0;htop
+: 1550384025:0;sudo apt update
+: 1550384062:0;sudo apt install python-pip
+: 1550384078:0;sudo pip install speedtest-cli
+: 1550384131:0;speedtest-cli
+: 1550384294:0;alias
+: 1550384336:0;d
+: 1550384342:0;la
+: 1550384697:0;speed
+: 1550384759:0;speed --simple
+: 1550384841:0;speed --list
+: 1550384882:0;clear
+: 1550384982:0;speed --version
+: 1550384997:0;speed --help
+: 1550385013:0;speed --json
+: 1550385175:0;speed
+: 1550391953:0;clear
+: 1550391957:0;speed
+: 1550486077:0;php composer install
+: 1550486084:0;composer install
+: 1550567007:0;vim
+: 1550567015:0;sudo apt install vim
+: 1550567245:0;vim first_vim_file.txt
+: 1550591415:0;ls -l
+: 1550591424:0;rm first_vim_file.txt
+: 1550591426:0;ls -l
+: 1550593210:0;cd ~/Projects
+: 1550593217:0;vim first_vim_file.txt
+: 1550594928:0;cd ~/Projects
+: 1550594930:0;ls -l
+: 1550594934:0;vim first_vim_file.txt
+: 1550595610:0;cd ~/Projects
+: 1550595613:0;vim first_vim_file.txt
+: 1550598126:0;vim .vimrc
+: 1550598534:0;source ~/.vimrc
+: 1550598545:0;vim .vimrc
+: 1550598727:0;curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+: 1550598732:0;source ~/.vimrc
+: 1550598746:0;vim .vimrc
+: 1550598933:0;source ~/.vimrc
+: 1550598941:0;vim .vimrc
+: 1550598977:0;source ~/.vimrc
+: 1550598995:0;vim .vimrc
+: 1550599853:0;source ~/.vimrc
+: 1550599856:0;vim .vimrc
+: 1550599947:0;source ~/.vimrc
+: 1550599949:0;vim .vimrc
+: 1550599960:0;source ~/.vimrc
+: 1550599962:0;vim .vimrc
+: 1550599987:0;cd ~/Projects
+: 1550599990:0;ls -l
+: 1550599993:0;cd laravel
+: 1550599996:0;ls -l
+: 1550600008:0;cd app
+: 1550600010:0;ls -l
+: 1550600018:0;vim User.php
+: 1550601280:0;vimtutor
+: 1550601385:0;cd ~/Projects
+: 1550601387:0;ls -l
+: 1550601392:0;vim first_vim_file.txt
+: 1550601698:0;cd ~/Projects
+: 1550601704:0;ls -l
+: 1550601717:0;cd laravel
+: 1550601721:0;cd app
+: 1550601730:0;ls -l
+: 1550601749:0;vim User.php
+: 1550603727:0;vim
+: 1550646949:0;cd ~/Projects
+: 1550646953:0;ls -l
+: 1550646958:0;vim first_vim_file.txt
+: 1550655657:0;ls -l
+: 1550655670:0;neovim hello_world.txt
+: 1550655693:0;nvim hello_world.txt
+: 1550725114:0;git log --graph
+: 1550725132:0;git status
+: 1550725148:0;dir add .
+: 1550725154:0;dir add *
+: 1550725156:0;git status
+: 1550725167:0;git add *
+: 1550725169:0;git status
+: 1550725180:0;git log --graph
+: 1550725197:0;git commit -m 'Add new audiencies #2'
+: 1550725213:0;git log --graph
+: 1550725488:0;speed
+: 1550726688:0;git status
+: 1550726698:0;git add *
+: 1550726728:0;git commit -m 'Add Vim & Zsh configs'
+: 1550726740:0;git status
+: 1550726753:0;git add *
+: 1550726755:0;git status
+: 1550726769:0;git add .
+: 1550726771:0;git status
+: 1550726776:0;git commit -m 'Add Vim & Zsh configs'
+: 1550726779:0;git status
+: 1550726783:0;git log --graph
+: 1550729153:0;git push origin
+: 1550729168:0;git log --graph
+: 1550754146:0;speed --help
+: 1550754158:0;clear
+: 1550754163:0;speed -simple
+: 1550754168:0;speed --simple
+: 1550754241:0;speed
+: 1550805948:0;cd ~/Projects
+: 1550805956:0;vim
+: 1550806352:0;ls -l
+: 1550806377:0;sudo apt update
+: 1550806417:0;sudo apt upgrade
+: 1550809373:0;ls -l
+: 1550809379:0;vim test.txt
+: 1550819900:0;rm ~/Projects/test.txt
+: 1550819916:0;ls ~/Projects
+: 1550838630:0;ls -1
+: 1550838638:0;ls -1 less
+: 1550838642:0;ls -1 | less
+: 1550839288:0;cd ~/Projects
+: 1550839291:0;ls -l
+: 1550839300:0;vim test.txt
+: 1550839361:0;ls -l
+: 1550913927:0;cd MEGA
+: 1550913932:0;ls -l
+: 1550913946:0;cd Ѓ�абота
+: 1550913951:0;ls -l
+: 1550913972:0;cd buh_tsg
+: 1550913975:0;ls -l
+: 1550913981:0;git init
+: 1550913989:0;git add .
+: 1550914009:0;git status
+: 1550914068:0;git rm --cached *
+: 1550914076:0;git rm -r --cached *
+: 1550914079:0;git status
+: 1550914094:0;ls -l
+: 1550914136:0;mv page_1.ai project.ai
+: 1550914141:0;ls -l
+: 1550914159:0;git add project.ai 
+: 1550914185:0;git status
+: 1550914218:0;git rm --cached project.ai
+: 1550914220:0;git status
+: 1550914233:0;git commit -m 'Initial commit'
+: 1550914239:0;git add project.ai 
+: 1550914259:0;git commit -m 'Add project'
+: 1550914338:0;vim .gitignore
+: 1550914385:0;ls -l
+: 1550914405:0;clear
+: 1550914410:0;vim .gitignore
+: 1550914418:0;ls -l
+: 1550914456:0;cd MEGA/Ѓ�абота/buh_tsg
+: 1550914462:0;ls -l
+: 1550914580:0;ls -la
+: 1550914597:0;git status
+: 1550914613:0;vim .gitignore
+: 1550914643:0;git status
+: 1550914647:0;vim .gitignore
+: 1550914684:0;git status
+: 1550914697:0;vim .gitignore
+: 1550914765:0;git status
+: 1550914772:0;vim .gitignore
+: 1550914830:0;git status
+: 1550914834:0;vim .gitignore
+: 1550914904:0;git status
+: 1550914918:0;git add result/
+: 1550914926:0;git status
+: 1550914941:0;git commit -m 'Add results'
+: 1550915256:0;git log --graph
+: 1550947424:0;sudo apt update
+: 1550947482:0;sudo apt list --upgradable
+: 1550947499:0;sudo apt upgrade
+: 1550947545:0;sudo apt autoremove
+: 1550992869:0;sudo apt-get install cheese
+: 1550998359:0;speed
+: 1551005544:0;ufw status
+: 1551005551:0;sudo ufw status
+: 1551005570:0;sudo ufw help
+: 1551005611:0;sudo ufw status verbose
+: 1551005630:0;sudo ufw status numbered
+: 1551005640:0;sudo ufw show ARG
+: 1551005657:0;sudo ufw app list
+: 1551005674:0;sudo ufw app info PROFILE
+: 1551005687:0;sudo ufw app info skip
+: 1551005691:0;sudo ufw app info 'skip'
+: 1551005945:0;sudo ufw status verbose
+: 1551006281:0;sudo ufw disable
+: 1551006286:0;sudo ufw default deny incoming
+: 1551006299:0;sudo ufw default allow outgoing
+: 1551006312:0;sudo ufw allow ssh
+: 1551006335:0;sudo ufw enable
+: 1551006427:0;sudo ufw status verbose
+: 1551006463:0;sudo ufw disable
+: 1551006466:0;sudo ufw allow http
+: 1551006477:0;sudo ufw allow https
+: 1551006489:0;sudo ufw allow ftp
+: 1551006516:0;sudo ufw status verbose
+: 1551006523:0;sudo ufw enable
+: 1551006525:0;sudo ufw status verbose
+: 1551006545:0;sudo ufw status 
+: 1551006612:0;sudo ufw status numbered
+: 1551006646:0;sudo ufw logging on
+: 1551006723:0;ls /var/log/ufw*
+: 1551007195:0;journalсtl
+: 1551007213:0;journalctl
+: 1551007334:0;journalctl -b
+: 1551007480:0;journalctl -p 1 err -b 
+: 1551007494:0;journalctl -p 3 err -b 
+: 1551007502:0;journalctl -p 3 -b 
+: 1551007546:0;journalctl -p 1 -b 
+: 1551007551:0;journalctl -p 0 -b 
+: 1551007554:0;journalctl -p 3 -b 
+: 1551007559:0;journalctl -p 2 -b 
+: 1551007582:0;journalctl -p 4 -b 
+: 1551007650:0;clear
+: 1551007668:0;journalctl -n
+: 1551007718:0;journalctl --disl-usage
+: 1551007721:0;journalctl --disk-usage
+: 1551007774:0;sudo journalctl --vacuum-size=1G
+: 1551007785:0;journalctl --disk-usage
+: 1551096517:0;pomodoro
+: 1551096561:0;cryptowatch 
+: 1551096633:0;pomodoro -simple
+: 1551096704:0;sudo snap install cryptowatch
+: 1551096767:0;cryptowatch --config
+: 1551096827:0;sudo snap install cryptowatch
+: 1551096838:0;snap help refresh3
+: 1551096840:0;snap help refresh
+: 1551096865:0;snap refresh
+: 1551096899:0;cryptowatch --config
+: 1551097964:0;pomodoro -simple
+: 1551098009:0;snap refresh --list
+: 1551098060:0;snap list
+: 1551098118:0;cryptowatch
+: 1551098218:0;sudo snap remove cryptowatch
+: 1551098235:0;notepadqq
+: 1551098273:0;sudo snap remove notepadqq
+: 1551098769:0;snap list
+: 1551098797:0;sudo snap services lxd Service 
+: 1551098806:0;sudo snap services node
+: 1551098811:0;sudo snap services slack
+: 1551098837:0;sudo snap services canonical-livepath
+: 1551098852:0;sudo snap services core
+: 1551098882:0;sudo snap services
+: 1551098984:0;sudo snap install cryptowatch
+: 1551099000:0;cryptowatch
+: 1551099009:0;cryptowatch --config
+: 1551100960:0;jobs
+: 1551101007:0;lsattr /etc/resolv.conf
+: 1551101077:0;ip ro li ta local
+: 1551101102:0;ip ru
+: 1551101171:0;sudo -1
+: 1551101175:0;sudo -l
+: 1551101249:0;traceroute wikipedia.org
+: 1551101576:0;host -t NS yandex.ru
+: 1551101615:0;vim /etc/resolv.comf
+: 1551101629:0;vim /etc/resolv.conf
+: 1551101680:0;host -t SOA ivanopol.ru
+: 1551101722:0;host -t MX yandex.ru
+: 1551101782:0;host -t A ivanopol.ru
+: 1551102132:0;php artisan tinker
+: 1551103981:0;cd ~/Documents
+: 1551103984:0;ls -l
+: 1551104005:0;cd Mind\ Maps
+: 1551104011:0;git log --graph
+: 1551104023:0;git status
+: 1551104033:0;git add training.xmind
+: 1551104082:0;git commit -m 'Ѓ�обавил разделу� и стату�су� ву�полнениу�'
+: 1551104097:0;git diff
+: 1551104102:0;git diff --cached
+: 1551104292:0;git log --graph
+: 1551364691:0;git status
+: 1551364706:0;git log --graph
+: 1551364779:0;git log -p -1
+: 1551364831:0;git log -p -2
+: 1551364877:0;git add n.
+: 1551364880:0;git add .
+: 1551364884:0;git log -p -1
+: 1551364888:0;git status
+: 1551364922:0;git rm --cached *.db
+: 1551364949:0;git rm --cached result/kp2/*.db
+: 1551364952:0;git status
+: 1551364988:0;git rm --cached result/kp2/Thumbs.db*.db
+: 1551364990:0;git rm --cached result/kp2/Thumbs.db*.
+: 1551364992:0;git rm --cached result/kp2/Thumbs.db*
+: 1551365014:0;git rm --cached result/kp2/Thumbs.db**
+: 1551365050:0;git rm --cached result/kp2/Thumbs.db:encryptable
+: 1551365123:0;git status
+: 1551365491:0;git rm --cached 
+: 1551365500:0;git rm --cached .
+: 1551365504:0;git rm -r --cached .
+: 1551365547:0;git rm -rf --cached .
+: 1551365571:0;git status
+: 1551365585:0;git add .
+: 1551365588:0;git status
+: 1551365668:0;git commit -m 'Add kp2 and finished version'
+: 1551386068:0;laravel new repository
+: 1551386078:0;$PATH
+: 1551386114:0;composer global require laravel/installer
+: 1551386174:0;laravel new repository
+: 1551386244:0;$PATH
+: 1551386255:0;$HOME
+: 1551386259:0;$PATH
+: 1551386264:0;echo $PATH
+: 1551386418:0;composer global require laravel/installer
+: 1551386459:0;laravel new blog
+: 1551386513:0;composer global remove laravel/installer
+: 1551386549:0;composer global require laravel/installer
+: 1551386594:0;laravel new repository
+: 1551386601:0;echo $PATH
+: 1551386627:0;laravel new repository
+: 1551388046:0;git add .
+: 1551388051:0;git status
+: 1551388158:0;git commit -m 'ZSH: Add composers system-wide vendor '
+: 1551388178:0;git push origin
+: 1551388274:0;laravel new repository
+: 1551388801:0;vim .zshrc
+: 1551388922:0;laravel new repository
+: 1551388934:0;$PATH
+: 1551388938:0;echo $PATH
+: 1551389019:0;vim NewCommand.php
+: 1551389183:0;ufw status
+: 1551389189:0;sudo ufw status
+: 1551389204:0;sudo ufw disable
+: 1551389215:0;laravel new repository
+: 1551389335:0;sudo ufw status
+: 1551389355:0;sudo ufw enable
+: 1551389363:0;echo $PATH
+: 1551389406:0;laravel new testrepo
+: 1551389695:0;ip vk.com
+: 1551389710:0;traceroute http://cabinet.laravel.com
+: 1551389719:0;traceroute cabinet.laravel.com
+: 1551389750:0;ping  http://cabinet.laravel.com
+: 1551389754:0;ping  cabinet.laravel.com
+: 1551390204:0;sudo apt install pptp-linux
+: 1551390524:0;sudo apt install openvpn
+: 1551390921:0;clear
+: 1551390924:0;sudo openvpn --config 
+: 1551390938:0;sudo apt install openvpn
+: 1551390943:0;sudo openvpn --config
+: 1551390959:0;sudo openvpn --config '/home/ivanopol/MEGA/OpenVPN/vpnbook-pl226-tcp80.ovpn' 
+: 1551391019:0;cd ~/Projects
+: 1551391025:0;ping  http://cabinet.laravel.com
+: 1551391044:0;ping  cabinet.laravel.com
+: 1551391065:0;ping vk.com
+: 1551391425:0;sudo apt remove openvpn
+: 1551392304:0;ping  cabinet.laravel.com
+: 1551392701:0;cd ~/Projects
+: 1551392710:0;composer create-project --prefer-dist laravel/laravel repository
+: 1551392917:0;touch Dockerfile
+: 1551392962:0;touch default.conf 
+: 1551393022:0;docker build -t homestead .
+: 1551393166:0;docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551393318:0;docker run -d -p 5000:80 -v /home/ivanopol/Projects/repository:/var/www/html homestead
+: 1551393335:0;docker run -d -p 5000:80 -v /home/ivanopol/Projects/repository:/var/www/html repository
+: 1551393349:0;docker run -d -p 5000:80 -v /home/ivanopol/Projects/repository:/var/www/html homestead
+: 1551393366:0;sudo ufw disable
+: 1551393412:0;docker build -t homestead .
+: 1551393428:0;docker images
+: 1551393459:0;docker images -p
+: 1551393463:0;docker images -c
+: 1551393527:0;docker rmi -f $(docker images -q)
+: 1551393541:0;docker images 
+: 1551393559:0;docker build -t homestead .
+: 1551393669:0;docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/projects/homestead:/var/www/html \\
+homestead
+: 1551393686:0;docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551431946:0;cd ~/Projects/repository
+: 1551431954:0;docker ps -a
+: 1551432003:0;docker ps
+: 1551432006:0;clear
+: 1551432018:0;cd ~/dockerfiles
+: 1551432032:0;docker build -t homestead .
+: 1551432040:0;docker ps
+: 1551432044:0;docker ps -a
+: 1551432054:0;docker images
+: 1551432067:0;docker run -d \\
+-p 5000:80 \\
+-v /home/yourname/projects/homestead:/var/www/html \\
+homestead
+: 1551432075:0;docker ps
+: 1551432141:0;docker stop
+: 1551432146:0;docker ps
+: 1551432156:0;docker run -d \\
+-p 8080:80 \\
+-v /home/yourname/projects/homestead:/var/www/html \\
+homestead
+: 1551432160:0;docker ps
+: 1551432206:0;sudo ufw disable
+: 1551432214:0;docker run -d \\
+-p 8080:80 \\
+-v /home/yourname/projects/homestead:/var/www/html \\
+homestead
+: 1551432222:0;docker ps
+: 1551432235:0;docker run -d \\
+-p 8080:80 \\
+-v /home/ivanopol/Projects/homestead:/var/www/html \\
+homestead
+: 1551432245:0;docker ps
+: 1551432255:0;docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/homestead:/var/www/html \\
+homestead
+: 1551432283:0;docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551432298:0;docker ps
+: 1551432305:0;docker ps -a
+: 1551432328:0;docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551432332:0;docker ps
+: 1551432348:0;ls -l
+: 1551432357:0;sudo rm homestead
+: 1551432365:0;sudo rm -R homestead
+: 1551432369:0;ls -l
+: 1551432372:0;cd ../
+: 1551432375:0;ls -l
+: 1551432393:0;sudo rm -r projects
+: 1551432394:0;ls -l
+: 1551432419:0;sudo docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551432428:0;docker ps
+: 1551432446:0;cd ~/Projects/repository
+: 1551432447:0;ls -l
+: 1551432466:0;cd -
+: 1551432472:0;cd ~/Projects/
+: 1551432490:0;sudo chown -R root:root repository
+: 1551432496:0;ls -l
+: 1551432500:0;cd repository
+: 1551432502:0;ls -l
+: 1551432509:0;sudo docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551432515:0;docker ps
+: 1551432554:0;docker stop $(docker ps -a -q)
+: 1551432558:0;docker ps
+: 1551432561:0;sudo docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551432566:0;docker ps
+: 1551432772:0;docker logs homestead
+: 1551432786:0;docker logs 169ed7e46325
+: 1551432806:0;sudo docker logs 169ed7e46325
+: 1551432856:0;docker inspect --format '{{ .NetworkSettings.IPAddress }}' $(docker ps -q)
+: 1551432882:0;docker top infinite
+: 1551432891:0;docker top homestead
+: 1551432901:0;docker top 169ed7e46325
+: 1551432907:0;docker ps
+: 1551432910:0;docker ps -a
+: 1551432922:0;docker stop $(docker ps -a -q)
+: 1551432928:0;sudo docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551432933:0;docker ps
+: 1551432944:0;docker top homestead
+: 1551432946:0;docker ps
+: 1551432987:0;docker images -a
+: 1551433001:0;docker rmi $(docker images -f dangling=true -q)
+: 1551433013:0;docker images -a
+: 1551433022:0;docker rmi $(docker images -f dangling=true -q)
+: 1551433079:0;docker rmi $(docker images -a -q)
+: 1551433112:0;docker stop $(docker ps -a -q)
+: 1551433115:0;docker rmi $(docker images -a -q)
+: 1551433119:0;docker stop $(docker ps -a -q)
+: 1551433122:0;docker rmi $(docker images -a -q)
+: 1551433128:0;docker rmi $(docker images -f dangling=true -q)
+: 1551433137:0;docker rmi $(docker images -a -q)
+: 1551433148:0;docker rmi $(docker images -a -f -q)
+: 1551433185:0;docker rmi $(docker images -a -docker stop $(docker ps -a -q)q)
+: 1551433192:0;docker stop $(docker ps -a -q)
+: 1551433197:0;docker rm $(docker ps -a -q)
+: 1551433218:0;docker images -a
+: 1551433231:0;docker ps -a
+: 1551433246:0;docker rmi $(docker images -a -q)
+: 1551433250:0;docker ps -a
+: 1551433252:0;docker images -a
+: 1551433255:0;docker ps -a
+: 1551433359:0;cd ~/dockerfiles
+: 1551433371:0;docker build -t homestead .
+: 1551437116:0;docker ps -a
+: 1551437119:0;docker ps 
+: 1551437123:0;docker images -a
+: 1551437216:0;docker build -t homestead .
+: 1551437226:0;docker ps -a
+: 1551437232:0;docker images -a
+: 1551437235:0;docker ps -a
+: 1551437275:0;sudo docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551437297:0;docker ps -a
+: 1551437314:0;docker ps 
+: 1551437317:0;docker ps -a
+: 1551437363:0;clear
+: 1551437378:0;docker logs
+: 1551437386:0;docker logs 6643e143c4a4
+: 1551437411:0;sudo docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551437418:0;docker ps 
+: 1551437421:0;docker ps -a
+: 1551437456:0;docker logs eaddf4c047ae
+: 1551437470:0;docker build -t homestead .
+: 1551437483:0;docker ps -a
+: 1551437489:0;sudo docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551437494:0;docker ps -a
+: 1551437500:0;docker ps 
+: 1551437574:0;cd ~/Projects/repository
+: 1551437600:0;cd ../
+: 1551437612:0;chown ivanopol:ivanopol -R repository
+: 1551437633:0;ls -l repository
+: 1551437642:0;sudo chown ivanopol:ivanopol -R repository
+: 1551437649:0;ls -l repository
+: 1551437662:0;docker ps 
+: 1551437691:0;touch index.html
+: 1551437695:0;vim index.html
+: 1551437738:0;docker ps 
+: 1551437753:0;docker stop
+: 1551437760:0;docker stop homestead
+: 1551437769:0;docker stop 47511c6715a0
+: 1551437774:0;docker ps 
+: 1551437779:0;docker ps -a
+: 1551437806:0;sudo docker run -d \\
+-p 5000:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551437812:0;docker ps 
+: 1551437903:0;ping 0.0.0.0:5000
+: 1551437918:0;sudo ufw status
+: 1551437963:0;sudo netstat -tpln
+: 1551438015:0;docker ps
+: 1551438026:0;docker stop b97c1f21b213
+: 1551438032:0;docker ps
+: 1551438045:0;sudo docker run -d \\
+-p 8080:80 \\
+-v /home/ivanopol/Projects/repository:/var/www/html \\
+homestead
+: 1551438049:0;docker ps
+: 1551438065:0;sudo netstat -tpln
+: 1551438073:0;clear
+: 1551438108:0;docker ps
+: 1551438120:0;docker stop c46d55adebf3
+: 1551438150:0;docker images -a
+: 1551438181:0;docker rmi Image Image
+: 1551438190:0;docker rmi Image homestead
+: 1551438198:0;docker rmi homestead homestead
+: 1551438203:0;docker rmi image homestead
+: 1551438211:0;docker rmi homestead
+: 1551438234:0;docker rmi $(docker images -f dangling=true -q)
+: 1551438293:0;sudo ps -a
+: 1551438298:0;docker ps -a
+: 1551438310:0;sudo docker rm relaxed_boyd
+: 1551438313:0;docker ps -a
+: 1551438321:0;sudo docker rm gifted_beaver
+: 1551438327:0;sudo docker rm friendly_ramanujan
+: 1551438333:0;sudo docker rm romantic_dijkstra
+: 1551438339:0;sudo docker rm eager_edison
+: 1551438341:0;docker ps -a
+: 1551438346:0;docker images -a
+: 1551438389:0;docker rmi $(docker images -a -q)
+: 1551438394:0;docker images -a
+: 1551438398:0;docker ps -a
+: 1551438407:0;clear
+: 1551448404:0;docker --version
+: 1551448608:0;docker update
+: 1551448619:0;clr
+: 1551448621:0;clear
+: 1551448754:0;docker --version
+: 1551448878:0;sudo service docker restart
+: 1551448890:0;docker --version
+: 1551449019:0;docker run debian echo "Hello World"
+: 1551449060:0;docker images -a
+: 1551449070:0;docker ps -a
+: 1551449078:0;cler
+: 1551449085:0;clear
+: 1551449242:0;docker run -i -t debian /bin/bash
+: 1551449837:0;\
+
+: 1551449843:0;clear
+: 1551449887:0;docker run -h CONTAINER -i -t debian /bin/bash
+: 1551449950:0;docker ps
+: 1551450061:0;docker run -h CONTAINER -i -t debian /bin/bash
+: 1551450088:0;docker ps
+: 1551450120:0;docker inspect brave_wilson
+: 1551450171:0;clear
+: 1551451148:0;docker ps -a
+: 1551451164:0;docker rm brave_wilson
+: 1551451173:0;docker rm priceless_hawking
+: 1551451180:0;docker rm jolly_liskov
+: 1551451189:0;docker rm xenodochial_goldwasser
+: 1551451198:0;docker ps -a
+: 1551451309:0;clear
+: 1551451357:0;docker run -it --name cowsay --hostname cowsay debian bash
+: 1551451943:0;docker commit cowsay test/cowsayimage
+: 1551451969:0;clear
+: 1551452059:0;docker run test/cowsayimage /usr/games/cowsay "Moo"
+: 1551452217:0;mkdir ~/Projects/cowsay
+: 1551452233:0;cd ~/Projects/cowsay
+: 1551452238:0;clear
+: 1551452254:0;touch Dockerfile
+: 1551452262:0;vim Dockerfile
+: 1551452403:0;\
+
+: 1551452408:0;clear
+: 1551452410:0;ls 
+: 1551452447:0;docker build -t test/cowsay-dockerfile
+: 1551452490:0;docker build -t test/cowsay-dockerfile .
+: 1551459585:0;vim ~/Projects/cowsay/Dockerfile
+: 1551459688:0;docker build -t test/cowsay-dockerfile .
+: 1551459730:0;docker run test/cowsayimage "Moo"
+: 1551459758:0;docker run test/cowsay-dockerfile "Moo"
+: 1551461243:0;vim ~/Projects/cowsay/Dockerfile
+: 1551461305:0;touch entrypoint.sh
+: 1551461311:0;vim entrypoint.sh
+: 1551461501:0;chmod +x entrypoint.sh
+: 1551461573:0;mv entrypoint.sh ~/Projects/cowsay
+: 1551461593:0;ls -l ~/Projects/cowsay
+: 1551461604:0;cd ~/Projects/cowsay
+: 1551461619:0;vim Dockerfile
+: 1551461847:0;docker build -t test/cowsay-dockerfile .
+: 1551461909:0;docker run test/cowsay-dockerfile
+: 1551461927:0;\
+
+: 1551461941:0;docker run test/cowsay-dockerfile Hello Moo
+: 1551462190:0;cd ~/Projects/cowsay
+: 1551462199:0;vim Dockerfile
+: 1551462430:0;docker build -t ivanopol/cowsay .
+: 1551462474:0;vim Dockerfile
+: 1551462600:0;docker build -t ivanopol/cowsay .
+: 1551462667:0;docker push ivanopol/cowsay
+: 1551462857:0;docker push ivanopol/cowsay:stable
+: 1551462883:0;docker push ivanopol/cowsay
+: 1551463100:0;docker login
+: 1551463125:0;docker push ivanopol/cowsay
+: 1551464891:0;docker pull redis
+: 1551464968:0;docker run --name myredis -d redis
+: 1551508057:0;docker ps
+: 1551508078:0;\
+
+: 1551508083:0;cleat
+: 1551508086:0;clear
+: 1551508117:0;docker logs
+: 1551508123:0;clear
+: 1551508236:0;docker run --rm -it --link myredis:redis redis /bin/bash
+: 1551508578:0;clear
+: 1551508584:0;docker images -a
+: 1551508860:0;docker run --rm -it --link myredis:redis redis /bin/bash
+: 1551509033:0;docker run --rm --volumes-from myredis -v $(pws)/backup:/backup \ debian cp /data/dump.rdb /backup/
+: 1551509045:0;docker run --rm --volumes-from myredis -v $(pwd)/backup:/backup \ debian cp /data/dump.rdb /backup/
+: 1551509060:0;docker run --rm --volumes-from myredis -v $(pwd)/backup:/backup  debian cp /data/dump.rdb /backup/
+: 1551509078:0;ls backup
+: 1551509115:0;clear
+: 1551509137:0;ls -l
+: 1551509151:0;ls -l backup
+: 1551509158:0;clear
+: 1551509206:0;docker stop myredis
+: 1551509223:0;docker rm -v myredis
+: 1551509251:0;docker rm $(docker ps -aq)
+: 1551509269:0;docker images -a
+: 1551509276:0;docker ps -a
+: 1551509280:0;clear
+: 1551515757:0;docker history
+: 1551515773:0;docker ps -a
+: 1551515792:0;docker images -a
+: 1551515831:0;docker history ivanopol/cowsay
+: 1551522705:0;curl localhost:8000
+: 1551522825:0;docker port
+: 1551526069:0;docker ps 
+: 1551526095:0;docker run -d --link myredis redis
+: 1551526111:0;docker run -d --name myredis redis
+: 1551526149:0;docker run --link myredis:redis debian env
+: 1551526198:0;docker ps
+: 1551526232:0;docker stop myredis
+: 1551526235:0;docker ps
+: 1551539058:0;clear
+: 1551539064:0;docker info
+: 1551539110:0;clear
+: 1551539138:0;docker help
+: 1551539221:0;clear
+: 1551540167:0;ID=$(docker run -d debian sh -c "while true; do echo 'tick'; sleep 1; done;")
+: 1551540182:0;docker attach $ID
+: 1551540201:0;clear
+: 1551540286:0;docker cp --help
+: 1551540349:0;clear
+: 1551540439:0;zsh -c "while true; do sleep 1; done;"
+: 1551540483:0;zsh -c "while true; do echo 'tick'; sleep 1;  done;"
+: 1551540492:0;clear
+: 1551540869:0;docker --version
+: 1551540883:0;docker version
+: 1551540906:0;clear
+: 1551540964:0;docker events
+: 1551540978:0;clear
+: 1551540984:0;docker ps
+: 1551540990:0;docker ps -a
+: 1551540996:0;clear
+: 1551541308:0;docker ps -aq
+: 1551541312:0;clear
+: 1551541843:0;docker rmi $(docker images -q -f dangling=true)
+: 1551541850:0;clear
+: 1551595300:0;sudo dpkg -i /tmp/kKh10Z/LBRY_0.29.2.deb
+: 1551602017:0;cd ~/Projects
+: 1551602033:0;mkdir identidock
+: 1551602038:0;cd identidock
+: 1551602063:0;mkdir app
+: 1551602075:0;cd app
+: 1551602078:0;clar
+: 1551602081:0;clear
+: 1551602106:0;touch identidock.py
+: 1551602116:0;cd --
+: 1551602125:0;cd ~/Projects
+: 1551602133:0;tree identidock
+: 1551602183:0;sudo apt install tree
+: 1551602215:0;clear
+: 1551602219:0;tree identidock
+: 1551602283:0;cd identidock/app
+: 1551602288:0;vim identidock.py
+: 1551602901:0;speed
+: 1551608341:0;clear
+: 1551608359:0;cd ../
+: 1551608381:0;touch Dockerfile
+: 1551608387:0;vim Dockerfile
+: 1551608771:0;docker build -t identidock .
+: 1551608926:0;docker run -d -p 5000:5000 identidock
+: 1551608958:0;clear
+: 1551608978:0;curl localhost:5000
+: 1551609087:0;vim app/identidock.py
+: 1551609354:0;docker stop $(docker ps -lq)
+: 1551609377:0;docker rm $(docker ps -lq)
+: 1551609440:0;docker run -d -p 5000:5000 -v "$(pwd)"/app:/app identidock
+: 1551609474:0;curl localhost:5000
+: 1551609515:0;sed -i '' s/World/Docker/ app/identidock.py
+: 1551609576:0;vim app/identidock.py
+: 1551609612:0;curl localhost:5000
+: 1551609617:0;\
+
+: 1551609621:0;clear
+: 1551610140:0;vim app/identidock.py
+: 1551610160:0;vim Dockerfile
+: 1551612971:0;ls -la
+: 1551612984:0;rm .Dockerfile.swp
+: 1551612988:0;vim Dockerfile
+: 1551613057:0;clear
+: 1551613076:0;docker build -t identidock .
+: 1551613140:0;docker run -d -p 9090:9090 -p 9191:9191 identidock
+: 1551613153:0;curl localhost:9090
+: 1551613191:0;vim Dockerfile
+: 1551613212:0;docker build -t identidock .
+: 1551613255:0;docker run -d -p 9090:9090 -p 9191:9191 identidock
+: 1551613263:0;curl localhost:9090
+: 1551613337:0;curl localhost:9191
+: 1551613340:0;clear
+: 1551613367:0;vim Dockerfile
+: 1551613420:0;docker build -t identidock .
+: 1551616237:0;docker stop $(docker ps -q)
+: 1551616248:0;docker rm $(docker ps -aq)
+: 1551616364:0;docker build -t identidock .
+: 1551616397:0;docker stop $(docker ps -q)
+: 1551616400:0;docker rm $(docker ps -aq)
+: 1551616432:0;docker rmi $(docker images -a -q)
+: 1551616459:0;docker images -a
+: 1551616472:0;docker ps -a
+: 1551616478:0;docker build -t identidock .
+: 1551616761:0;docker rmi $(docker images -a -q)
+: 1551616766:0;docker rm $(docker ps -aq)
+: 1551616769:0;docker rmi $(docker images -a -q)
+: 1551617010:0;docker build -t identidock .
+: 1551617932:0;docker rm $(docker ps -aq)
+: 1551617935:0;docker rmi $(docker images -a -q)
+: 1551617940:0;clear
+: 1551618034:0;docker build -t identidock .
+: 1551618251:0;docker rm $(docker ps -aq)
+: 1551618254:0;docker rmi $(docker images -a -q)
+: 1551618422:0;docker rm $(docker ps -aq)
+: 1551618433:0;docker rmi $(docker images -a -q)
+: 1551618435:0;docker rm $(docker ps -aq)
+: 1551618445:0;docker ps -a
+: 1551618449:0;docker rm $(docker ps -aq)
+: 1551618451:0;docker ps -a
+: 1551618456:0;docker images -a
+: 1551618458:0;clear
+: 1551618770:0;docker-compose --version
+: 1551619194:0;docker-compose ps
+: 1551619203:0;docker-compose ps -a
+: 1551619213:0;clear
+: 1551619711:0;\
+
+: 1551619713:0;clear
+: 1551623757:0;docker-compose build
+: 1551623971:0;docker-compose up -d
+: 1551624177:0;docker-compose build
+: 1551624408:0;clear
+: 1551624509:0;docker-compose build
+: 1551624756:0;curl localhost:5000
+: 1551624804:0;docker-compose up -d
+: 1551624822:0;curl localhost:5000
+: 1551624900:0;docker-compose down
+: 1551624928:0;docker rm $(docker ps -aq)
+: 1551624938:0;docker rmi $(docker images -a -q)
+: 1551624947:0;docker ps -a
+: 1551624952:0;docker images -a
+: 1551624954:0;clear
+: 1551625014:0;vim Dockerfile
+: 1551625022:0;ls -l
+: 1551625039:0;cd ../
+: 1551625040:0;ls -l
+: 1551625044:0;cd identidock
+: 1551625045:0;ls -l
+: 1551625048:0;clear
+: 1551625051:0;vim Dockerfile
+: 1551625096:0;docker-compose build
+: 1551625258:0;docker-compose up -d
+: 1551625270:0;curl localhost:5000
+: 1551625279:0;docker-compose down
+: 1551625288:0;clear
+: 1551625589:0;docker-compose up -d
+: 1551625771:0;cd ~/Projects/identidock
+: 1551625776:0;vim app/identidock.py
+: 1551626379:0;vim Dockerfile
+: 1551626445:0;docker build -t identidock .
+: 1551626532:0;docker run -d --name dnmonster amouat/dnmonster:1.0
+: 1551626691:0;docker ps 
+: 1551626761:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551626794:0;docker ps 
+: 1551626892:0;docker ps -a
+: 1551626922:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock_identidock_1
+: 1551626941:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551626948:0;docker ps 
+: 1551626969:0;docker log identidock
+: 1551626996:0;docker logs identidock
+: 1551627008:0;docker logs e609a54f49bd
+: 1551627053:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627057:0;docker logs e609a54f49bd
+: 1551627074:0;vim app/identidock.py
+: 1551627120:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627124:0;docker logs e609a54f49bd
+: 1551627307:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627311:0;docker logs e609a54f49bd
+: 1551627320:0;docker ps 
+: 1551627337:0;docker build -t identidock .
+: 1551627348:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627352:0;docker ps 
+: 1551627363:0;docker ps -a
+: 1551627381:0;docker logs 88d3f152cc9c
+: 1551627526:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627530:0;docker logs 88d3f152cc9c
+: 1551627545:0;docker ps -a
+: 1551627606:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627610:0;docker ps -a
+: 1551627666:0;clear
+: 1551627670:0;docker ps
+: 1551627673:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627678:0;docker ps
+: 1551627706:0;docker logs c82559bd373a
+: 1551627733:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627737:0;docker logs c82559bd373a
+: 1551627741:0;docker ps
+: 1551627743:0;docker logs c82559bd373a
+: 1551627753:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627762:0;docker ps
+: 1551627764:0;docker ps -a
+: 1551627778:0;docker logs 7df3f68ddbb8
+: 1551627876:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551627882:0;docker ps -a
+: 1551627891:0;docker logs 127378f07132
+: 1551628058:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551628062:0;docker logs 127378f07132
+: 1551628066:0;docker ps -a
+: 1551628075:0;docker logs Ѓ�
+: 1551628080:0;docker logs 51e972d0be81
+: 1551628205:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551628210:0;docker ps -a
+: 1551628218:0;docker ps 
+: 1551628231:0;docker logs 8d55f21f9ffd
+: 1551628329:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551628334:0;docker ps 
+: 1551628350:0;docker logs 2d8c91af701f
+: 1551628365:0;docker build -t identidock .
+: 1551628376:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551628381:0;docker ps 
+: 1551628489:0;docker stop
+: 1551628498:0;docker stop ff7e557a2997
+: 1551628506:0;docker stop Ѓ�
+: 1551628510:0;docker stop f03e868a389b
+: 1551628532:0;docker ps
+: 1551628552:0;docker rm $(docker ps -aq)
+: 1551628564:0;docker rmi $(docker images -a -q)
+: 1551695238:0;sudo apt-get install pass
+: 1551695424:0;pass
+: 1551696313:0;gpg
+: 1551697086:0;gpg --list-keys
+: 1551764221:0;cd ~/Projects/
+: 1551764226:0;ls -l
+: 1551764236:0;cd laravel
+: 1551764243:0;git log
+: 1551764277:0;git log -p -1
+: 1551764301:0;git log -p -2
+: 1551764334:0;git log -p -3
+: 1551764363:0;git status
+: 1551764389:0;git blame app/User.php
+: 1551764421:0;git diff
+: 1551764439:0;git reflog
+: 1551764466:0;git log -p 3
+: 1551764497:0;git log -p app/User.php
+: 1551764515:0;clear
+: 1551765113:0;gs
+: 1551765181:0;alias
+: 1551765206:0;gst
+: 1551765209:0;gss
+: 1551765240:0;gsb
+: 1551765255:0;clear
+: 1551765471:0;cd ~/Projects/laravel
+: 1551765482:0;git branch -v
+: 1551766345:0;git bisect
+: 1551766350:0;git bisect help
+: 1551767939:0;lspci -k
+: 1551767987:0;lsmod|grep snd
+: 1551768026:0;у�ду�у�
+: 1551768029:0;alsa
+: 1551768165:0;cat /proc/asound/version
+: 1551769020:0;V
+: 1551769024:0;alsamixer
+: 1551769381:0;pavucontrol
+: 1551769827:0;cp /etc/pulse/default.pa ~.pulse/default.pa
+: 1551769845:0;mkdir ~/.pulse
+: 1551769846:0;cp /etc/pulse/default.pa ~.pulse/default.pa
+: 1551769856:0;cp /etc/pulse/default.pa ~/.pulse/default.pa
+: 1551769893:0;pactl exit
+: 1551772077:0;makegif
+: 1551772090:0;makegif help
+: 1551772615:0;fixpng
+: 1551772630:0;sudo apt install fixpng
+: 1551772709:0;fiximg
+: 1551772722:0;sudo apt install fiximg
+: 1551774078:0;speed
+: 1551777400:0;sudo apt install i3
+: 1551780794:0;df -h
+: 1551780797:0;clear
+: 1551780801:0;htop
+: 1551780849:0;sublime-text
+: 1551780868:0;clear
+: 1551780872:0;mc
+: 1551781316:0;htop
+: 1551783139:0;cd ~/Projects/cowsay
+: 1551783159:0;docker-compose up -d
+: 1551783215:0;cd ../identidock
+: 1551783246:0;docker-compose up -d
+: 1551783502:0;docker-compose down
+: 1551783512:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551783528:0;docker login
+: 1551783534:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551783557:0;docker login
+: 1551783562:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551783580:0;docker build -t identidock .
+: 1551783596:0;docker run -d --name dnmonster amouat/dnmonster:1.0
+: 1551783711:0;docker run -d -p 5000:5000 -e "ENV=DEV" --link dnmonster:dnmonster identidock
+: 1551783794:0;docker ps -a
+: 1551783855:0;docker stop
+: 1551783863:0;docker stop 8be0f58c8b22
+: 1551783870:0;docker stop 271f2b51f3f3
+: 1551783891:0;ls -l
+: 1551783908:0;vim docker-compose.yml
+: 1551784051:0;docker rm $(docker stop ps -q)
+: 1551784092:0;docker rm $(docker ps -q)
+: 1551784114:0;docker-compose build
+: 1551784128:0;docker-compose up -d
+: 1551785857:0;ls -l
+: 1551785866:0;ls -l app
+: 1551785888:0;vim app/identidock.py
+: 1551786623:0;docker ps
+: 1551786635:0;docker ps -a
+: 1551786698:0;docker rm $(docker ps -a -f status=exited -q)
+: 1551786700:0;docker ps -a
+: 1551786716:0;docker stop 0a8d8801a3ca
+: 1551786736:0;docker-compose build
+: 1551786754:0;docker-compose up -d
+: 1551786767:0;docker ps
+: 1551786771:0;docker ps -a
+: 1551786802:0;docker logs a5c293d6124d
+: 1551786860:0;vim app/identidock.py
+: 1551786882:0;docker-compose up -d
+: 1551786887:0;docker ps -a
+: 1551786998:0;vim app/identidock.py
+: 1551787225:0;docker ps -a
+: 1551787240:0;docker-compose down
+: 1551791514:0;vim app/identidock.py
+: 1551791525:0;docker ps -a
+: 1551791542:0;docker-compose up -d
+: 1551791557:0;docker ps -a
+: 1551791589:0;vim app/identidock.py
+: 1551791917:0;docker-compose up -d
+: 1551791921:0;docker ps -a
+: 1551791950:0;vim app/identidock.py
+: 1551792025:0;docker ps -a
+: 1551792049:0;docker ps 
+: 1551792064:0;vim app/identidock.py
+: 1551792273:0;ufw status
+: 1551792284:0;sudo ufw status
+: 1551792292:0;clear
+: 1551792315:0;vim app/identidock.py
+: 1551792364:0;docker ps 
+: 1551792377:0;vim app/identidock.py
+: 1551793326:0;vim Dockerfile
+: 1551793370:0;vim docker-compose.yml
+: 1551793512:0;docker-compose stop
+: 1551793600:0;docker-compose build
+: 1551793674:0;docker-compose up -d
+: 1551795624:0;docker-compose down
+: 1551796126:0;docker build -t "identidock:0.1" .
+: 1551796175:0;docker tag "identidock:0.1" "amount/identidock:0.1"\
+: 1551796176:0;docker tag "identidock:0.1" "amount/identidock:0.1"
+: 1551796184:0;docker ps -a
+: 1551796201:0;docker-compose up -d
+: 1551796213:0;docker ps -a
+: 1551796242:0;docker-compose stop
+: 1551796290:0;docker login
+: 1551796336:0;docker tag identidock:latest amount/identidock:0.1
+: 1551796393:0;docker push amount/identidock:0.1
+: 1551796837:0;docker logout
+: 1551796841:0;docker login
+: 1551796893:0;docker push amount/identidock:0.1
+: 1551796981:0;docker push ivanopol/identidock:0.1
+: 1551797029:0;docker tag identidock:latest ivanopol/identidock:0.1
+: 1551797034:0;docker push ivanopol/identidock:0.1
+: 1551798124:0;speed
+: 1551804777:0;docker push ivanopol/identidock:0.1
+: 1551804846:0;docker ps -a
+: 1551804859:0;docker push ivanopol/identidock:0.1
+: 1551807007:0;clear
+: 1551807935:0;vim app/tests.py
+: 1551808142:0;docker build -t identidock .
+: 1551808186:0;docker run identidock python test.py
+: 1551808199:0;docker run identidock python app/test.py
+: 1551808214:0;docker run identidock python tests.py
+: 1551808327:0;vim app/identidock.py
+: 1551808583:0;docker build -t identidock .
+: 1551808597:0;docker run identidock python tests.py
+: 1551808650:0;vim cmd.sh
+: 1551808791:0;docker build -t identidock .
+: 1551808818:0;docker run -e ENV=UNIT identidock
+: 1551808827:0;vim cmd.sh
+: 1551808940:0;docker build -t identidock .
+: 1551808949:0;docker run -e ENV=UNIT identidock
+: 1551808958:0;vim cmd.sh
+: 1551809002:0;docker build -t identidock .
+: 1551809011:0;docker run -e ENV=UNIT identidock
+: 1551851146:0;docker-compose stop
+: 1551855971:0;vim cmd.sh
+: 1551855994:0;clear
+: 1551856154:0;vim cmd.sh
+: 1551856350:0;update-alternatives --config editor
+: 1551856480:0;sudo update-alternatives --config editor
+: 1551857139:0;cd ~/Projects
+: 1551857145:0;cd identidock
+: 1551857151:0;ls -l
+: 1551857284:0;nvim cmd.sh
+: 1551857510:0;ln -s ~/.local/share/nvim/site ~/.vim 
+: 1551857524:0;ln -s .config/nvim/init.vim .vimrc
+: 1551857528:0;nvim cmd.sh
+: 1551857654:0;ln -s ~/.config/nvim/init.vim .vimrc
+: 1551858896:0;nvim
+: 1551859093:0;mkdir -p ${XDG_CONFIG_HOME:=$HOME/.config}
+: 1551859101:0;ln -s ~/.vim $XDG_CONFIG_HOME/nvim
+: 1551859110:0;ln -s ~/.vimrc $XDG_CONFIG_HOME/nvim/init.vim
+: 1551859140:0;nvim
+: 1551859439:0;curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+: 1551859443:0;nvim
+: 1551859455:0;clear
+: 1551934986:0;git status
+: 1551935002:0;dit add -A
+: 1551935007:0;git add -A
+: 1551935012:0;git status
+: 1551935034:0;git rm -rf --cached .zshrc
+: 1551935036:0;git status
+: 1551935054:0;add .zshrc
+: 1551935058:0;git add .zshrc
+: 1551935060:0;git status
+: 1551935076:0;git diff
+: 1551935109:0;git commit -m 'nvim: Add config file'
+: 1551935129:0;git log -p .zshrc
+: 1551935151:0;git push origin
+: 1551935569:0;cd dotfiles
+: 1551935574:0;git reset --hard HEAD^
+: 1551935589:0;git log --graph
+: 1551935608:0;git push origin
+: 1551935729:0;git revert HEAD
+: 1551935741:0;git log --graph
+: 1551935748:0;git push origin
+: 1551935789:0;git pull origin 
+: 1551935807:0;git pull origin master --allow-unrelated-histories
+: 1551935831:0;nvim .zshrc
+: 1551935973:0;git pull origin master --allow-unrelated-histories
+: 1551935993:0;git diff
+: 1551936111:0;git reset --hard df5869dec791dfd50214b1121e3c1fcad5e185a9
+: 1551936124:0;git log --graph
+: 1551936139:0;git push --force
+: 1551936202:0;git log --graph
+: 1551936218:0;git pull origin 
+: 1551936231:0;git log --graph
+: 1551936266:0;git reset --hard df5869dec791dfd50214b1121e3c1fcad5e185a9
+: 1551936274:0;git log --graph
+: 1551936315:0;git reset --hard 31179efa32f1527bda44930ef640719c6d0f8281\
+
+: 1551936321:0;git push --force
+: 1551936329:0;git log --graph
+: 1551936352:0;git status
+: 1551936572:0;git add -A
+: 1551936575:0;git status
+: 1551936581:0;git diff
+: 1551936592:0;git diff .vimrc
+: 1551936613:0;git diff .zshrc
+: 1551936677:0;git commit -m 'Update Vim & Zsh configs'
+: 1551936689:0;git push origin
+: 1551938365:0;if is-executable git -a -d "$DOTFILES_DIR/.git"; then echo "YES";fi
+: 1551938416:0;source ~/.dotfiles/install.sh
+: 1551938487:0;nvim install.sh
+: 1551938506:0;source ~/.dotfiles/install.sh
+: 1551939707:0;nvim install.sh
+: 1551939764:0;source ~/.dotfiles/install.sh
+: 1551939767:0;nvim install.sh
+: 1551939785:0;source ~/.dotfiles/install.sh
+: 1551939789:0;nvim install.sh
+: 1551939962:0;source ~/.dotfiles/install.sh
+: 1551940029:0;nvim install.sh
+: 1551940039:0;source ~/.dotfiles/install.sh
+: 1551940045:0;nvim install.sh
+: 1551940097:0;source ~/.dotfiles/install.sh
+: 1551940101:0;nvim install.sh
+: 1551940144:0;source ~/.dotfiles/install.sh
+: 1551940148:0;nvim install.sh
+: 1551940179:0;source ~/.dotfiles/install.sh
+: 1551940184:0;nvim install.sh
+: 1551940206:0;source ~/.dotfiles/install.sh
+: 1551940208:0;nvim install.sh
+: 1551940221:0;source ~/.dotfiles/install.sh
+: 1551940228:0;nvim install.sh
+: 1551940255:0;source ~/.dotfiles/install.sh
+: 1551940261:0;nvim install.sh
+: 1551941038:0;mkdir system
+: 1551941049:0;vim .gitignore
+: 1551941108:0;vim system/.functon
+: 1551941178:0;nvim install.sh
+: 1551941248:0;vim system/.functon
+: 1551941254:0;nvim install.sh
+: 1551941284:0;source install.sh
+: 1551941294:0;nvim install.sh
+: 1551941350:0;mv system/.functon system/.function
+: 1551941355:0;ls -l system
+: 1551941359:0;ls -l system/
+: 1551941366:0;ls -l
+: 1551941376:0;cd system
+: 1551941378:0;ls -l
+: 1551941393:0;ls -la
+: 1551941397:0;clear
+: 1551941401:0;cd -
+: 1551941405:0;cd ../
+: 1551941411:0;source install.sh
+: 1551941419:0;nvim install.sh
+: 1551941495:0;nvim system/.function
+: 1551941546:0;ls -la system
+: 1551941550:0;nvim system/.function
+: 1551941558:0;ls -la
+: 1551941567:0;nvim system/.function
+: 1551941591:0;rm "~/.local/share/nvim/swap//%home%ivanopol%.dotfiles%system%.function.swp"
+: 1551941602:0;у�гву� rm "~/.local/share/nvim/swap//%home%ivanopol%.dotfiles%system%.function.swp"
+: 1551941606:0;sudo rm "~/.local/share/nvim/swap//%home%ivanopol%.dotfiles%system%.function.swp"
+: 1551941613:0;nvim system/.function
+: 1551941671:0;source install.sh
+: 1551941683:0;nvim install.sh
+: 1551941779:0;git -a -d ~/.git
+: 1551941887:0;nvim install.sh
+: 1551941942:0;source install.sh
+: 1551941970:0;git status
+: 1551941991:0;git commit -m 'Update install.sh'
+: 1551942008:0;git add system/
+: 1551942010:0;git status
+: 1551942032:0;git commit -m 'Add functions file'
+: 1551942043:0;git add install.sh
+: 1551942059:0;git commit -m 'Update install.sh'
+: 1551942076:0;nvim .gitignore
+: 1551942099:0;git add .gitignore
+: 1551942113:0;git commit -m 'Add gitignore'
+: 1551942119:0;git pull origin 
+: 1551942161:0;git branch -v
+: 1551942169:0;git log --graph
+: 1551942182:0;git pull origin/master 
+: 1551942268:0;git pull originmaster 
+: 1551942273:0;git pull origin master 
+: 1551942282:0;git log --graph
+: 1551942384:0;git remote show origin
+: 1551942417:0;git pull origin master --allow-unrelated-histories
+: 1551945134:0;git log --graph
+: 1551945157:0;git fetch origin
+: 1551945165:0;git pull origin master 
+: 1551945174:0;git log --graph
+: 1551945400:0;git push origin
+: 1551945409:0;git log --graph
+: 1551945456:0;git add -A
+: 1551945461:0;git status
+: 1551945510:0;git commit -m 'Move Vim & Zsh in folders'
+: 1551945515:0;git push origin
+: 1551945555:0;source install.sh
+: 1551945572:0;vim install.sh
+: 1551945723:0;clear
+: 1551945727:0;ln help
+: 1551945730:0;ln --help
+: 1551945822:0;nvim install.sh
+: 1551945993:0;source install.sh
+: 1551946038:0;nvim install.sh
+: 1551946169:0;touch .echos
+: 1551946176:0;nvim .echos
+: 1551946350:0;nvim install.sh
+: 1551946405:0;source install.sh
+: 1551946428:0;nvim install.sh
+: 1551946634:0;source install.sh
+: 1551946660:0;nvim install.sh
+: 1551946678:0;source install.sh
+: 1551946685:0;nvim install.sh
+: 1551946844:0;source install.sh
+: 1551946866:0;nvim install.sh
+: 1551946894:0;source install.sh
+: 1551946902:0;nvim install.sh
+: 1551946954:0;source install.sh
+: 1551946971:0;nvim install.sh
+: 1551946999:0;source install.sh
+: 1551947013:0;nvim install.sh
+: 1551947125:0;nvim system/.echos
+: 1551947167:0;source install.sh
+: 1551947175:0;nvim system/.echos
+: 1551947200:0;source install.sh
+: 1551947211:0;nvim system/.echos
+: 1551947236:0;source install.sh
+: 1551947243:0;nvim system/.echos
+: 1551947282:0;source install.sh
+: 1551947291:0;nvim system/.echos
+: 1551947336:0;nvim install.sh
+: 1551947366:0;source install.sh
+: 1551947378:0;nvim system/.echos
+: 1551947415:0;source install.sh
+: 1551947420:0;nvim system/.echos
+: 1551947457:0;source install.sh
+: 1551947462:0;nvim system/.echos
+: 1551947511:0;source install.sh
+: 1551947520:0;nvim system/.echos
+: 1551947527:0;source install.sh
+: 1551947539:0;nvim install.sh
+: 1551947668:0;source install.sh
+: 1551947676:0;nvim install.sh
+: 1551947700:0;source install.sh
+: 1551947721:0;nvim system/.echos
+: 1551947849:0;source install.sh
+: 1551947856:0;nvim system/.echos
+: 1551947873:0;source install.sh
+: 1551947881:0;nvim system/.echos
+: 1551947933:0;source install.sh
+: 1551947955:0;nvim system/.echos
+: 1551947970:0;source install.sh
+: 1551947980:0;nvim system/.echos
+: 1551948087:0;source install.sh
+: 1551948187:0;nvim install.sh
+: 1551948223:0;source install.sh
+: 1551948236:0;nvim system/.echos
+: 1551948241:0;nvim install.sh
+: 1551948277:0;source install.sh
+: 1551948282:0;nvim install.sh
+: 1551948329:0;source install.sh
+: 1551948354:0;nvim system/.echos
+: 1551948392:0;source install.sh
+: 1551948399:0;nvim system/.echos
+: 1551948473:0;source install.sh
+: 1551948509:0;nvim system/.echos
+: 1551948547:0;source install.sh
+: 1551948589:0;nvim system/.echos
+: 1551948616:0;source install.sh
+: 1551948630:0;git status
+: 1551948650:0;git add -A
+: 1551948671:0;git diff
+: 1551948735:0;git commit -m 'Update install.sh'
+: 1551948751:0;git push origin
+: 1551953296:0;cd .dotfiles
+: 1551953307:0;git log --graph
+: 1551953320:0;git log 
+: 1551953325:0;git status
+: 1551953547:0;npm install -g diff-so-fancy
+: 1551953575:0;sudo apt update
+: 1551953717:0;sudo apt install nodejs
+: 1551953735:0;sudo apt upgrade
+: 1551953838:0;sudo apt install npm
+: 1551953941:0;npm -v
+: 1551953985:0;git status
+: 1551953989:0;git log 
+: 1551954011:0;npm install -g diff-so-fancy
+: 1551954030:0;git log 
+: 1551954039:0;sudo npm install -g diff-so-fancy
+: 1551954043:0;git log 
+: 1551954055:0;git status
+: 1551954058:0;clear
+: 1551954066:0;cowsay
+: 1551954083:0;sudo apt install cowsay
+: 1551954095:0;cowsay
+: 1551954140:0;cowsay Hello
+: 1551954148:0;cowsay Hello World!
+: 1551954152:0;clear
+: 1551954157:0;cowsay Hello World!
+: 1551954835:0;cd .dotfiles
+: 1551954841:0;git status
+: 1551954854:0;git add -A
+: 1551954899:0;git status
+: 1551954918:0;git commit -m 'Add image'
+: 1551954926:0;git push origin
+: 1551955108:0;nvim README.md
+: 1551955252:0;git status
+: 1551955258:0;git add -A
+: 1551955274:0;git commit -m 'Update README.md'
+: 1551955281:0;git push origin
+: 1551955356:0;nvim README.md
+: 1551955369:0;git add -A
+: 1551955384:0;git commit -m 'Update README.md'
+: 1551955388:0;git push origin
+: 1551955512:0;git log --graph
+: 1551955526:0;git status
+: 1551955531:0;git push origin
+: 1551955551:0;git pull origin 
+: 1551955586:0;git push origin
+: 1551955607:0;git log --graph
+: 1551955745:0;git reset --hard HEAD 365e2d939c4be418f01822bb169dc3dc2df54645
+: 1551955812:0;git reset --hard HEAD~2
+: 1551955815:0;git log --graph
+: 1551955867:0;git reset --hard HEAD
+: 1551955869:0;git log --graph
+: 1551955880:0;git push origin
+: 1551955891:0;git pull
+: 1551955896:0;git push origin
+: 1551955916:0;git log --graph
+: 1551955935:0;git reset --hard HEAD~2
+: 1551955946:0;git push origin
+: 1551955993:0;git push -f origin master
+: 1551956002:0;git log --graph
+: 1551956064:0;git status
+: 1551956067:0;git add -A
+: 1551956103:0;git commit -m 'README.md: fix image path'
+: 1551956113:0;git push origin
+: 1551956284:0;clear
+: 1551958140:0;nvim
+: 1551958176:0;cd ~/Projects
+: 1551958180:0;clear
+: 1551958208:0;speed
+: 1551958541:0;source install.sh
+: 1551958705:0;git status
+: 1551958714:0;git add -A
+: 1551958741:0;git commit -m 'Add nvim config'
+: 1551958752:0;git push origin
+: 1552041035:0;git log --graph
+: 1552041078:0;git show
+: 1552041093:0;clear
+: 1552041152:0;git log --graph
+: 1552041161:0;clear
+: 1552041172:0;git checkout d7076640150a60caa9d16bd3ed3d82e071e0e1f2
+: 1552041180:0;git log --graph
+: 1552041249:0;git checkout
+: 1552041251:0;git log --graph
+: 1552041278:0;git checkout
+: 1552041292:0;git history
+: 1552041305:0;git log
+: 1552041317:0;git checkout
+: 1552041386:0;git checkout master
+: 1552041396:0;git log
+: 1552041404:0;git log --graph
+: 1552041417:0;git checkout
+: 1552041419:0;git log --graph
+: 1552041433:0;git checkout HEAD
+: 1552041434:0;git log --graph
+: 1552041447:0;git branch -v
+: 1552041459:0;git checkout temporary
+: 1552041463:0;git log --graph
+: 1552041574:0;git status
+: 1552052193:0;pass
+: 1552052525:0;clear
+: 1552052661:0;docker -v
+: 1552052674:0;cd ~/Projects
+: 1552052677:0;ls -l
+: 1552052723:0;mkdir portfolio
+: 1552052741:0;mkdir qiwi_orange
+: 1552052743:0;clear
+: 1552052746:0;ls -l
+: 1552052752:0;clear
+: 1552053074:0;laravel new portfolio
+: 1552053179:0;composer create-project --prefer-dist laravel/laravel portfolio
+: 1552053421:0;composer create-project --prefer-dist laravel/laravel qiwi_orange
+: 1552137562:0;cd ~/Projects/portfolio
+: 1552137566:0;git status
+: 1552137822:0;clear
+: 1552137823:0;git status
+: 1552137848:0;git rm --chached .phpstorm.meta.php
+: 1552137850:0;git status
+: 1552137915:0;git add storage/*
+: 1552137917:0;git status
+: 1552137927:0;git add storage/**
+: 1552137960:0;git add storage/.gitignore**
+: 1552137975:0;git add storage/app/.gitignore
+: 1552137986:0;git add storage/app/.gitignorestorage/app/public/.gitignore
+: 1552137998:0;git add storage/app/public/.gitignore
+: 1552138279:0;git add storage/framework/.gitignore
+: 1552138293:0;git add storage/framework/cache/.gitignore
+: 1552138303:0;git add storage/framework/cache/data/.gitignore
+: 1552138311:0;git add storage/framework/sessions/.gitignore
+: 1552138324:0;git add storage/framework/testing/.gitignore\
+
+: 1552138338:0;storage/framework/views/.gitignore
+: 1552138345:0;git add storage/framework/views/.gitignore
+: 1552138355:0;git add storage/logs/.gitignore
+: 1552138367:0;git add .gitignore
+: 1552138378:0;git add .phpstorm.meta.php
+: 1552138400:0;git add _ide_helper.php
+: 1552138422:0;git add composer.json
+: 1552138435:0;git add composer.lock
+: 1552138443:0;package.json
+: 1552138453:0;git add package.json
+: 1552138487:0;git status
+: 1552138541:0;git commit -m 'Project setup'
+: 1552138548:0;git status
+: 1552138561:0;git add docker
+: 1552138563:0;git status
+: 1552138576:0;git add docker-compose.yml
+: 1552138588:0;dit add storage/docker
+: 1552138594:0;git add storage/docker
+: 1552138599:0;git add storage/docker/
+: 1552138674:0;git status
+: 1552138688:0;git add storage/docker
+: 1552138709:0;git diff yarn.lock
+: 1552138728:0;git add Makefile
+: 1552138744:0;git commit -m 'Add docker'
+: 1552138748:0;git status
+: 1552138769:0;git add -A
+: 1552138799:0;git commit -m 'Add Auth'
+: 1552138804:0;got log --graph
+: 1552138809:0;git log --graph
+: 1552138885:0;git remore add portfolio git@github.com:ivanopol/portfolio.git
+: 1552138893:0;git remote add portfolio git@github.com:ivanopol/portfolio.git
+: 1552138974:0;git remote add origin git@github.com:ivanopol/portfolio.git
+: 1552138990:0;git remote -v
+: 1552139066:0;git remote rm portfolio
+: 1552139068:0;git remote -v
+: 1552139092:0;git fetch origin
+: 1552139113:0;git push origin
+: 1552139126:0;ls -l
+: 1552139143:0;git push origin master
+: 1552139154:0;git pull
+: 1552139167:0;git pull origin
+: 1552139174:0;git pull origin master
+: 1552139183:0;git push origin master
+: 1552139195:0;git log --graph
+: 1552139487:0;git push origin master
+: 1552139581:0;git pull origin master
+: 1552139588:0;git log --graph
+: 1552139691:0;git pull origin master --allow-unrelated-histories
+: 1552139715:0;git merge origin origin/master
+: 1552139722:0;git push origin master
+: 1552139880:0;git remote rm portfolio
+: 1552139885:0;git remote rm origin
+: 1552139894:0;git remote -
+: 1552139896:0;git remote -v
+: 1552139900:0;clear
+: 1552139935:0;git remote add origin git@github.com:ivanopol/portfolio.git
+: 1552139941:0;git push -u origin master
+: 1552139990:0;git log --graph
+: 1552140004:0;git remote rm origin
+: 1552140006:0;git log --graph
+: 1552140024:0;git rebase HEAD
+: 1552140026:0;git log --graph
+: 1552140068:0;git reset --hard HEAD^
+: 1552140070:0;git log --graph
+: 1552140112:0;git remote add origin git@github.com:ivanopol/portfolio.git
+: 1552140120:0;git push -u origin master
+: 1552153260:0;speed
+: 1552284952:0;git status
+: 1552284957:0;git add -A
+: 1552284968:0;git commit -m 'Add i3wm'
+: 1552284974:0;git push -u origin master
+: 1552289256:0;cd ~/.dotfiles
+: 1552289263:0;ls -l
+: 1552289272:0;nvim install.sh
+: 1552289352:0;cd ~/.dotfiles
+: 1552289359:0;ls -l
+: 1552289369:0;ls -l i3
+: 1552289413:0;vim i3/config
+: 1552292518:0;git add -A
+: 1552292753:0;git commit -m 'Add ln i3wm'
+: 1552292759:0;git push -u origin master
+: 1552293416:0;htop
+: 1552295685:0;speed
+: 1552296004:0;ip vk.com
+: 1552297562:0;speed
+: 1552301276:0;cl0
+: 1552301279:0;clear
+: 1552313194:0;git clone https://github.com/ivanopol/ivanopol.github.io
+: 1552313208:0;echo "Hello World" > index.html
+: 1552313216:0;git add --all
+: 1552313223:0;git add -A
+: 1552313233:0;git status
+: 1552313248:0;git init
+: 1552313251:0;git clone https://github.com/ivanopol/ivanopol.github.io
+: 1552313259:0;git add -A
+: 1552313261:0;git status
+: 1552313277:0;git commit -m "Initial commit"
+: 1552313284:0;git push -u origin master
+: 1552313309:0;git clone https://github.com/ivanopol/ivanopol.github.io
+: 1552313339:0;git push -u origin master
+: 1552313360:0;git remote -v
+: 1552313374:0;git remote add origin git@github.com:ivanopol/ivanopol.github.io.git
+: 1552313382:0;git push -u origin master
+: 1552390535:0;cd git
+: 1552390541:0;git log --graph
+: 1552546054:0;speed
+: 1552799581:0;cd Downloads
+: 1552799583:0;git clone https://github.com/sf197/hashboy-instrument
+: 1552799673:0;git clone https://github.com/sf197/hashboy-tool
+: 1552799691:0;cd hashboy-tool
+: 1552799700:0;python3 hashboy.py
+: 1552799786:0;touch test.txt
+: 1552799793:0;vim test.txt 
+: 1552799884:0;python3 hashboy.py -f test.txt
+: 1552800052:0;ls -l
+: 1552800083:0;cat hash-test.txt
+: 1552800198:0;python3 hashboy.py -f ./test.txt
+: 1552800437:0;python3 hashboy.py -s 68060a761ca14e631182836c433c050e
+: 1552800635:0;cd ../
+: 1552800637:0;ls -l
+: 1552800658:0;rm -rf hashboy-tool
+: 1552800660:0;ls -l
+: 1552803622:0;git clone https://github.com/s0md3v/Hash-Buster.git
+: 1552803630:0;ls -l
+: 1552803635:0;cd Hash-Buster
+: 1552803637:0;ls -l
+: 1552803651:0;make install
+: 1552803712:0;buster -s b307b9540bf2a2a830b58e074509f4ed
+: 1552804139:0;echo -en "\033[37;1;41m Ѓ�нимание \033[0m"
+: 1552814575:0;buster -s b307b9540bf2a2a830b58e074509f4ed
+: 1552814623:0;buster -s 3287bab0b82ddedea9e26ad1320cce23
+: 1552814657:0;buster -s 463381f6ba27bb201789bb39d8e31c57
+: 1552814678:0;buster -s 11dfee1e50689abd4858b23a85663dcf
+: 1552814697:0;buster -s f161f58dd84810290493c19e6bee8765
+: 1552814722:0;buster -s bd9f8d3320ff2c0ccb45fc14794761ac
+: 1552814730:0;clear
+: 1552853857:0;speed
+: 1552895788:0;pip install ranger-fm
+: 1552895900:0;man ranger
+: 1552895911:0;man ranger-fm
+: 1552895924:0;man ranger
+: 1552895928:0;pip install ranger-fm
+: 1552895939:0;ls -l
+: 1552895958:0;ranger
+: 1552895976:0;ls -la
+: 1552896027:0;ls -la .config
+: 1552896046:0;ls -la .config | cat ranger
+: 1552896100:0;pip install ranger-fm
+: 1552896259:0;pip show ranger-fm
+: 1552896292:0;pip --version
+: 1552896308:0;python3 --version
+: 1552896340:0;sudo apt install python3-pip
+: 1552896382:0;pip3 --version
+: 1552896454:0;sudo pip install ranger-fm
+: 1552896613:0;ranger
+: 1552896847:0;ranger --copy-config=( rc | scope | ... | all )
+: 1552896879:0;ranger --help
+: 1552896905:0;ranger --copy-config=all 
+: 1552896924:0;ls -l .config/ranger
+: 1552896935:0;man ranger
+: 1552897014:0;mkdir .dotfiles/ranger
+: 1552897044:0;cp ~/.config/ranger/* ~/.dotfiles/ranger
+: 1552897058:0;ls -l .dotfiles/ranger
+: 1552897071:0;cd .dotfiles
+: 1552897082:0;git add -A
+: 1552897089:0;git status
+: 1552897111:0;nvim install.sh
+: 1552897238:0;source install.sh
+: 1552897307:0;ln --help
+: 1552897444:0;nvim install.sh
+: 1552897464:0;source install.sh
+: 1552897531:0;nvim install.sh
+: 1552897562:0;source install.sh
+: 1552897587:0;nvim install.sh
+: 1552897604:0;source install.sh
+: 1552897624:0;nvim install.sh
+: 1552897639:0;source install.sh
+: 1552897668:0;nvim install.sh
+: 1552897691:0;source install.sh
+: 1552897749:0;nvim install.sh
+: 1552897787:0;source install.sh
+: 1552897897:0;nvim install.sh
+: 1552899178:0;source install.sh
+: 1552899205:0;git add -A
+: 1552899323:0;git commit -m "Add ranger"
+: 1552899334:0;git push -u origin master
+: 1552899349:0;git log --graph
+: 1552901435:0;cd . 
+: 1552901441:0;cd ~
+: 1552901448:0;ranger
+: 1552901627:0;cd /home
+: 1552901629:0;ls -l
+: 1552901645:0;sudo rm yourname -R
+: 1552901650:0;ls -l
+: 1552901656:0;ranger
+: 1552901745:0;ranger --help
+: 1552901770:0;cd ~/.config/ranger
+: 1552901771:0;ls -l
+: 1552901781:0;nvim rifle.conf
+: 1552901836:0;nvim rc.conf
+: 1552902144:0;ranger
+: 1552918054:0;w3m
+: 1552918079:0;cd Pictures
+: 1552918080:0;ls -l
+: 1552918087:0;w3m thehaze-lite.jpg
+: 1552918100:0;ranger
+: 1552918371:0;source install.sh
+: 1552918392:0;ranger
+: 1552918477:0;cd ~
+: 1552918478:0;make
+: 1552918537:0;ranger
+: 1552918624:0;sudo apt-get install sxiv
+: 1552918689:0;ranger
+: 1552919236:0;make
+: 1552919243:0;sudo make
+: 1552919294:0;cd ~/Downloads
+: 1552919304:0;mkdir images
+: 1552919307:0;cd images
+: 1552919319:0;git clone https://github.com/Vifon/zsh-image-extension.git
+: 1552919326:0;ду� -д
+: 1552919327:0;ls -l
+: 1552919333:0;cd zsh-image-extension
+: 1552919335:0;make
+: 1552919393:0;clear
+: 1552919407:0;make sxiv
+: 1552919526:0;ranger
+: 1552919546:0;ку�тпу�к
+: 1552919548:0;ranger
+: 1552919605:0;source install.sh
+: 1552919672:0;cd ~/Pictures
+: 1552919674:0;ls -l
+: 1552919681:0;sxiv thehaze-lite.jpg
+: 1552923496:0;pip install instapy
+: 1552923650:0;touch quickstart.py
+: 1552923654:0;nvim quickstart.py
+: 1552923752:0;python quickstart.py --username ivanopol777 --password AC&1s^xT2LoMASW6
+: 1552923898:0;cd ~/Projects/instapy
+: 1552923903:0;python quickstart.py 
+: 1552938068:0;ranger
+: 1552938110:0;clear
+: 1552938361:0;touch composer.phar
+: 1552938444:0;git init
+: 1552938450:0;composer require raiym/instagram-php-scraper
+: 1552938739:0;make docker-up
+: 1552938800:0;docker ps
+: 1552938846:0;touch index.php
+: 1552938852:0;nvim index.php
+: 1552939382:0;composer require raiym/instagram-php-scraper
+: 1552939533:0;docker-compose exec php-cli ls -l
+: 1552939568:0;docker-compose exec php-cli composer require raiym/instagram-php-scraper
+: 1552939595:0;docker-compose exec php-cli composer.phar require raiym/instagram-php-scraper
+: 1552939613:0;docker-compose exec php-cli echo $PATH
+: 1552939658:0;composer.phar require raiym/instagram-php-scraper
+: 1552939672:0;composer require raiym/instagram-php-scraper
+: 1552939925:0;make docker-down
+: 1552939967:0;make docker-build
+: 1552940320:0;echo $USER
+: 1552940333:0;make docker-build
+: 1552940568:0;make docker-up
+: 1552940576:0;composer require raiym/instagram-php-scraper
+: 1552940718:0;docker-compose exec php-cli ls -l
+: 1552940752:0;docker-compose exec php-cli composer require raiym/instagram-php-scraper
+: 1552941380:0;make docker-build
+: 1552941419:0;make docker-up
+: 1552941427:0;docker-compose exec php-cli composer require raiym/instagram-php-scraper
+: 1552941448:0;docker-compose exec php-cli echo $PATH
+: 1552941480:0;docker-compose exec php-cli ls -l /
+: 1552941507:0;docker-compose exec php-cli ls -l ~/.config/composer
+: 1552941511:0;docker-compose exec php-cli ls -l ~/.config/composer/
+: 1552941522:0;docker-compose exec php-cli ls -l $HOME/.config/composer/
+: 1552941527:0;docker-compose exec php-cli ls -l $HOME/.config/
+: 1552941534:0;docker-compose exec php-cli ls -l ~/.config/
+: 1552941544:0;docker-compose exec php-cli ls -l /home
+: 1552941561:0;docker-compose exec php-cli ls -l /usr
+: 1552941573:0;docker-compose exec php-cli ls -l root
+: 1552941577:0;docker-compose exec php-cli ls -l /root
+: 1552941583:0;docker-compose exec php-cli ls -l /var
+: 1552941606:0;docker-compose exec php-cli ls -l /home
+: 1552941612:0;docker-compose exec php-cli sudo ls -l /home
+: 1552941629:0;docker-compose exec php-cli ls -l /home
+: 1552941692:0;composer require raiym/instagram-php-scraper
+: 1552941736:0;sudo apt install php-curl
+: 1552941830:0;composer require raiym/instagram-php-scraper
+: 1552941950:0;sudo apt-get install php7.1-curl
+: 1552941983:0;sudo add-apt-repository ppa:ondrej/php
+: 1552942017:0;sudo apt-get install php7.1-curl
+: 1552942159:0;composer require raiym/instagram-php-scraper
+: 1552942324:0;composer require "raiym/instagram-php-scraper:*"
+: 1552943411:0;composer install
+: 1552943899:0;composer require "raiym/instagram-php-scraper:*"
+: 1552944521:0;clear
+: 1552944533:0;php public/index.php
+: 1552945320:0;cd ~/Projects/instaphp
+: 1552945326:0;make docker-down
+: 1552977993:0;ranger
+: 1552978024:0;cd ~/Projects/instaphp
+: 1552978036:0;make docker-up
+: 1552978255:0;0.0.0.0:8080
+: 1552978265:0;php public/index.php
+: 1552978301:0;nvim public/index.php
+: 1552978464:0;php public/index.php
+: 1552978490:0;nvim public/index.php
+: 1552978604:0;php public/index.php
+: 1552978651:0;nvim public/index.php
+: 1552979653:0;php public/index.php
+: 1552979924:0;nvim public/index.php
+: 1552979979:0;rm "~/.local/share/nvim/swap//%home%ivanopol%Projects%instaphp%public%index.php.swp"
+: 1552980010:0;cd ~/.local/share/nvim/swap/
+: 1552980011:0;ls -l
+: 1552980032:0;rm %home%ivanopol%Projects%instaphp%public%index.php.swo
+: 1552980034:0;rm %home%ivanopol%Projects%instaphp%public%index.php.swp
+: 1552980036:0;ls -l
+: 1552980196:0;php public/index.php
+: 1552980211:0;clear
+: 1552980217:0;php public/index.php
+: 1552980239:0;clear
+: 1552980244:0;php public/index.php
+: 1552983159:0;cd ~/Projects/instaphp
+: 1552983166:0;make docker-down
+: 1552983191:0;clear
+: 1553005749:0;git status
+: 1553005764:0;git add -A
+: 1553005775:0;make perm
+: 1553005782:0;git add -A
+: 1553005851:0;git config --global core.autocrlf false
+: 1553005853:0;git add -A
+: 1553005895:0;git commit -m "Setting up project"
+: 1553005997:0;git init
+: 1553006011:0;nvim .gitignore
+: 1553006064:0;git status
+: 1553006106:0;git add .gitignore Makefile app/ composer.json composer.lock docker-compose.yml docker/ phpunit.xml.dist
+: 1553006110:0;git status
+: 1553006145:0;git rm --chached docker/mysql
+: 1553006151:0;git rm --cached docker/mysql
+: 1553006156:0;git rm --cached -r docker/mysql
+: 1553006160:0;git status
+: 1553006164:0;nvim .gitignore
+: 1553006216:0;git commit -m "Initial commit"
+: 1553006223:0;git log --graph
+: 1553006234:0;git add public/
+: 1553006278:0;git commit -m "Add simple comments parsing"
+: 1553006283:0;git status
+: 1553006299:0;git add -A
+: 1553006317:0;git commit -m "Add ignore folders"
+: 1553006321:0;clear
+: 1553006325:0;git log --graph
+: 1553006461:0;git status
+: 1553006483:0;git diff ranger/rc.conf 
+: 1553006507:0;git add git/.gitconfig
+: 1553006675:0;git status
+: 1553006681:0;git add git/.gitconfig
+: 1553006689:0;git commit -m "Git: solve autocrlf problem"
+: 1553006704:0;git add ranger/rc.conf
+: 1553006739:0;git commit -m "Ranger: turn on images preview"
+: 1553006746:0;git push -u origin master
+: 1553006825:0;git add -A
+: 1553006829:0;git status
+: 1553006872:0;git commit -m "Git: change default editor to nvim"
+: 1553006876:0;git push -u origin master
+: 1553007103:0;git remote add origin git@github.com:ivanopol/instatools.git
+: 1553007112:0;git push -u origin master
+: 1553039111:0;speed
+: 1553065066:0;sudo apt install attr
+: 1553065119:0;cd ~/Pictures
+: 1553065120:0;ls -l
+: 1553065134:0;getfattr -d thehaze-lite.jpg
+: 1553065145:0;getfattr -d download.png
+: 1553065159:0;getfattr -d galaxia_1920x1080_Xtrafondos.com.jpg
+: 1553065193:0;cd -
+: 1553065212:0;nvim .zshrc
+: 1553065447:0;cd ~/Pictures
+: 1553065449:0;ls -l
+: 1553065455:0;getattr galaxia_1920x1080_Xtrafondos.com.jpg
+: 1553065466:0;clrattr galaxia_1920x1080_Xtrafondos.com.jpg
+: 1553065467:0;getattr galaxia_1920x1080_Xtrafondos.com.jpg
+: 1553065512:0;nvim .zshrc
+: 1553065726:0;nvim ~/.zshrc
+: 1553065802:0;allattr
+: 1553065969:0;nvim ~/.zshrc
+: 1553066298:0;alias help
+: 1553066301:0;alias --help
+: 1553066307:0;alias -h
+: 1553066316:0;man alias
+: 1553066337:0;alias --help
+: 1553066825:0;cd ~/Pictures
+: 1553066827:0;ls -l
+: 1553066835:0;getattr galaxia_1920x1080_Xtrafondos.com.jpg
+: 1553066843:0;clrattr galaxia_1920x1080_Xtrafondos.com.jpg
+: 1553066870:0;cd Beastie\ Boys
+: 1553066872:0;ls -l
+: 1553066879:0;getattr BBPS41.jpg
+: 1553066888:0;clrattr BBPS41.jpg
+: 1553066891:0;getattr BBPS41.jpg
+: 1553066954:0;nvim ~/.zshrc
+: 1553067084:0;getattr beasties2.jpg
+: 1553067092:0;nvim ~/.zshrc
+: 1553067126:0;c
+: 1553101144:0;sudo apt install qutebrowser
+: 1553101301:0;git status
+: 1553101311:0;git add -A
+: 1553101348:0;git commit -m "ZSH: add aliases of attr"
+: 1553101353:0;git push -u origin master
+: 1553101824:0;qutebrowser
+: 1553102266:0;htop
+: 1553105235:0;ADAA
+: 1553105681:0;htop
+: 1553105808:0;с
+: 1553105810:0;c
+: 1553105973:0;\\
+c
+: 1553106322:0;c
+: 1553106404:0;qutebrowser
+: 1553107951:0;nvim ~/.zshrc
+: 1553108028:0;cd ~/.dotfiles
+: 1553108034:0;git status
+: 1553108039:0;git add -A
+: 1553108089:0;git commit -m "ZSH: add alias for qutebrowser"
+: 1553108093:0;git push -u origin master
+: 1553108114:0;browser
+: 1553112546:0;free -h
+: 1553113284:0;browser
+: 1553174143:0;mount ~/Games
+: 1553174154:0;ls -l
+: 1553174157:0;mount ~/Games
+: 1553177014:0;ver=$(lsb_release -sr); if [ $ver != "18.10" -a $ver != "18.04" -a $ver != "16.04" ]; then ver=18.04; fi
+: 1553177031:0;echo "deb http://download.opensuse.org/repositories/home:/strycore/xUbuntu_$ver/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
+: 1553177035:0;dgarik777
+: 1553177095:0;wget -q https://download.opensuse.org/repositories/home:/strycore/xUbuntu_$ver/Release.key -O- | sudo apt-key add -
+: 1553177107:0;sudo apt-get update
+: 1553177118:0;sudo apt-get install lutris
+: 1553177191:0;litrus
+: 1553177265:0;lutris
+: 1553186926:0;uptime
+: 1553186955:0;head -n1 /etc/issue
+: 1553186966:0;$SHELL
+: 1553187116:0;p
+: 1553238276:0;nvim ~/.zshrc
+: 1553238320:0;cd ~/.dotfiles
+: 1553238324:0;git add -A
+: 1553238350:0;git commit -m "ZSH: add alias for ranger file manager"
+: 1553238355:0;git push -u origin master
+: 1553240359:0;ufw status
+: 1553240364:0;sudo ufw status
+: 1553240389:0;sudo ufw enable
+: 1553240823:0;free -h
+: 1553240912:0;watch 1 (free -h)
+: 1553240955:0;watch (free -h)
+: 1553240965:0;watch 'free -h'
+: 1553241051:0;free -ms 2 -h
+: 1553241247:0;meminfo
+: 1553241263:0;cat /proc/meminfo
+: 1553241645:0;browser
+: 1553241732:0;fm
+: 1553243794:0;sudo apt remove i3* && sudo apt autoremove
+: 1553243801:0;sudo apt remove i3 && sudo apt autoremove
+: 1553244007:0;sudo apt install i3 
+: 1553244217:0;htop
+: 1553244524:0;free -h
+: 1553244623:0;fm
+: 1553244689:0;browser
+: 1553244860:0;xrandr
+: 1553244874:0;xrandr --output VGA1 --auto --left-of LVDS1
+: 1553244883:0;xrandr --output VGA1-1 --auto --left-of LVDS1
+: 1553244894:0;xrandr --output VGA-1-1 --auto --left-of LVDS1
+: 1553244908:0;xrandr --output VGA-1-1 --auto --left-of LVDS-1-1
+: 1553246166:0;xrandr --output VGA-1-1 --auto --right-of LVDS-1-1
+: 1553246401:0;move workspace to VGA-1-1 right
+: 1553246460:0;xrandr --output VGA-1-1 --auto
+: 1553246469:0;xrandr --output VGA-1-1 --auto --right-of
+: 1553246485:0;xrandr --output VGA-1-1 --primary
+: 1553246596:0;rename workspace to first
+: 1553246615:0;rename workspace to 2
+: 1553246752:0;ls -l
+: 1553246756:0;fm
+: 1553247279:0;xrandr --output VGA-1-1 --auto 
+: 1553247285:0;xrandr --output VGA-1-1 --auto --right-of
+: 1553247300:0;xrandr --output VGA-1-1 --auto --primery
+: 1553247321:0;xrandr --output VGA-1-1 --auto --primary
+: 1553247326:0;xrandr --output VGA-1-1 --auto --left-of LVDS-1-1
+: 1553248200:0;cmake ..
+: 1553248237:0;mkdir build
+: 1553248241:0;cd build
+: 1553248244:0;cmake ..
+: 1553248258:0;make ..
+: 1553248304:0;sudo apt install cmake
+: 1553248332:0;cmake ..
+: 1553248351:0;make -j$(nproc)
+: 1553248364:0;sudo make install
+: 1553248434:0;sudo apt-get install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev i3-wm libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev libxcb-composite0-dev xcb libxcb-ewmh2
+: 1553248515:0;cd -
+: 1553248523:0;./build.sh
+: 1553248961:0;polybar example
+: 1553249057:0;xrandr --output VGA-1-1 --auto --primary
+: 1553249062:0;xrandr --output VGA-1-1 --auto --left-of LVDS-1-1
+: 1553249072:0;polybar example
+: 1553249206:0;make userconfig
+: 1553249235:0;install -Dm644 /usr/local/share/doc/polybar/config $HOME/.config/polybar/config
+: 1553249241:0;polybar example
+: 1553249248:0;sudo polybar example
+: 1553249267:0;polybar
+: 1553249271:0;polybar BAR
+: 1553249309:0;fm
+: 1553249432:0;polybar example
+: 1553249468:0;xrandr --output VGA-1-1 --auto --left-of LVDS-1-1
+: 1553249480:0;xrandr --output VGA-1-1 --auto --right-of LVDS-1-1
+: 1553249487:0;polybar example
+: 1553249550:0;sudo apt install libmpdclient 
+: 1553249560:0;sudo apt install libmpdclient-dev
+: 1553249986:0;polybar example
+: 1553250070:0;sudo apt install bspwm
+: 1553250092:0;polybar example
+: 1553250177:0;polybar example -l info
+: 1553250207:0;./bin/polybar example
+: 1553250276:0;sudo apt install Siji
+: 1553250315:0;cd ~/Downloads
+: 1553250317:0;git clone https://github.com/stark/siji && cd siji
+: 1553250326:0;./install.sh
+: 1553250365:0;sudo apt-get install x11-utils
+: 1553250375:0;cd ~/
+: 1553250381:0;polybar example
+: 1553250404:0;dc ~/Downloads/siji
+: 1553250406:0;./install.sh -d ~/.fonts
+: 1553250473:0;free -h
+: 1553261319:0;sudo su
+: 1553261363:0;te
+: 1553261375:0;time
+: 1553261438:0;te
+: 1553261642:0;cd ~/Projects/instaphp
+: 1553261734:0;cd ~/Projects/laravel
+: 1553261877:0;cd ../
+: 1553261879:0;cd portfolio
+: 1553261919:0;df -h
+: 1553261925:0;cd ~/Projects/laravel
+: 1553261960:0;dgf
+: 1553261963:0;time
+: 1553262055:0;cd ~/Projects/laravel
+: 1553262442:0;cd ../
+: 1553262445:0;cd portfolio
+: 1553262451:0;cd ../
+: 1553262459:0;mkdir test
+: 1553262479:0;chmod -R 444 test
+: 1553262482:0;cd test
+: 1553262493:0;chmod -R 644 test
+: 1553262495:0;cd test
+: 1553262500:0;chmod -R 664 test
+: 1553262502:0;cd test
+: 1553262509:0;chmod -R 666 test
+: 1553262510:0;cd test
+: 1553262513:0;ls -l
+: 1553262527:0;chmod -R 766 test
+: 1553262531:0;cd test
+: 1553262539:0;cd ../
+: 1553262546:0;chmod -R 744 test
+: 1553262547:0;cd ../
+: 1553262555:0;cd Projects/test
+: 1553262568:0;cd ../
+: 1553262577:0;chmod -R 544 test
+: 1553262585:0;cd test
+: 1553262604:0;cd -
+: 1553262612:0;chmod -R 777 test
+: 1553262620:0;rm -r test
+: 1553262622:0;ls -l
+: 1553262657:0;cd /usr/local/etc/php/
+: 1553262661:0;cd /usr/local/
+: 1553262815:0;cd ~/Projects/laravel
+: 1553263249:0;fc-cache -fv ~/.fonts
+: 1553263478:0;cd ~/Projects/laravel
+: 1553263492:0;cd /usr/local/
+: 1553263511:0;~/
+: 1553263522:0;cd /usr/local/
+: 1553264010:0;cd ~/Projects/laravel
+: 1553264605:0;colorls
+: 1553271927:0;mkdir -p ~/.local/share/fonts
+: 1553279476:0;cd ~/Downloads
+: 1553279478:0;ls -l
+: 1553279495:0;unzip nerd-fonts-master.zip
+: 1553280263:0;cd ~/Downloads
+: 1553280266:0;ls -l
+: 1553280273:0;cd nerd-fonts-master
+: 1553280279:0;./install.sh Hack
+: 1553281735:0;nvim ~/.zshrc
+: 1553281903:0;cd ~/Projects/laravel
+: 1553281915:0;cd ..
+: 1553282402:0;cd ~/.dotfiles
+: 1553282407:0;git add -A
+: 1553282412:0;git status
+: 1553282469:0;git rm --cached -r tilix/blue_theme.json
+: 1553282471:0;git status
+: 1553282606:0;git commit -m "ZSH: add PowerLevel9k styles"
+: 1553282613:0;git add -A
+: 1553282617:0;git status
+: 1553282639:0;git commit -m "Tilix: add color theme"
+: 1553282643:0;c
+: 1553282807:0;cd ~/Projects/portfolio
+: 1553282821:0;cd ../
+: 1553282825:0;cd ~
+: 1553282835:0;c
+: 1553283017:0;nvim ~/.zshrc
+: 1553283182:0;cd ~/.dotfiles
+: 1553283187:0;git add -A
+: 1553283192:0;git status
+: 1553283224:0;git commit -m "ZSH: changes in therminal style"
+: 1553283229:0;git push -u origin master
+: 1553283368:0;for code ({000..255}) print -P -- "$code: %F{$code}This is how your text would look like%f"
+: 1553283375:0;c
+: 1553286353:0;openssl req -newkey rsa:2048 -x509 -nodes -keyout leadersinsport.dev.key -new -out leadersinsport.dev.cert -subj /CN=leadersinsport.dev -reqexts SAN -extensions SAN -config <(cat /etc/ssl/openssl.cnf <(printf '[SAN]\nsubjectAltName=DNS:example.dev')) -sha256 -days 3650
+: 1553333715:0;ls -1 $HOME/.password-store
+: 1553333889:0;pass
+: 1553333897:0;pass init
+: 1553333928:0;pass init gpg-id
+: 1553333938:0;pass
+: 1553334084:0;pass insert Email/mail.ru/ivanopol777@mail.ru
+: 1553334178:0;sudo apt-get install gnupg
+: 1553334198:0;sudo apt autoremove
+: 1553334448:0;c
+: 1553334451:0;gpg --list-keys
+: 1553334473:0;gpg --list-secret-keys
+: 1553334482:0;gpg --list-public-keys
+: 1553334488:0;c
+: 1553334503:0;sudo apt-get install rng-tools
+: 1553334508:0;c
+: 1553334526:0;gpg --gen-key
+: 1553334596:0;gpg --list-keys
+: 1553334671:0;c
+: 1553334679:0;gpg --gen-key
+: 1553334698:0;gpg --full-generate-key
+: 1553334802:0;gpg --list-keys
+: 1553334810:0;c
+: 1553334941:0;gpg --fingerprint Pass
+: 1553334978:0;gpg --keyid-format LONG --list-keys
+: 1553335012:0;gpg --keyid-format 0xLONG -k 7EFE74E5
+: 1553335987:0;gpg --list-public-keys
+: 1553336024:0;gpg --armor --output pubkey.txt --export 86B5F416C9812CA6CEB87587513F043811B796E9
+: 1553336076:0;gpg --armor --output privkey.txt --export-secret-keys 86B5F416C9812CA6CEB87587513F043811B796E9
+: 1553336448:0;c
+: 1553336451:0;tar xjvf lplinux.tar.bz2
+: 1553336467:0;cd ~/Downloads
+: 1553336473:0;tar xjvf lplinux.tar.bz2
+: 1553336482:0;cd lplinux && ./install_lastpass.sh
+: 1553336644:0;cd ~/Downloads
+: 1553336650:0;cd lplinux && sudo ./install_lastpass.sh
+: 1553337327:0;pass 
+: 1553337342:0;pass init Pass
+: 1553337353:0;pass insert Email/mail.ru/ivanopol777@mail.ru
+: 1553337410:0;pass
+: 1553339357:0;pass git init
+: 1553339383:0;pass
+: 1553339405:0;pass git remote add origin https://github.com/ivanopol/pass.git
+: 1553339430:0;pass git status
+: 1553339439:0;pass git add -A
+: 1553339440:0;pass git status
+: 1553339474:0;git status
+: 1553339503:0;git push -u origin master.
+: 1553339509:0;git push -u origin master
+: 1553339761:0;c
+: 1553339857:0;gpg --armor --output pubkey.txt --export 86B5F416C9812CA6CEB87587513F043811B796E9
+: 1553340327:0;ls -al ~/.ssh
+: 1553340345:0;cat ~/.ssh/known_hosts
+: 1553340357:0;c
+: 1553340677:0;ssh-add -l
+: 1553340726:0;cat ~/.ssh/id_rsa.pub 
+: 1553340747:0;ls -la ~/.ssh/
+: 1553340755:0;cat ~/.ssh/id_rsa
+: 1553340844:0;c
+: 1553340865:0;ssh-keygen 
+: 1553340974:0;ssh-add -l
+: 1553341084:0;c
+: 1553341119:0;eval "$(ssh-agent -s)"
+: 1553341163:0;ssh-add ~/.ssh/github_rsa
+: 1553341992:0;ssh-add -l.
+: 1553341994:0;ssh-add -l
+: 1553342013:0;ssh-add -help
+: 1553342028:0;ssh-add -l
+: 1553342064:0;ssh-add -l .ssh/id_rsa
+: 1553342070:0;ssh-add -l .ssh/id_rsa.pub
+: 1553343303:0;ssh-add -l .ssh/id_rsa.pubc
+: 1553343305:0;c
+: 1553343397:0;pass insert Social/vk.com/ivanopol777@mail.ru
+: 1553343415:0;pass
+: 1553343431:0;pass git status
+: 1553343445:0;pass git push
+: 1553355869:0;ip addr show
+: 1553375126:0;/sbin/ip route|awk '/default/ { print $3 }'
+: 1553378039:0;ifconfig docker0\
+
+: 1553414194:0;ipconfig getifaddr en1
+: 1553414202:0;ipconfig
+: 1553414212:0;ifconfig
+: 1553414742:0;sudo apt-get -y install locale
+: 1553414754:0;sudo apt-get -y install locales
+: 1553418587:0;ifconfig
+: 1553418655:0;ipconfig getifaddr en0
+: 1553418668:0;ipconfig getifaddr enp2s0
+: 1553418684:0;ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}' 
+: 1553419511:0;c
+: 1553419546:0;dpkg -l | grep php| awk '{print $2}' |tr "\n" " "
+: 1553419620:0;sudo apt install php7.1-xdebug
+: 1553419651:0;dpkg -l | grep php| awk '{print $2}' |tr "\n" " "
+: 1553419660:0;c
+: 1553419679:0;php -S 0.0.0.0:80
+: 1553419692:0;php -S localhost:80
+: 1553419797:0;ls /etc | grep nginx
+: 1553419800:0;cd /etc
+: 1553419806:0;ls -l
+: 1553419834:0;sudo apt update
+: 1553419849:0;sudo apt install nginx
+: 1553419907:0;ufw status
+: 1553419913:0;sudo ufw status
+: 1553420422:0;sudo apt-get remove nginx*
+: 1553420446:0;sudo netstat -ntlp | grep 80
+: 1553420466:0;sudo service nginx stop
+: 1553420469:0;sudo netstat -ntlp | grep 80
+: 1553420503:0;sudo ufw disable
+: 1553422228:0;c
+: 1553422240:0;dpkg -l | grep php| awk '{print $2}' |tr "\n" " "
+: 1553422248:0;ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}' 
+: 1553434389:0;sudo service nginx stop
+: 1553434448:0;sudo apt-get purge nginx*
+: 1553434450:0;sudo apt-get purge nginx
+: 1553434591:0;ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}' 
+: 1553435838:0;ls -l
+: 1553435845:0;cd ../
+: 1553435848:0;ls -l
+: 1553435870:0;chown ivanopol:ivanopol -R php.ini
+: 1553435874:0;sudo chown ivanopol:ivanopol -R php.ini
+: 1553435879:0;ls -l
+: 1553435905:0;touch index.php
+: 1553436156:0;make docker-build
+: 1553436302:0;make docker-up
+: 1553436628:0;make docker-down

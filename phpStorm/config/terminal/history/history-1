@@ -1,0 +1,648 @@
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get update
+sudo apt-get install google-chrome-stable
+sudo dpkg --configure -a
+sudo apt-get install google-chrome-stable
+sudo apt-get update
+sudo apt install unity-tweak-tool
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+sudo apt-get update && sudo apt-get install arc-theme
+wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
+sudo apt-key add - < Release.key
+sudo apt-get update
+sudo add-apt-repository ppa:noobslab/indicators
+sudo apt-get update
+sudo apt-get install indicator-multiload
+sudo snap install phpstorm --classic
+sudo add-apt-repository ppa:webupd8team/nemo
+sudo apt-get update
+sudo apt-get install nemo nemo-fileroller
+sudo apt-get install nemo-compare nemo-dropbox nemo-media-columns nemo-pastebin nemo-seahorse nemo-share
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+nemo
+namo
+nemo
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+cd /opt/Cerebro/
+cd ../
+chown -R $USER:$USER Cerebro/
+sudo chown -R $USER:$USER Cerebro/
+sudo blkid
+ls /sys/class/backlight/
+sudo touch /usr/share/X11/xorg.conf.d/20-intel.conf
+sudo gedit /usr/share/X11/xorg.conf.d/20-intel.conf
+sudo update-grub
+sudo su
+sudo gedit /etc/fstab
+sudo apt-get install gparted
+~/.config/google-chrome/Default/databases/chrome-extension_hdokiejnpimakedhajhdlcegeplioahd_0/
+~/.config/google-chrome/Default/databases
+ls ~/.config/google-chrome/Default/databases
+cd ~/.config/google-chrome/Default/databases
+cd chrome-extension_hdokiejnpimakedhajhdlcegeplioahd_0/
+ls -l
+mkdir dotfiles
+cd dotfiles/
+mkdir git
+cd git
+sudo apt-get install git
+cd dotfiles/
+git config --global username "ivanopol"
+git config --global user.name "ivanopol"
+git config --global user.email "ivanopol777@mail.ru"
+git init
+git config --global core.autocrlf true
+git config --global core.safecrlf true
+git config --global core.autocrlf input
+git config --global color.ui true
+sudo ubuntu-drivers devices
+sudo gedit /etc/apt/sources.list
+sudo apt-key add oracle_vbox_2016.asc
+sudo apt-key add oracle_vbox.asc
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install virtualbox-5.2
+ls -l
+cd Downloads/
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+зрз -м
+php -v
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
+sudo apt install -y language-pack-en-base
+sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php
+sudo apt update
+apt list --upgradable
+sudo apt upgrade
+apt install php7.1 php7.1-fpm  php7.1-opcache php7.1-zip php7.1-xmlrpc php7.1-xsl php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-odbc php7.1-pgsql php7.1-pspell php7.1-readline php7.1-recode php7.1-snmp php7.1-soap php7.1-sqlite3 php7.1-sybase php7.1-tidy php7.1-xml php7.1-json php7.1-ldap php7.1-intl php7.1-interbase php7.1-imap php7.1-gmp php7.1-gd php7.1-enchant php7.1-dba php7.1-bz2 php7.1-bcmath php7.1-phpdbg php7.1-cgi php7.1-cli
+sudo apt install php7.1 php7.1-fpm  php7.1-opcache php7.1-zip php7.1-xmlrpc php7.1-xsl php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-odbc php7.1-pgsql php7.1-pspell php7.1-readline php7.1-recode php7.1-snmp php7.1-soap php7.1-sqlite3 php7.1-sybase php7.1-tidy php7.1-xml php7.1-json php7.1-ldap php7.1-intl php7.1-interbase php7.1-imap php7.1-gmp php7.1-gd php7.1-enchant php7.1-dba php7.1-bz2 php7.1-bcmath php7.1-phpdbg php7.1-cgi php7.1-cli
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+mv composer.phar /opt/composer.phar
+sudo mv composer.phar /opt/composer.phar
+composer global require "laravel/installer"
+rm /opt/composer.phar 
+sudo rm /opt/composer.phar 
+sudo apt install composer
+composer -v
+composer global require "laravel/installer"
+cd ~/Projects/
+laravel new laravel
+cd Projects/
+laravel new laravel
+sudo laravel new laravel
+cd Projects/
+laravel new laravel
+zsh --version
+sudo apt install zsh
+zsh --version
+chsh -s $(which zsh)
+echo $SHELL
+sudo chsh -s $(which zsh)
+echo $SHELL
+composer require --dev barryvdh/laravel-ide-helper
+composer install
+php artisan
+php artisan ide-helper:generate
+php artisan ide-helper:meta
+php artisan vendor:publish --provider="Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider" --tag=config
+php artisan ide-helper:generate
+php artisan ide-helper:meta
+composer require predis/redis
+composer require predis/predis
+composer require --dev barryvdh/laravel-debugbar
+composer install
+docker -v
+sudo apt install docker.io
+docker -v
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \   $(lsb_release -cs) \  stable"
+sudo apt-get update
+sudo apt-get install docker-ce
+docker -v
+docker run mysql
+docker-compose -v
+docker-compose up -d
+docker-compose down
+php artisan key:generate
+git init
+git add *
+git commit -m 'Initial commit'
+docker-compose up -d
+docker-compose down
+docker-compose up --build -d
+chmod 777 -R storage/
+sudo chmod 777 -R storage/
+docker-compose up --build -d
+git commit -m 'Configured Docker'
+git add *
+git commit -m 'Configured Docker'
+docker exec laravel_php-cli_1 php -v
+docker exec laravel_php-fpm_1 php -v
+docker exec app_php-fpm_1 php -v
+docker-compose up --build -d
+sudo chmod 777 -R storage/
+docker-compose up --build -d
+docker-compose down
+docker-compose up --build -d
+chown -R $USER:$USER storage/
+sudo chown -R $USER:$USER storage/
+docker-compose up --build -d
+docker exec app_php-fpm_1 php -v
+docker exec app_php-cli_1 php -v
+docker-compose down
+docker-compose up -d
+make assets-dev
+make perm
+make assets-dev
+make docker-down
+make docker-up
+docker exec app_php-cli_1 php -v
+docker exec app_php-fpm_1 php -v
+make docker-down
+make docker-up
+docker exec app_php-cli_1 php -v
+make docker-build
+make docker-down
+make docker-build
+make docker-down
+make docker-build
+make perm
+make docker-build
+docker exec app_php-cli_1 php -v
+docker exec app_php-fpm_1 php -v
+make docker-down
+make perm
+make docker-build
+docker exec app_php-fpm_1 php -v
+docker exec app_php-cli_1 php -v
+sudo docker exec app_php-cli_1 php -v
+docker run app_php-cli_1
+make docker-down
+make docker-up
+sudo docker exec app_php-cli_1 php -v
+make docker-down
+make docker-up
+make docker-down
+make perm
+make docker-build
+docker-compose up -d
+make docker-down
+make perm
+make docker-build
+chown $USER:$USER ~/Projects/laravel/docker/nginx/ssl/ssl-cert-snakeoil.key 
+sudo chown $USER:$USER ~/Projects/laravel/docker/nginx/ssl/ssl-cert-snakeoil.key 
+make docker-build
+sudo docker exec app_php-cli_1 php -v
+docker exec app_php-cli_1 php -v
+docker run app_php-cli_1
+docker run app_php-nginx_1
+docker run app_php-fpm_1
+docker exec app_php-nginx_1 php -v
+docker exec app_nginx_1 php -v
+docker exec app_nginx_1 cat $PATH
+docker exec app_php-cli_1 php artisan migrate
+docker exec app_php-fpm_1 php artisan migrate
+make docker-up
+make test
+make docker-down
+make docker-up
+make test
+make docker-down
+make docker-up
+docker-compose exec app_php-cli_1 bash
+make docker-down
+make docker-build
+make perm
+make docker-build
+docker-compose exec app_php-cli_1 bash
+docker-compose exec app_php-fpm_1 bash
+docker-compose exec app_php-fpm_1 php -v
+make docker-down
+make docker-build
+make perm
+make docker-build
+docker-compose exec app_php-fpm_1 php -v
+make docker-down
+make docker-build
+make perm
+make docker-build
+docker-compose exec app_php-cli_1 bash
+docker-compose exec app_php-fpm_1 php -v
+docker exec app_php-fpm_1 php -v
+docker exec app_php-cli_1 php -v
+docker exec app_php-cli_1 bash
+docker -v
+make docker-down
+make docker-build
+docker exec app_php-cli_1 bash
+make docker-down
+make docker-build
+docker exec app_php-cli_1 bash
+make docker-down
+make docker-build
+docker exec app_php-cli_1 bash
+docker exec app_nginx_1 bash
+docker exec app_nginx_1 ls
+docker exec app_php-fpm_1 ls
+make docker-down
+make docker-up
+make docker-down
+make docker-build
+docker exec app_php-fpm_1 ls
+docker exec app_php-cli_1 ls
+make docker-down
+make docker-build
+docker exec app_php-cli_1 php -v
+
+make docker-down
+make docker-up
+docker exec app_php-cli_1 php -v
+docker ps -a
+make docker-down
+docker ps -a
+make docker-up
+docker ps -a
+docker exec app_php-cli_1 php -v
+docker exec -it 848ffcf315cf \bin\sh
+docker start 848ffcf315cf 
+docker exec app_php-cli_1 php -v
+docker exec app_php-cli php -v
+docker start 848ffcf315cf -d
+make docker-down
+make docker-build
+docker exec app_php-cli php -v
+docker exec app_php-cli_1 php -v
+docker ps -a
+docker images
+docker ps
+docker ps -s
+docker images
+docker ps -a
+docker ps --format "table {{.ID}}\t{{.Labels}}"
+clear
+docker -v
+make docker-down
+make docker-build
+docker exec app_php-cli_1 php -v
+docker images
+make docker-down
+man 7 capabilities
+clear
+sudo docker stats
+sudo docker stats app_php_fpm_1
+make docker-up
+sudo docker stats app_php_fpm_1
+sudo docker stats app_php-fpm_1
+sudo docker stats app_php-cli_1
+clear
+make docker-down
+sudo docker run -it -p 8080:8080 -d --name shipyard     --link shipyard-rethinkdb:rethinkdb shipyard/shipyard
+make docker-up
+make docker-down
+sudo docker run -it -p 8080:8080 -d --name shipyard     --link shipyard-rethinkdb:rethinkdb shipyard/shipyard
+sudo docker run -it -p 8080:8080 -d --name shipyard \
+sudo docker run -i -t phusion/baseimage:latest /sbin/my_init /bin/top
+docker ps -a
+docker ps 
+docker info
+make docker-down
+docker run --help
+docker ps -a
+docker images
+docker images -a
+docker rmi <none>
+docker rmi <none> <none>
+docker rmi '<none>' '<none>'
+docker rmi '<none>' 
+docker rmi `<none>`
+docker images -f dangling=true
+docker rmi $(docker images -f dangling=true -q )
+docker images
+docker images | grep "php" | awk '{print $1}' | xargs docker rm
+docker images
+docker images | grep "node" | awk '{print $1}' | xargs docker rm
+docker images | grep "laravel" | awk '{print $1}' | xargs docker rm
+docker rmi laravel_nginx
+docker rmi 1.10
+docker images
+docker rmi nginx
+docker images
+docker rmi 1.10
+docker images
+docker rmi 0346349a1a64 
+docker rmi 66c298807629
+docker rmi c44fa74ead88
+docker images
+docker rmi 36fb3dc0907d
+docker images
+docker rmi b7e15c83cdaf
+docker rmi 5195076672a7
+docker rmi 166cfc3f6974
+docker rmi a6d7537f1616 
+docker rmi dc340f3d7a09
+docker rmi 0346349a1a64
+docker rmi b7e15c83cdaf
+docker images
+docker rmi 5195076672a7
+docker rmi e15ad5102e8f
+docker rmi dc340f3d7a09
+docker images
+docker rmi dc340f3d7a09
+docker rmi -f dc340f3d7a09
+docker images
+docker rmi -f 1656a51d799f
+docker images
+docker rmi -f a6d7537f1616
+docker images
+docker rmi -f 66c298807629
+docker images
+docker rmi -f d157bad37614
+docker images
+docker rmi -f 5195076672a7
+docker images
+docker rmi -f 166cfc3f6974
+docker images
+docker rmi -f b7e15c83cdaf
+docker images
+docker rmi -f 0346349a1a64
+docker images
+docker ps -a
+docker rm ${docker ps -a -q}
+docker rm ${docker ps -a }
+docker rm $(docker ps -a -q)
+docker ps -a
+docker ps 
+git add *
+git status
+git --log --graph
+git log --graph
+git log
+git commit -m 'Docker fix problems'
+make docker-up
+make perm
+make docker-up
+docker ps
+docker ps -a
+docker images
+make docker-down
+docker images
+docker ps 
+docker ps 0a
+docker ps -a
+make docker-up
+docker ps -a
+make docker-down
+make docker-up
+docker ps -a
+docker exec app_php-cli_1 php -v
+sudo make assets-dev
+make assets-dev
+docker ps
+make assets-dev
+sudo make assets-dev
+make docker-down
+sudo make assets-dev
+\make assets-install
+make docker-up
+make assets-install
+docker-compose ps
+make assets-install
+docker-compose exec app_node_1 
+make test
+make assets-dev
+make assets-install
+make assets-dev
+make docker-down
+docker ps 
+make docker-up
+docker-compose exec node yarn remove vue
+docker ps
+clear
+php artisan:make auth
+php artisan make:auth
+php artisan serve
+sudo chmod -R 777 storage 
+git add *
+php artisan cache:clear 
+make assets-dev
+make assets-rebuild
+make assets-dev
+docker ps
+docker-compose exec node yarn run dev
+make assets-dev
+make docker-down
+make docker-build
+make assets-dev
+make assets/install
+make assets-install
+make assets-rebuild
+docker-compose exec node yarn config set python $(which python)
+make assets-rebuild
+make docker-build
+make assets-dev
+make perm
+php artisan cache:clear 
+make perm
+chmod -R 777 storage/
+sudo chmod -R 777 storage/
+make assets-dev
+make docker-down
+make docker-up
+php artisan cache:clear 
+composer require davejamesmiller/laravel-breadcrumbs
+make docker-down
+docker ps -a
+make docker-up
+make docker-down
+make docker-up
+docker -a ps
+php artisan make:mail VerifyMail
+php artisan make:mail VerifyMail --markdown
+php artisan make:mail VerifyMail
+php artisan make:mail VerifyMail --markdown
+php artisan make:mail -mf Auth\\ VerifyMail
+php artisan make:mail -m -- Auth\\VerifyMail
+php artisan make:mail -h
+php artisan make:mail --markdown Auth\\VerifyMail
+php artisan make:mail --markdown -- Auth\\VerifyMail
+php artisan make:migration add_user_verification --table=users
+make docker-down
+php error
+docker -v
+php artisan key:generate
+docker-compose up --build -d
+chmod 755 -R storage
+sudo chmod 755 -R storage
+git status
+docker-down
+make docker-down
+make docker-build
+docker ps -a
+docker ps 
+make docker-build
+make docker-up
+docker ps -a
+make docker-down
+make docker-build
+make perm
+make docker-build
+sudo chmod -R ug+rwx storage/docker/mysql
+sudo chmod -R 755 storage/docker/mysql
+sudo chown -R ivanopol:ivanopol /storage/docker/mysql
+sudo chown -R ivanopol:ivanopol storage/docker/mysql
+make docker-build
+php artisan config:cache
+make perm
+php artisan route:clear
+php artisan cache:clear
+COMPOSER INSTALL
+composer install
+git install
+git init
+git add *
+git commit -m 'Initial commit'
+got status
+git status
+php artisan key:generate
+composer require predis/predis
+php artisan queue:listen 
+php srtisan serve 
+php artisan serve 
+clear
+composer require -dev barryvdh/laravel-ide-helper
+php artisan vendor:publish --provider="Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider" --tag=config
+php artisan ide-helper:generate
+php artisan ide-helper:meta
+composer require predis/predis
+composer require barryvdh/laravel-debugbar --dev
+php artisan cache:clear
+php artisan config:clear
+php artisan cache:clear
+docker status
+php artisan serve
+make docker-up
+docker ps -a
+php index.php
+clear
+make docker-down
+clear
+make docker-up
+make docker-down
+make docker-build
+docker ps -a
+git init
+git add *
+git commit -m 'Initital commit'
+git status
+git add *
+git commit -m 'Add env file'
+composer require vlucas/phpdotenv
+ls -l storage
+ls -l storage/tmp
+ls -la storage/tmp
+ls -la storage/tmp/photos/ | grep ^d
+ls -la storage/tmp/photos/ | grep ^- | wc
+make composer-down
+make docker-down
+docker ps -a
+make docker-down
+make docker-up
+docker ps -a
+make docker-down
+make docker-up
+docker ps -a
+make docker-down
+make docker-up
+make docker-down
+make docker-up
+make per
+make perm
+chmod 777 -R bootsrap/cache
+chmod 777 -R bootstrap/cache
+make docker-down
+docker ps -a
+make docker-down
+docker ps -a
+make docker-down
+make docker-up
+docker ps -a
+make docker-down
+make docker-up
+make perm
+ls -l
+make perm
+docker ps
+make perm
+ls -l
+make perm
+ls -l
+sudo chown www-data:www-data -R 
+sudo chown www-data:www-data -R storage/
+ls -l
+make perm-docker
+ls -l
+make perm-docker
+make perm
+make perm-docker
+ls -l
+make perm
+make docker-down
+php -S localhost:8000 -t public
+mae docker-up
+make docker-up
+make docker-down
+make docker-up
+docker ps
+docker ps -a
+make docker-down
+make docker-up
+perm-docker
+make perm-docker
+sudo chmod 755 storage/tmp/project.txt
+make perm-docker
+make docker-down
+make docker-up
+make docker-down
+docker ps -a
+make docker-up
+make perm
+make docker-up
+make docker-build
+make perm-docker
+make docker-up
+docker volume rm $(docker volume ls -f dangling=true -q)
+make docker-up
+docker rm $(docker ps -a -f status=exited -q)
+make docker-up
+Failed to execute script docker-compose
+docker-compose up -d 
+make docker-up
+docker ps -a
+make docker-down
+make docker-up
+chown -R {$USER}:{$USER} storage/tmp/photos/
+chown -R ${USER}:${USER} storage/tmp/photos/
+sudo chown -R ${USER}:${USER} storage/tmp/photos/
+make docker-up
+docker rm $(docker ps -a -f status=exited -q)
+make docker-up
+make docker-down
+ilsap
+cd /
+cd ~/
+ilsap

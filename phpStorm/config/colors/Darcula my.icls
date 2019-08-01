@@ -1,0 +1,86 @@
+<scheme name="Darcula my" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2018-03-23T18:11:39</property>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2017.3.6.0.0</property>
+    <property name="modified">2019-03-23T01:33:13</property>
+    <property name="originalScheme">_@user_Darcula</property>
+  </metaInfo>
+  <colors>
+    <option name="CONSOLE_BACKGROUND_KEY" value="303030" />
+    <option name="FILESTATUS_ADDED" value="a7700" />
+    <option name="FILESTATUS_DELETED" value="616161" />
+    <option name="FILESTATUS_HIJACKED" value="b28c00" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="773895" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="727238" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff0000" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff0000" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff0000" />
+    <option name="FILESTATUS_MERGED" value="7503dc" />
+    <option name="FILESTATUS_MODIFIED" value="4d70a0" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="4d70a0" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="8aa4c8" />
+    <option name="FILESTATUS_OBSOLETE" value="7c7c00" />
+    <option name="FILESTATUS_SUPPRESSED" value="" />
+    <option name="FILESTATUS_SWITCHED" value="8978f" />
+    <option name="FILESTATUS_UNKNOWN" value="993300" />
+    <option name="FILESTATUS_addedOutside" value="eaa00" />
+    <option name="FILESTATUS_changelistConflict" value="ff0000" />
+    <option name="FILESTATUS_modifiedOutside" value="4d70a0" />
+  </colors>
+  <attributes>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="161616" />
+      </value>
+    </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="299999" />
+      </value>
+    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="c2c2c2" />
+      </value>
+    </option>
+    <option name="CONSOLE_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="6f1d11" />
+      </value>
+    </option>
+    <option name="CONSOLE_GRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="b4b4b4" />
+      </value>
+    </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="65b426" />
+        <option name="BACKGROUND" value="2a470e" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CONSOLE_SYSTEM_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="828282" />
+      </value>
+    </option>
+    <option name="LOG_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="6f1d11" />
+      </value>
+    </option>
+    <option name="LOG_EXPIRED_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="d4bc08" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
